@@ -1,6 +1,9 @@
 ---
 title: 科技拆解反应缩略图
 cover: ../../assets/covers/thumbnail-split.svg
+preview: ../../assets/previews/shocked-reaction-tech-breakdown-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: YouTube 缩略图
 tags:
   - YouTube 缩略图
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 科技拆解反应缩略图
+
+## 效果预览
+
+![科技拆解反应缩略图预览](../../assets/previews/shocked-reaction-tech-breakdown-generated.png)
 
 ## 适合什么时候用
 

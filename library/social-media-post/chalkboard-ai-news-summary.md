@@ -1,6 +1,9 @@
 ---
 title: 黑板手绘知识总结图
 cover: ../../assets/covers/chalkboard-summary.svg
+preview: ../../assets/previews/chalkboard-ai-news-summary-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 黑板手绘
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 黑板手绘知识总结图
+
+## 效果预览
+
+![黑板手绘知识总结图预览](../../assets/previews/chalkboard-ai-news-summary-generated.png)
 
 ## 适合什么时候用
 

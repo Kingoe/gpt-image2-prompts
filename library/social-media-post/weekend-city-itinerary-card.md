@@ -1,6 +1,9 @@
 ---
 title: 周末城市一日游路线卡
 cover: ../../assets/covers/travel-map-guide.svg
+preview: ../../assets/previews/weekend-city-itinerary-card-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 旅行攻略
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 周末城市一日游路线卡
+
+## 效果预览
+
+![周末城市一日游路线卡预览](../../assets/previews/weekend-city-itinerary-card-generated.png)
 
 ## 适合什么时候用
 

@@ -1,6 +1,9 @@
 ---
 title: 三步教程型首图
 cover: ../../assets/covers/xhs-cover-note.svg
+preview: ../../assets/previews/three-step-tutorial-cover-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 小红书封面 / 图文首图
 tags:
   - 小红书封面
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 三步教程型首图
+
+## 效果预览
+
+![三步教程型首图预览](../../assets/previews/three-step-tutorial-cover-generated.png)
 
 ## 适合什么时候用
 

@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-- 已有真实生成效果图：`12` 条
+- 已有真实生成效果图：`24` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图
 
@@ -25,20 +25,20 @@
 
 这些内容适合对外传播，补图后更容易提升仓库观感。
 
-| 优先级 | 卡片 | 建议目标路径 |
-| --- | --- | --- |
-| P1 | `library/xiaohongshu-cover/viral-checklist-cover.md` | `assets/previews/viral-checklist-cover-generated.png` |
-| P1 | `library/xiaohongshu-cover/before-after-contrast-cover.md` | `assets/previews/before-after-contrast-cover-generated.png` |
-| P1 | `library/xiaohongshu-cover/desk-flatlay-tutorial-cover.md` | `assets/previews/desk-flatlay-tutorial-cover-generated.png` |
-| P1 | `library/wechat-article-visual/editorial-wechat-hero-cover.md` | `assets/previews/editorial-wechat-hero-generated.png` |
-| P1 | `library/social-media-post/chalkboard-ai-news-summary.md` | `assets/previews/chalkboard-ai-news-summary-generated.png` |
-| P1 | `library/social-media-post/mathematical-visualization-infographic.md` | `assets/previews/mathematical-visualization-generated.png` |
-| P1 | `library/youtube-thumbnail/dramatic-before-after-thumbnail.md` | `assets/previews/dramatic-before-after-thumbnail-generated.png` |
-| P1 | `library/youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail.md` | `assets/previews/shocked-reaction-tech-breakdown-generated.png` |
-| P1 | `library/social-media-post/weekend-city-itinerary-card.md` | `assets/previews/weekend-city-itinerary-card-generated.png` |
-| P1 | `library/social-media-post/city-food-map-poster.md` | `assets/previews/city-food-map-poster-generated.png` |
-| P1 | `library/xiaohongshu-cover/mistake-avoidance-cover.md` | `assets/previews/mistake-avoidance-cover-generated.png` |
-| P1 | `library/xiaohongshu-cover/three-step-tutorial-cover.md` | `assets/previews/three-step-tutorial-cover-generated.png` |
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P1 | `library/xiaohongshu-cover/viral-checklist-cover.md` | `generated` | `assets/previews/viral-checklist-cover-generated.png` |
+| P1 | `library/xiaohongshu-cover/before-after-contrast-cover.md` | `generated` | `assets/previews/before-after-contrast-cover-generated.png` |
+| P1 | `library/xiaohongshu-cover/desk-flatlay-tutorial-cover.md` | `generated` | `assets/previews/desk-flatlay-tutorial-cover-generated.png` |
+| P1 | `library/wechat-article-visual/editorial-wechat-hero-cover.md` | `generated` | `assets/previews/editorial-wechat-hero-generated.png` |
+| P1 | `library/social-media-post/chalkboard-ai-news-summary.md` | `generated` | `assets/previews/chalkboard-ai-news-summary-generated.png` |
+| P1 | `library/social-media-post/mathematical-visualization-infographic.md` | `generated` | `assets/previews/mathematical-visualization-generated.png` |
+| P1 | `library/youtube-thumbnail/dramatic-before-after-thumbnail.md` | `generated` | `assets/previews/dramatic-before-after-thumbnail-generated.png` |
+| P1 | `library/youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail.md` | `generated` | `assets/previews/shocked-reaction-tech-breakdown-generated.png` |
+| P1 | `library/social-media-post/weekend-city-itinerary-card.md` | `generated` | `assets/previews/weekend-city-itinerary-card-generated.png` |
+| P1 | `library/social-media-post/city-food-map-poster.md` | `generated` | `assets/previews/city-food-map-poster-generated.png` |
+| P1 | `library/xiaohongshu-cover/mistake-avoidance-cover.md` | `generated` | `assets/previews/mistake-avoidance-cover-generated.png` |
+| P1 | `library/xiaohongshu-cover/three-step-tutorial-cover.md` | `generated` | `assets/previews/three-step-tutorial-cover-generated.png` |
 
 ## P2：商业与产品视觉
 

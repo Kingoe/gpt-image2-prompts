@@ -1,6 +1,9 @@
 ---
 title: 数学可视化知识图
 cover: ../../assets/covers/japanese-infographic.svg
+preview: ../../assets/previews/mathematical-visualization-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 数学可视化
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 数学可视化知识图
+
+## 效果预览
+
+![数学可视化知识图预览](../../assets/previews/mathematical-visualization-generated.png)
 
 ## 适合什么时候用
 
