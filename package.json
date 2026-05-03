@@ -1,0 +1,11 @@
+{
+  "name": "gpt-image2-prompts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-repo.mjs",
+    "import:prompt": "node scripts/import-inbox-prompt.mjs"
+  }
+}

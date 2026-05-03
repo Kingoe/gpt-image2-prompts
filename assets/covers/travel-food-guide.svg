@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#fff7ee"/>
+  <rect x="84" y="70" width="632" height="380" rx="30" fill="#fffdf9" stroke="#f1dcc2" stroke-width="8"/>
+  <rect x="118" y="112" width="170" height="116" rx="18" fill="#ffd2a0"/>
+  <rect x="314" y="112" width="170" height="116" rx="18" fill="#ffc18d"/>
+  <rect x="510" y="112" width="170" height="116" rx="18" fill="#ffb07f"/>
+  <rect x="118" y="254" width="170" height="116" rx="18" fill="#ffe1ba"/>
+  <rect x="314" y="254" width="170" height="116" rx="18" fill="#ffd39f"/>
+  <rect x="510" y="254" width="170" height="116" rx="18" fill="#ffc88e"/>
+  <text x="122" y="416" fill="#a96a31" font-size="34" font-family="Helvetica, Arial, sans-serif">Travel Food Guide</text>
+</svg>

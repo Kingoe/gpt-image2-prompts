@@ -1,0 +1,26 @@
+# 标签索引
+
+这些标签用于跨场景聚合内容，帮助快速找到相近的视觉语言。
+
+- [爆炸视图](exploded-view.md)
+- [盲盒包装](blind-box-packaging.md)
+- [黏土风](clay-style.md)
+- [电影海报感](cinematic-poster.md)
+- [信息图](infographic.md)
+- [3D 渲染](3d-render.md)
+- [Bento Grid](bento-grid.md)
+- [黑板手绘](chalkboard-style.md)
+- [YouTube 缩略图](youtube-thumbnail.md)
+- [生活方式摄影](lifestyle-photography.md)
+- [VN UI](vn-ui.md)
+- [数学可视化](mathematical-visualization.md)
+- [小红书封面](xiaohongshu-cover.md)
+- [教程首图](tutorial-cover.md)
+- [公众号头图](wechat-hero.md)
+- [长图知识卡](longform-knowledge-card.md)
+- [电商 Banner](ecommerce-banner.md)
+- [详情页卖点图](detail-feature-banner.md)
+- [品牌吉祥物](brand-mascot.md)
+- [Logo 视觉](logo-visual.md)
+- [SaaS 官网视觉](saas-landing-visual.md)
+- [App 截图展示](app-screen-mockup.md)
