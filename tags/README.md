@@ -7,6 +7,7 @@
 - [黏土风](clay-style.md)
 - [电影海报感](cinematic-poster.md)
 - [信息图](infographic.md)
+- [旅行地图](travel-map.md)
 - [3D 渲染](3d-render.md)
 - [Bento Grid](bento-grid.md)
 - [黑板手绘](chalkboard-style.md)

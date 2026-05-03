@@ -10,3 +10,4 @@
 - [数学可视化知识图](mathematical-visualization-infographic.md)
 - [一次性胶片感生活抓拍](nostalgic-disposable-camera-snapshot.md)
 - [五一旅行美食推荐海报](may-day-travel-food-guide-poster.md)
+- [五一旅行景点推荐地图海报](may-day-travel-map-poster.md)

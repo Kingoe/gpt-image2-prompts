@@ -23,10 +23,10 @@
 
 | 指标 | 当前内容 |
 | --- | --- |
-| 提示词卡片 | `45` 条 |
+| 提示词卡片 | `46` 条 |
 | 使用场景 | `12` 类 |
-| 标签入口 | `22` 个 |
-| 效果图预览 | `11` 条精选卡片已接入 |
+| 标签入口 | `23` 个 |
+| 效果图预览 | `12` 条精选卡片已接入 |
 | 收录方式 | `inbox 快速收集 + library 正式归档` |
 
 ## 从哪里开始
@@ -66,6 +66,7 @@
 | ![infographic](assets/previews/japanese-infographic-preview.svg) | [日系信息图卡片](library/explainer-visual/japanese-style-infographic.md) | 说明示意图 | 信息图 / 日系排版 |
 | ![bento](assets/previews/liquid-glass-bento-preview.svg) | [液态玻璃 Bento 社媒图](library/social-media-post/liquid-glass-bento-product-post.md) | 社媒贴文 | Bento Grid / 液态玻璃 |
 | ![food](assets/previews/travel-food-guide-preview.svg) | [五一旅行美食推荐海报](library/social-media-post/may-day-travel-food-guide-poster.md) | 社媒贴文 | 旅行美食 / 9比16海报 |
+| ![map](assets/previews/beijing-travel-map-poster-generated.png) | [五一旅行景点推荐地图海报](library/social-media-post/may-day-travel-map-poster.md) | 社媒贴文 | 旅行地图 / 信息图 |
 | ![thumb](assets/previews/ai-tool-vs-human-preview.svg) | [AI 工具对比缩略图](library/youtube-thumbnail/ai-tool-vs-human-thumbnail.md) | YouTube 缩略图 | 强对比 / 夸张表情 |
 | ![ecom](assets/previews/festival-campaign-banner-preview.svg) | [大促氛围横幅图](library/ecommerce-banner/festival-campaign-hero-banner.md) | 电商详情页 / Banner 主视觉 | 大促氛围 / 横幅主视觉 |
 | ![mascot](assets/previews/mascot-badge-preview.svg) | [圆润吉祥物徽章图](library/logo-ip-mascot/rounded-mascot-badge-system.md) | LOGO / IP 角色 / 吉祥物视觉 | 吉祥物 / 徽章感 |
@@ -120,6 +121,7 @@
 ### 内容与界面
 
 - [信息图](tags/infographic.md)
+- [旅行地图](tags/travel-map.md)
 - [数学可视化](tags/mathematical-visualization.md)
 - [SaaS 官网视觉](tags/saas-landing-visual.md)
 - [App 截图展示](tags/app-screen-mockup.md)
@@ -130,6 +132,7 @@
 
 ## 最近新增
 
+- 2026-05-03: 新增 `1` 条旅行景点推荐地图海报，并接入北京示例真实效果图。
 - 2026-05-03: 新增首批真实效果图生成清单与回填脚本，开始支持“生成后自动更新卡片”。
 - 2026-05-03: 为精选卡片接入首批 `11` 条效果图预览，首页开始支持“先看图再取提示词”。
 - 2026-05-03: 新增 `1` 条旅行美食海报示例，并补充“只有提示词时如何入库”的仓库规范。
