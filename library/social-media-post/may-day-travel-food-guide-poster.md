@@ -1,9 +1,9 @@
 ---
 title: 五一旅行美食推荐海报
 cover: ../../assets/covers/travel-food-guide.svg
-preview: ../../assets/previews/travel-food-guide-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/may-day-travel-food-guide-poster-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 旅行美食
@@ -149,7 +149,7 @@ collected_at: 2026-05-03
 
 ## 效果预览
 
-![五一旅行美食推荐海报预览](../../assets/previews/travel-food-guide-preview.svg)
+![五一旅行美食推荐海报预览](../../assets/previews/may-day-travel-food-guide-poster-generated.png)
 
 ## 适合什么时候用
 

@@ -1,9 +1,9 @@
 ---
 title: SaaS 仪表盘官网首屏图
 cover: ../../assets/covers/ui-dashboard-hero.svg
-preview: ../../assets/previews/saas-dashboard-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/saas-dashboard-hero-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: UI 截图 / App Mockup / Landing Page Visual
 tags:
   - SaaS 官网视觉
@@ -23,7 +23,7 @@ collected_at: 2026-05-03
 
 ## 效果预览
 
-![SaaS 仪表盘官网首屏图预览](../../assets/previews/saas-dashboard-preview.svg)
+![SaaS 仪表盘官网首屏图预览](../../assets/previews/saas-dashboard-hero-generated.png)
 
 ## 适合什么时候用
 

@@ -1,9 +1,9 @@
 ---
 title: 收藏级手办盒装图
 cover: ../../assets/covers/collectible-box.svg
-preview: ../../assets/previews/collectible-box-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/collectible-box-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 产品展示图
 tags:
   - 盲盒包装
@@ -23,7 +23,7 @@ collected_at: 2026-05-02
 
 ## 效果预览
 
-![收藏级手办盒装图预览](../../assets/previews/collectible-box-preview.svg)
+![收藏级手办盒装图预览](../../assets/previews/collectible-box-generated.png)
 
 ## 适合什么时候用
 

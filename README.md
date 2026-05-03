@@ -26,7 +26,7 @@
 | 提示词卡片 | `45` 条 |
 | 使用场景 | `12` 类 |
 | 标签入口 | `22` 个 |
-| 效果图预览 | `10` 条精选卡片已接入 |
+| 效果图预览 | `11` 条精选卡片已接入 |
 | 收录方式 | `inbox 快速收集 + library 正式归档` |
 
 ## 从哪里开始
@@ -43,6 +43,8 @@
 - 纯提示词模板：[templates/inbox-prompt-only-entry.md](templates/inbox-prompt-only-entry.md)
 - 正式卡片模板：[templates/prompt-card.md](templates/prompt-card.md)
 - 自动转正式卡片：`npm run import:prompt -- inbox/your-entry.md`
+- 真实效果图回填：`npm run preview:apply -- library/scene/card.md assets/previews/card-generated.png`
+- 首批生图清单：[preview-requests/first-batch.md](preview-requests/first-batch.md)
 
 ### 如果你第一次来到这个仓库
 
@@ -128,7 +130,8 @@
 
 ## 最近新增
 
-- 2026-05-03: 为精选卡片接入首批 `10` 条效果图预览，首页开始支持“先看图再取提示词”。
+- 2026-05-03: 新增首批真实效果图生成清单与回填脚本，开始支持“生成后自动更新卡片”。
+- 2026-05-03: 为精选卡片接入首批 `11` 条效果图预览，首页开始支持“先看图再取提示词”。
 - 2026-05-03: 新增 `1` 条旅行美食海报示例，并补充“只有提示词时如何入库”的仓库规范。
 - 2026-05-03: 新增 `4` 条 UI 截图 / App Mockup / Landing Page Visual，总量来到 `45` 条，扩展到 `12` 个使用场景。
 - 2026-05-03: 新增 `4` 条 LOGO / IP 角色 / 吉祥物视觉。
@@ -161,6 +164,7 @@
 │   └── previews/    # 效果预览图
 ├── inbox/           # 待整理候选区
 ├── library/         # 正式提示词库
+├── preview-requests/# 真实效果图生成清单
 ├── scripts/         # 仓库校验脚本与导入脚本
 ├── tags/            # 标签索引
 ├── templates/       # 卡片模板与收录规范

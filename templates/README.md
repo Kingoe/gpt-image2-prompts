@@ -61,6 +61,28 @@ npm run import:prompt -- inbox/your-entry.md
 
 适合先快速入库，后续再人工补封面、摘要和使用建议。
 
+## 生成效果图并回填
+
+如果一条卡片已经整理好，但还没有真实效果图，推荐按这个顺序处理：
+
+1. 先在 `preview-requests/` 建一条生成任务，写清卡片路径、目标图片路径、建议比例和补充要求。
+2. 用卡片里的完整提示词生成图片。
+3. 把生成结果保存到 `assets/previews/`。
+4. 运行回填命令：
+
+```bash
+npm run preview:apply -- library/scene/card.md assets/previews/card-generated.png
+```
+
+脚本会自动更新：
+
+- `preview`
+- `preview_type: generated`
+- `preview_source: generated from this prompt`
+- 正文里的 `## 效果预览` 图片
+
+首批可参考：[preview-requests/first-batch.md](../preview-requests/first-batch.md)。
+
 ## 命名规范
 
 - 目录名用英文短横线，保证 GitHub 链接稳定
@@ -74,6 +96,7 @@ npm run import:prompt -- inbox/your-entry.md
 - 文件名采用英文短横线
 - 首发阶段优先使用轻量 SVG 封面占位图
 - 真实生成图优先替换 `preview`，不要直接覆盖原始提示词
+- 自己生成的真实效果图建议以 `-generated.png` 结尾，方便和占位图、参考图区分
 
 ## 来源规范
 

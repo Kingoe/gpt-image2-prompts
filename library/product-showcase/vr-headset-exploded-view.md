@@ -1,9 +1,9 @@
 ---
 title: VR 头显爆炸视图
 cover: ../../assets/covers/vr-headset-exploded.svg
-preview: ../../assets/previews/vr-headset-exploded-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/vr-headset-exploded-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 产品展示图
 tags:
   - 爆炸视图
@@ -24,7 +24,7 @@ collected_at: 2026-05-02
 
 ## 效果预览
 
-![VR 头显爆炸视图预览](../../assets/previews/vr-headset-exploded-preview.svg)
+![VR 头显爆炸视图预览](../../assets/previews/vr-headset-exploded-generated.png)
 
 ## 适合什么时候用
 

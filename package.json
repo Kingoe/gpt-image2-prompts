@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node --test",
     "validate": "node scripts/validate-repo.mjs",
-    "import:prompt": "node scripts/import-inbox-prompt.mjs"
+    "import:prompt": "node scripts/import-inbox-prompt.mjs",
+    "preview:apply": "node scripts/apply-generated-preview.mjs"
   }
 }
