@@ -1,11 +1,53 @@
 # GPT Image 2 提示词收录库
 
-一个以 `GPT Image 2` 为核心的提示词仓库，专门收录那些适合复用、适合传播、也适合自己反复调用的图像提示词。
+一个专门收录 `GPT Image 2` 高价值提示词的仓库。
 
-这里不追求把所有内容一股脑堆进来，而是把常见高价值玩法整理成一张张可拿来即用的卡片：
+这里不只是在堆提示词，而是在整理一套真正方便复用的素材库：
 - 先看效果
 - 再看适用场景
-- 最后复制提示词或继续改写
+- 最后直接复制提示词或继续改写
+
+> 适合自己收藏，也适合公开传播。
+
+## 这是什么
+
+这个仓库把分散在网页、社群、截图、聊天记录里的好提示词，整理成可长期积累的卡片库。
+
+你可以在这里快速找到：
+- 想做什么图，用哪类提示词
+- 同一种视觉风格，有哪些可复用写法
+- 只有“纯提示词”时，怎么规范入库
+
+## 一眼看懂
+
+| 指标 | 当前内容 |
+| --- | --- |
+| 提示词卡片 | `45` 条 |
+| 使用场景 | `12` 类 |
+| 标签入口 | `22` 个 |
+| 收录方式 | `inbox 快速收集 + library 正式归档` |
+
+## 从哪里开始
+
+### 如果你想直接找灵感
+
+- 看 [精选提示词](#精选提示词)
+- 看 [按使用场景浏览](#按使用场景浏览)
+- 看 [热门效果标签](#热门效果标签)
+
+### 如果你想把外部提示词也收进来
+
+- 快速收录说明：[inbox/README.md](inbox/README.md)
+- 纯提示词模板：[templates/inbox-prompt-only-entry.md](templates/inbox-prompt-only-entry.md)
+- 正式卡片模板：[templates/prompt-card.md](templates/prompt-card.md)
+- 自动转正式卡片：`npm run import:prompt -- inbox/your-entry.md`
+
+### 如果你第一次来到这个仓库
+
+推荐按这个顺序逛：
+1. 先看 `精选提示词`
+2. 再按你的使用目的进入场景目录
+3. 最后根据风格标签继续横向扩展
 
 ## 精选提示词
 
@@ -29,43 +71,56 @@
 
 ## 按使用场景浏览
 
-- [产品展示图](library/product-showcase/README.md)
-- [社媒头像 / 形象图](library/social-avatar/README.md)
-- [海报封面](library/poster-cover/README.md)
-- [说明示意图](library/explainer-visual/README.md)
-- [社媒贴文](library/social-media-post/README.md)
-- [YouTube 缩略图](library/youtube-thumbnail/README.md)
-- [品牌视觉实验](library/brand-visual-lab/README.md)
-- [小红书封面 / 图文首图](library/xiaohongshu-cover/README.md)
-- [公众号头图 / 长图知识卡](library/wechat-article-visual/README.md)
-- [电商详情页 / Banner 主视觉](library/ecommerce-banner/README.md)
-- [LOGO / IP 角色 / 吉祥物视觉](library/logo-ip-mascot/README.md)
-- [UI 截图 / App Mockup / Landing Page Visual](library/ui-app-mockup/README.md)
+| 场景 | 适合找什么 |
+| --- | --- |
+| [产品展示图](library/product-showcase/README.md) | 爆炸视图、包装图、单品主视觉 |
+| [社媒头像 / 形象图](library/social-avatar/README.md) | 头像、人设图、个人品牌形象 |
+| [海报封面](library/poster-cover/README.md) | 人物海报、活动主视觉、封面图 |
+| [说明示意图](library/explainer-visual/README.md) | 信息图、流程图、结构说明图 |
+| [社媒贴文](library/social-media-post/README.md) | 可收藏卡片、知识图、旅行海报 |
+| [YouTube 缩略图](library/youtube-thumbnail/README.md) | 强点击视频封面、对比型缩略图 |
+| [品牌视觉实验](library/brand-visual-lab/README.md) | 世界观、叙事摄影、概念提案 |
+| [小红书封面 / 图文首图](library/xiaohongshu-cover/README.md) | 清单首图、教程封面、对比首图 |
+| [公众号头图 / 长图知识卡](library/wechat-article-visual/README.md) | 长文头图、知识长图、引言卡片 |
+| [电商详情页 / Banner 主视觉](library/ecommerce-banner/README.md) | 活动横幅、卖点图、礼盒主视觉 |
+| [LOGO / IP 角色 / 吉祥物视觉](library/logo-ip-mascot/README.md) | 吉祥物、IP 角色、Logo 概念展示 |
+| [UI 截图 / App Mockup / Landing Page Visual](library/ui-app-mockup/README.md) | 官网首屏、App 样机、产品截图 |
 
 ## 热门效果标签
+
+### 高传播视觉
+
+- [小红书封面](tags/xiaohongshu-cover.md)
+- [YouTube 缩略图](tags/youtube-thumbnail.md)
+- [公众号头图](tags/wechat-hero.md)
+- [长图知识卡](tags/longform-knowledge-card.md)
+
+### 品牌与商业
+
+- [电商 Banner](tags/ecommerce-banner.md)
+- [详情页卖点图](tags/detail-feature-banner.md)
+- [品牌吉祥物](tags/brand-mascot.md)
+- [Logo 视觉](tags/logo-visual.md)
+
+### 视觉风格
 
 - [爆炸视图](tags/exploded-view.md)
 - [盲盒包装](tags/blind-box-packaging.md)
 - [黏土风](tags/clay-style.md)
 - [电影海报感](tags/cinematic-poster.md)
-- [信息图](tags/infographic.md)
-- [3D 渲染](tags/3d-render.md)
-- [Bento Grid](tags/bento-grid.md)
 - [黑板手绘](tags/chalkboard-style.md)
-- [YouTube 缩略图](tags/youtube-thumbnail.md)
-- [生活方式摄影](tags/lifestyle-photography.md)
-- [VN UI](tags/vn-ui.md)
+- [Bento Grid](tags/bento-grid.md)
+
+### 内容与界面
+
+- [信息图](tags/infographic.md)
 - [数学可视化](tags/mathematical-visualization.md)
-- [小红书封面](tags/xiaohongshu-cover.md)
-- [教程首图](tags/tutorial-cover.md)
-- [公众号头图](tags/wechat-hero.md)
-- [长图知识卡](tags/longform-knowledge-card.md)
-- [电商 Banner](tags/ecommerce-banner.md)
-- [详情页卖点图](tags/detail-feature-banner.md)
-- [品牌吉祥物](tags/brand-mascot.md)
-- [Logo 视觉](tags/logo-visual.md)
 - [SaaS 官网视觉](tags/saas-landing-visual.md)
 - [App 截图展示](tags/app-screen-mockup.md)
+- [VN UI](tags/vn-ui.md)
+- [3D 渲染](tags/3d-render.md)
+- [生活方式摄影](tags/lifestyle-photography.md)
+- [教程首图](tags/tutorial-cover.md)
 
 ## 最近新增
 
@@ -75,16 +130,13 @@
 - 2026-05-03: 新增 `4` 条电商详情页 / Banner 主视觉。
 - 2026-05-03: 新增 `4` 条公众号头图 / 长图知识卡。
 - 2026-05-03: 新增 `4` 条小红书封面卡片。
-- 2026-05-03: 新增 `品牌视觉实验` 目录，并补充 `生活方式摄影 / VN UI / 数学可视化` 标签。
-- 2026-05-03: 新增 `社媒贴文` 与 `YouTube 缩略图` 两个目录。
-- 2026-05-02: 建立 `inbox -> library` 的双阶段整理流程与仓库校验脚本。
 
 ## 如何使用
 
-1. 先从首页精选区快速浏览，找到接近你想要的视觉方向。
-2. 进入场景目录或标签页，缩小到更具体的效果范围。
-3. 打开单条卡片，直接复制提示词正文，再结合自己的主题词改写。
-4. 遇到暂时还没来得及整理的灵感，先放进 [inbox](inbox/README.md)。
+1. 先从 `精选提示词` 找到最接近你目标的视觉方向。
+2. 再进入对应的场景目录，筛到你真正要做的图。
+3. 打开单条卡片，直接复制提示词，再替换主体词、风格词或平台语境。
+4. 如果你从外部看到不错的提示词，先收进 [inbox](inbox/README.md)，后续再转正式卡片。
 
 ## 收录原则
 
@@ -92,6 +144,7 @@
 - 提示词正文优先保留英文，必要时混合中文描述。
 - 每条内容尽量保留来源链接或明确标记为 `self-curated`。
 - 首页只展示精选内容，完整库以分类目录和标签页为准。
+- 只有纯提示词也可以正式收录，只要来源和适用场景足够清楚。
 
 ## 仓库结构
 
@@ -100,8 +153,8 @@
 ├── assets/          # 缩略图与封面素材
 ├── inbox/           # 待整理候选区
 ├── library/         # 正式提示词库
-├── scripts/         # 仓库校验脚本
+├── scripts/         # 仓库校验脚本与导入脚本
 ├── tags/            # 标签索引
-├── templates/       # 卡片模板
+├── templates/       # 卡片模板与收录规范
 └── tests/           # 仓库结构测试
 ```
