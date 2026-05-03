@@ -35,6 +35,10 @@
 | P1 | `library/social-media-post/mathematical-visualization-infographic.md` | `assets/previews/mathematical-visualization-generated.png` |
 | P1 | `library/youtube-thumbnail/dramatic-before-after-thumbnail.md` | `assets/previews/dramatic-before-after-thumbnail-generated.png` |
 | P1 | `library/youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail.md` | `assets/previews/shocked-reaction-tech-breakdown-generated.png` |
+| P1 | `library/social-media-post/weekend-city-itinerary-card.md` | `assets/previews/weekend-city-itinerary-card-generated.png` |
+| P1 | `library/social-media-post/city-food-map-poster.md` | `assets/previews/city-food-map-poster-generated.png` |
+| P1 | `library/xiaohongshu-cover/mistake-avoidance-cover.md` | `assets/previews/mistake-avoidance-cover-generated.png` |
+| P1 | `library/xiaohongshu-cover/three-step-tutorial-cover.md` | `assets/previews/three-step-tutorial-cover-generated.png` |
 
 ## P2：商业与产品视觉
 
@@ -48,6 +52,10 @@
 | P2 | `library/ecommerce-banner/feature-zone-detail-banner.md` | `assets/previews/feature-zone-detail-banner-generated.png` |
 | P2 | `library/ui-app-mockup/mobile-app-screen-stack.md` | `assets/previews/mobile-app-screen-stack-generated.png` |
 | P2 | `library/ui-app-mockup/feature-split-landing-visual.md` | `assets/previews/feature-split-landing-visual-generated.png` |
+| P2 | `library/ecommerce-banner/skincare-ingredient-detail-card.md` | `assets/previews/skincare-ingredient-detail-card-generated.png` |
+| P2 | `library/ecommerce-banner/comparison-selling-point-banner.md` | `assets/previews/comparison-selling-point-banner-generated.png` |
+| P2 | `library/product-showcase/modular-backpack-exploded-view.md` | `assets/previews/modular-backpack-exploded-view-generated.png` |
+| P2 | `library/explainer-visual/ai-agent-workflow-diagram.md` | `assets/previews/ai-agent-workflow-diagram-generated.png` |
 
 ## P3：品牌/IP 与实验型内容
 

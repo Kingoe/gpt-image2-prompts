@@ -8,3 +8,6 @@
 - [反差对比型首图](before-after-contrast-cover.md)
 - [桌面摆拍教程首图](desk-flatlay-tutorial-cover.md)
 - [手写笔记感知识首图](handwritten-note-knowledge-cover.md)
+- [避坑指南型首图](mistake-avoidance-cover.md)
+- [三步教程型首图](three-step-tutorial-cover.md)
+- [预算拆解型首图](budget-breakdown-cover.md)

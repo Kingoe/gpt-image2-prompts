@@ -7,3 +7,4 @@
 - [日系信息图卡片](japanese-style-infographic.md)
 - [平面户型转 3D 示意图](floorplan-to-3d-render.md)
 - [应用功能流程拼贴图](feature-workflow-collage.md)
+- [AI Agent 工作流示意图](ai-agent-workflow-diagram.md)

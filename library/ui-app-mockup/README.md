@@ -8,3 +8,4 @@
 - [App 截图堆叠展示图](mobile-app-screen-stack.md)
 - [功能亮点分屏官网图](feature-split-landing-visual.md)
 - [深色玻璃感产品概念图](dark-glass-product-ui-concept.md)
+- [App 新手引导流程展示图](mobile-onboarding-screen-flow.md)

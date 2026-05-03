@@ -8,3 +8,5 @@
 - [卖点分区详情图](feature-zone-detail-banner.md)
 - [高级质感单品 Banner](luxury-single-product-banner.md)
 - [礼盒主视觉场景图](gift-box-celebration-banner.md)
+- [护肤成分卖点详情图](skincare-ingredient-detail-card.md)
+- [对比卖点横幅图](comparison-selling-point-banner.md)

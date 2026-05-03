@@ -8,3 +8,4 @@
 - [竖版知识长图卡](vertical-knowledge-long-card.md)
 - [流程拆解长图](process-breakdown-long-graphic.md)
 - [对话摘录海报图](quote-driven-editorial-card.md)
+- [年度趋势长图卡](annual-trend-long-card.md)

@@ -7,3 +7,5 @@
 - [便利店抓拍叙事照](candid-convenience-store-scene.md)
 - [咖啡店 VN UI 世界观图](cinematic-coffee-shop-vn-ui-mockup.md)
 - [Cozy AI 共创工作室图](cozy-ai-art-studio-collaboration.md)
+- [品牌贴纸套装展示图](brand-sticker-sheet.md)
+- [品牌快闪店概念场景图](pop-up-store-concept-scene.md)
