@@ -2,6 +2,8 @@
 title: 收藏级手办盒装图
 cover: ../../assets/covers/collectible-box.svg
 preview: ../../assets/previews/collectible-box-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 产品展示图
 tags:
   - 盲盒包装

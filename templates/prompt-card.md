@@ -2,6 +2,8 @@
 title: 示例标题
 cover: ../../assets/covers/example.svg
 preview: ../../assets/previews/example-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 产品展示图
 tags:
   - 效果标签 1

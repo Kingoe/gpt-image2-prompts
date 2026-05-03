@@ -2,6 +2,8 @@
 title: 五一旅行美食推荐海报
 cover: ../../assets/covers/travel-food-guide.svg
 preview: ../../assets/previews/travel-food-guide-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 社媒贴文
 tags:
   - 旅行美食

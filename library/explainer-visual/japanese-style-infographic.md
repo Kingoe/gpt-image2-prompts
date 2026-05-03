@@ -2,6 +2,8 @@
 title: 日系信息图卡片
 cover: ../../assets/covers/japanese-infographic.svg
 preview: ../../assets/previews/japanese-infographic-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 说明示意图
 tags:
   - 信息图

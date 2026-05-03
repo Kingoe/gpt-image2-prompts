@@ -70,8 +70,10 @@ npm run import:prompt -- inbox/your-entry.md
 ## 图片规范
 
 - 封面图统一放在 `assets/covers/`
+- 效果预览图统一放在 `assets/previews/`
 - 文件名采用英文短横线
 - 首发阶段优先使用轻量 SVG 封面占位图
+- 真实生成图优先替换 `preview`，不要直接覆盖原始提示词
 
 ## 来源规范
 
@@ -79,3 +81,27 @@ npm run import:prompt -- inbox/your-entry.md
 - 自己整理出来的通用写法，写 `self-curated`
 - 若只是“灵感参考”而非原文转载，在正文里注明“inspired by”
 - 如果是别人发来的纯提示词、但没有原始链接，写清楚来源说明，不要伪造链接
+
+## 效果图来源规范
+
+每张卡片如果声明了 `preview`，必须同时声明：
+
+- `preview_type`
+- `preview_source`
+
+`preview_type` 只能使用下面 4 种：
+
+- `generated`：自己用这条提示词生成的效果图，可直接放入仓库
+- `reference`：外部参考图，只建议放链接，不建议下载进仓库
+- `licensed`：明确授权可复用的图片，需要标注授权来源
+- `placeholder`：占位预览图，用于说明大致布局或视觉方向
+
+推荐写法：
+
+```yaml
+preview: ../../assets/previews/example-preview.png
+preview_type: generated
+preview_source: generated from this prompt
+```
+
+外部图片如果没有明确授权，不要直接放进 `assets/previews/`。可以在卡片正文里写来源链接，等后续自己生成真实效果图后再替换。

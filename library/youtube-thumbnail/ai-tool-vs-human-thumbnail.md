@@ -2,6 +2,8 @@
 title: AI 工具对比缩略图
 cover: ../../assets/covers/thumbnail-split.svg
 preview: ../../assets/previews/ai-tool-vs-human-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: YouTube 缩略图
 tags:
   - YouTube 缩略图

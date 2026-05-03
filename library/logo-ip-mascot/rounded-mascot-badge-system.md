@@ -2,6 +2,8 @@
 title: 圆润吉祥物徽章图
 cover: ../../assets/covers/mascot-badge.svg
 preview: ../../assets/previews/mascot-badge-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: LOGO / IP 角色 / 吉祥物视觉
 tags:
   - 品牌吉祥物

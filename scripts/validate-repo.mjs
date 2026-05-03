@@ -28,6 +28,8 @@ const REQUIRED_FRONTMATTER_FIELDS = [
   "collected_at",
 ];
 
+const VALID_PREVIEW_TYPES = ["generated", "reference", "licensed", "placeholder"];
+
 export async function validateRepo(rootDir = process.cwd()) {
   const errors = [];
 
@@ -89,6 +91,18 @@ export async function validateRepo(rootDir = process.cwd()) {
         const previewPath = path.resolve(path.dirname(filePath), frontmatter.preview);
         if (!(await exists(previewPath))) {
           errors.push(`${path.basename(filePath)} has missing preview asset: ${frontmatter.preview}`);
+        }
+
+        if (isBlank(frontmatter.preview_type)) {
+          errors.push(`${path.basename(filePath)} is missing frontmatter field: preview_type`);
+        } else if (!VALID_PREVIEW_TYPES.includes(frontmatter.preview_type)) {
+          errors.push(
+            `${path.basename(filePath)} has invalid preview_type: ${frontmatter.preview_type}`,
+          );
+        }
+
+        if (isBlank(frontmatter.preview_source)) {
+          errors.push(`${path.basename(filePath)} is missing frontmatter field: preview_source`);
         }
       }
     }

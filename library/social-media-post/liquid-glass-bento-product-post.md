@@ -2,6 +2,8 @@
 title: 液态玻璃 Bento 社媒图
 cover: ../../assets/covers/bento-social.svg
 preview: ../../assets/previews/liquid-glass-bento-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 社媒贴文
 tags:
   - Bento Grid

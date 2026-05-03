@@ -2,6 +2,8 @@
 title: 霓虹科技人像头像
 cover: ../../assets/covers/neon-avatar.svg
 preview: ../../assets/previews/neon-tech-avatar-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 社媒头像 / 形象图
 tags:
   - 科技感

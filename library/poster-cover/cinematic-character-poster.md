@@ -2,6 +2,8 @@
 title: 电影级单人物海报
 cover: ../../assets/covers/cinematic-poster.svg
 preview: ../../assets/previews/cinematic-character-poster-preview.svg
+preview_type: placeholder
+preview_source: placeholder preview, replace with generated image when available
 scene: 海报封面
 tags:
   - 电影海报感
