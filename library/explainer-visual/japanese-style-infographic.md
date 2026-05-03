@@ -1,6 +1,7 @@
 ---
 title: 日系信息图卡片
 cover: ../../assets/covers/japanese-infographic.svg
+preview: ../../assets/previews/japanese-infographic-preview.svg
 scene: 说明示意图
 tags:
   - 信息图
@@ -17,6 +18,10 @@ collected_at: 2026-05-02
 ---
 
 # 日系信息图卡片
+
+## 效果预览
+
+![日系信息图卡片预览](../../assets/previews/japanese-infographic-preview.svg)
 
 ## 适合什么时候用
 

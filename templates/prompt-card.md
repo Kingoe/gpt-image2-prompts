@@ -1,6 +1,7 @@
 ---
 title: 示例标题
 cover: ../../assets/covers/example.svg
+preview: ../../assets/previews/example-preview.svg
 scene: 产品展示图
 tags:
   - 效果标签 1
@@ -13,6 +14,10 @@ collected_at: 2026-05-02
 ---
 
 # 示例标题
+
+## 效果预览
+
+![示例效果图](../../assets/previews/example-preview.svg)
 
 ## 适合什么时候用
 

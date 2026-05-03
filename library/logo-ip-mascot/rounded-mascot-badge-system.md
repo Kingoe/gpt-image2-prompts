@@ -1,6 +1,7 @@
 ---
 title: 圆润吉祥物徽章图
 cover: ../../assets/covers/mascot-badge.svg
+preview: ../../assets/previews/mascot-badge-preview.svg
 scene: LOGO / IP 角色 / 吉祥物视觉
 tags:
   - 品牌吉祥物
@@ -17,6 +18,10 @@ collected_at: 2026-05-03
 ---
 
 # 圆润吉祥物徽章图
+
+## 效果预览
+
+![圆润吉祥物徽章图预览](../../assets/previews/mascot-badge-preview.svg)
 
 ## 适合什么时候用
 

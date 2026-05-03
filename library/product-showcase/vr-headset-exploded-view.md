@@ -1,6 +1,7 @@
 ---
 title: VR 头显爆炸视图
 cover: ../../assets/covers/vr-headset-exploded.svg
+preview: ../../assets/previews/vr-headset-exploded-preview.svg
 scene: 产品展示图
 tags:
   - 爆炸视图
@@ -18,6 +19,10 @@ collected_at: 2026-05-02
 ---
 
 # VR 头显爆炸视图
+
+## 效果预览
+
+![VR 头显爆炸视图预览](../../assets/previews/vr-headset-exploded-preview.svg)
 
 ## 适合什么时候用
 

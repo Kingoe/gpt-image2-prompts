@@ -1,6 +1,7 @@
 ---
 title: 收藏级手办盒装图
 cover: ../../assets/covers/collectible-box.svg
+preview: ../../assets/previews/collectible-box-preview.svg
 scene: 产品展示图
 tags:
   - 盲盒包装
@@ -17,6 +18,10 @@ collected_at: 2026-05-02
 ---
 
 # 收藏级手办盒装图
+
+## 效果预览
+
+![收藏级手办盒装图预览](../../assets/previews/collectible-box-preview.svg)
 
 ## 适合什么时候用
 

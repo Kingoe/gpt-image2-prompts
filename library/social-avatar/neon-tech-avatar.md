@@ -1,6 +1,7 @@
 ---
 title: 霓虹科技人像头像
 cover: ../../assets/covers/neon-avatar.svg
+preview: ../../assets/previews/neon-tech-avatar-preview.svg
 scene: 社媒头像 / 形象图
 tags:
   - 科技感
@@ -17,6 +18,10 @@ collected_at: 2026-05-02
 ---
 
 # 霓虹科技人像头像
+
+## 效果预览
+
+![霓虹科技人像头像预览](../../assets/previews/neon-tech-avatar-preview.svg)
 
 ## 适合什么时候用
 

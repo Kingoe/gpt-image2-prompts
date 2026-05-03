@@ -84,6 +84,13 @@ export async function validateRepo(rootDir = process.cwd()) {
           );
         }
       }
+
+      if ("preview" in frontmatter && !isBlank(frontmatter.preview)) {
+        const previewPath = path.resolve(path.dirname(filePath), frontmatter.preview);
+        if (!(await exists(previewPath))) {
+          errors.push(`${path.basename(filePath)} has missing preview asset: ${frontmatter.preview}`);
+        }
+      }
     }
   }
 

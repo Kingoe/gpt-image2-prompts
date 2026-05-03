@@ -1,6 +1,7 @@
 ---
 title: 电影级单人物海报
 cover: ../../assets/covers/cinematic-poster.svg
+preview: ../../assets/previews/cinematic-character-poster-preview.svg
 scene: 海报封面
 tags:
   - 电影海报感
@@ -17,6 +18,10 @@ collected_at: 2026-05-02
 ---
 
 # 电影级单人物海报
+
+## 效果预览
+
+![电影级单人物海报预览](../../assets/previews/cinematic-character-poster-preview.svg)
 
 ## 适合什么时候用
 
