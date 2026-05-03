@@ -1,9 +1,9 @@
 ---
 title: 日系信息图卡片
 cover: ../../assets/covers/japanese-infographic.svg
-preview: ../../assets/previews/japanese-infographic-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/japanese-infographic-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 说明示意图
 tags:
   - 信息图
@@ -23,7 +23,7 @@ collected_at: 2026-05-02
 
 ## 效果预览
 
-![日系信息图卡片预览](../../assets/previews/japanese-infographic-preview.svg)
+![日系信息图卡片预览](../../assets/previews/japanese-infographic-generated.png)
 
 ## 适合什么时候用
 

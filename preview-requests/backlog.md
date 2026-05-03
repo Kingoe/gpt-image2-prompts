@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-- 已有真实生成效果图：`6` 条
+- 已有真实生成效果图：`12` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图
 
@@ -14,12 +14,12 @@
 
 | 优先级 | 卡片 | 当前状态 | 建议目标路径 |
 | --- | --- | --- | --- |
-| P0 | `library/poster-cover/cinematic-character-poster.md` | `placeholder` | `assets/previews/cinematic-character-poster-generated.png` |
-| P0 | `library/explainer-visual/japanese-style-infographic.md` | `placeholder` | `assets/previews/japanese-infographic-generated.png` |
-| P0 | `library/social-media-post/liquid-glass-bento-product-post.md` | `placeholder` | `assets/previews/liquid-glass-bento-generated.png` |
-| P0 | `library/youtube-thumbnail/ai-tool-vs-human-thumbnail.md` | `placeholder` | `assets/previews/ai-tool-vs-human-generated.png` |
-| P0 | `library/ecommerce-banner/festival-campaign-hero-banner.md` | `placeholder` | `assets/previews/festival-campaign-banner-generated.png` |
-| P0 | `library/logo-ip-mascot/rounded-mascot-badge-system.md` | `placeholder` | `assets/previews/mascot-badge-generated.png` |
+| P0 | `library/poster-cover/cinematic-character-poster.md` | `generated` | `assets/previews/cinematic-character-poster-generated.png` |
+| P0 | `library/explainer-visual/japanese-style-infographic.md` | `generated` | `assets/previews/japanese-infographic-generated.png` |
+| P0 | `library/social-media-post/liquid-glass-bento-product-post.md` | `generated` | `assets/previews/liquid-glass-bento-generated.png` |
+| P0 | `library/youtube-thumbnail/ai-tool-vs-human-thumbnail.md` | `generated` | `assets/previews/ai-tool-vs-human-generated.png` |
+| P0 | `library/ecommerce-banner/festival-campaign-hero-banner.md` | `generated` | `assets/previews/festival-campaign-banner-generated.png` |
+| P0 | `library/logo-ip-mascot/rounded-mascot-badge-system.md` | `generated` | `assets/previews/mascot-badge-generated.png` |
 
 ## P1：高传播内容补齐
 

@@ -1,9 +1,9 @@
 ---
 title: 电影级单人物海报
 cover: ../../assets/covers/cinematic-poster.svg
-preview: ../../assets/previews/cinematic-character-poster-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/cinematic-character-poster-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 海报封面
 tags:
   - 电影海报感
@@ -23,7 +23,7 @@ collected_at: 2026-05-02
 
 ## 效果预览
 
-![电影级单人物海报预览](../../assets/previews/cinematic-character-poster-preview.svg)
+![电影级单人物海报预览](../../assets/previews/cinematic-character-poster-generated.png)
 
 ## 适合什么时候用
 

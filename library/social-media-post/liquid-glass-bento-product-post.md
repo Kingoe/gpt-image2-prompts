@@ -1,9 +1,9 @@
 ---
 title: 液态玻璃 Bento 社媒图
 cover: ../../assets/covers/bento-social.svg
-preview: ../../assets/previews/liquid-glass-bento-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/liquid-glass-bento-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - Bento Grid
@@ -23,7 +23,7 @@ collected_at: 2026-05-03
 
 ## 效果预览
 
-![液态玻璃 Bento 社媒图预览](../../assets/previews/liquid-glass-bento-preview.svg)
+![液态玻璃 Bento 社媒图预览](../../assets/previews/liquid-glass-bento-generated.png)
 
 ## 适合什么时候用
 

@@ -1,9 +1,9 @@
 ---
 title: 大促氛围横幅图
 cover: ../../assets/covers/ecom-banner-glow.svg
-preview: ../../assets/previews/festival-campaign-banner-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/festival-campaign-banner-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 电商 Banner
@@ -23,7 +23,7 @@ collected_at: 2026-05-03
 
 ## 效果预览
 
-![大促氛围横幅图预览](../../assets/previews/festival-campaign-banner-preview.svg)
+![大促氛围横幅图预览](../../assets/previews/festival-campaign-banner-generated.png)
 
 ## 适合什么时候用
 

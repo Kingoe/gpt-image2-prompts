@@ -67,14 +67,14 @@
 | ![vr-headset](assets/previews/vr-headset-exploded-preview.svg) | [VR 头显爆炸视图](library/product-showcase/vr-headset-exploded-view.md) | 产品展示图 | 爆炸视图 / 3D 渲染 |
 | ![toy-box](assets/previews/collectible-box-preview.svg) | [收藏级手办盒装图](library/product-showcase/collectible-box-packshot.md) | 产品展示图 | 盲盒包装 / 亚克力质感 |
 | ![avatar](assets/previews/neon-tech-avatar-preview.svg) | [霓虹科技人像头像](library/social-avatar/neon-tech-avatar.md) | 社媒头像 / 形象图 | 科技感 / 赛博光效 |
-| ![poster](assets/previews/cinematic-character-poster-preview.svg) | [电影级单人物海报](library/poster-cover/cinematic-character-poster.md) | 海报封面 | 电影海报感 / 戏剧灯光 |
-| ![infographic](assets/previews/japanese-infographic-preview.svg) | [日系信息图卡片](library/explainer-visual/japanese-style-infographic.md) | 说明示意图 | 信息图 / 日系排版 |
-| ![bento](assets/previews/liquid-glass-bento-preview.svg) | [液态玻璃 Bento 社媒图](library/social-media-post/liquid-glass-bento-product-post.md) | 社媒贴文 | Bento Grid / 液态玻璃 |
+| ![poster](assets/previews/cinematic-character-poster-generated.png) | [电影级单人物海报](library/poster-cover/cinematic-character-poster.md) | 海报封面 | 电影海报感 / 戏剧灯光 |
+| ![infographic](assets/previews/japanese-infographic-generated.png) | [日系信息图卡片](library/explainer-visual/japanese-style-infographic.md) | 说明示意图 | 信息图 / 日系排版 |
+| ![bento](assets/previews/liquid-glass-bento-generated.png) | [液态玻璃 Bento 社媒图](library/social-media-post/liquid-glass-bento-product-post.md) | 社媒贴文 | Bento Grid / 液态玻璃 |
 | ![food](assets/previews/travel-food-guide-preview.svg) | [五一旅行美食推荐海报](library/social-media-post/may-day-travel-food-guide-poster.md) | 社媒贴文 | 旅行美食 / 9比16海报 |
 | ![map](assets/previews/beijing-travel-map-poster-generated.png) | [五一旅行景点推荐地图海报](library/social-media-post/may-day-travel-map-poster.md) | 社媒贴文 | 旅行地图 / 信息图 |
-| ![thumb](assets/previews/ai-tool-vs-human-preview.svg) | [AI 工具对比缩略图](library/youtube-thumbnail/ai-tool-vs-human-thumbnail.md) | YouTube 缩略图 | 强对比 / 夸张表情 |
-| ![ecom](assets/previews/festival-campaign-banner-preview.svg) | [大促氛围横幅图](library/ecommerce-banner/festival-campaign-hero-banner.md) | 电商详情页 / Banner 主视觉 | 大促氛围 / 横幅主视觉 |
-| ![mascot](assets/previews/mascot-badge-preview.svg) | [圆润吉祥物徽章图](library/logo-ip-mascot/rounded-mascot-badge-system.md) | LOGO / IP 角色 / 吉祥物视觉 | 吉祥物 / 徽章感 |
+| ![thumb](assets/previews/ai-tool-vs-human-generated.png) | [AI 工具对比缩略图](library/youtube-thumbnail/ai-tool-vs-human-thumbnail.md) | YouTube 缩略图 | 强对比 / 夸张表情 |
+| ![ecom](assets/previews/festival-campaign-banner-generated.png) | [大促氛围横幅图](library/ecommerce-banner/festival-campaign-hero-banner.md) | 电商详情页 / Banner 主视觉 | 大促氛围 / 横幅主视觉 |
+| ![mascot](assets/previews/mascot-badge-generated.png) | [圆润吉祥物徽章图](library/logo-ip-mascot/rounded-mascot-badge-system.md) | LOGO / IP 角色 / 吉祥物视觉 | 吉祥物 / 徽章感 |
 | ![ui](assets/previews/saas-dashboard-preview.svg) | [SaaS 仪表盘官网首屏图](library/ui-app-mockup/saas-dashboard-hero-mockup.md) | UI 截图 / App Mockup / Landing Page Visual | SaaS 官网 / 仪表盘 |
 | ![cashier](assets/covers/candid-cashier.svg) | [便利店抓拍叙事照](library/brand-visual-lab/candid-convenience-store-scene.md) | 品牌视觉实验 | 生活方式摄影 / 抓拍感 |
 | ![xhs](assets/covers/xhs-cover-checklist.svg) | [爆款清单型首图](library/xiaohongshu-cover/viral-checklist-cover.md) | 小红书封面 / 图文首图 | 清单感 / 高信息密度 |
@@ -137,6 +137,7 @@
 
 ## 最近新增
 
+- 2026-05-03: 为首页 P0 精选卡片补齐 `6` 张真实生成效果图，精选区占位预览清零。
 - 2026-05-03: 新增 `15` 条 v1.1 高频场景提示词，内容总量达到 `60` 条。
 - 2026-05-03: 新增项目路线图与待配图清单，明确 v1.1 到 v2.1 的后续推进路径。
 - 2026-05-03: 新增 `1` 条旅行景点推荐地图海报，并接入北京示例真实效果图。

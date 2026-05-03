@@ -1,9 +1,9 @@
 ---
 title: AI 工具对比缩略图
 cover: ../../assets/covers/thumbnail-split.svg
-preview: ../../assets/previews/ai-tool-vs-human-preview.svg
-preview_type: placeholder
-preview_source: placeholder preview, replace with generated image when available
+preview: ../../assets/previews/ai-tool-vs-human-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: YouTube 缩略图
 tags:
   - YouTube 缩略图
@@ -23,7 +23,7 @@ collected_at: 2026-05-03
 
 ## 效果预览
 
-![AI 工具对比缩略图预览](../../assets/previews/ai-tool-vs-human-preview.svg)
+![AI 工具对比缩略图预览](../../assets/previews/ai-tool-vs-human-generated.png)
 
 ## 适合什么时候用
 
