@@ -1,6 +1,9 @@
 ---
 title: 桌面摆拍教程首图
 cover: ../../assets/covers/xhs-cover-desk.svg
+preview: ../../assets/previews/desk-flatlay-tutorial-cover-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 小红书封面 / 图文首图
 tags:
   - 小红书封面
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 桌面摆拍教程首图
+
+## 效果预览
+
+![桌面摆拍教程首图预览](../../assets/previews/desk-flatlay-tutorial-cover-generated.png)
 
 ## 适合什么时候用
 

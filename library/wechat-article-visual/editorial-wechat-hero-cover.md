@@ -1,6 +1,9 @@
 ---
 title: 公众号长文头图
 cover: ../../assets/covers/wechat-hero.svg
+preview: ../../assets/previews/editorial-wechat-hero-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 公众号头图 / 长图知识卡
 tags:
   - 公众号头图
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 公众号长文头图
+
+## 效果预览
+
+![公众号长文头图预览](../../assets/previews/editorial-wechat-hero-generated.png)
 
 ## 适合什么时候用
 
