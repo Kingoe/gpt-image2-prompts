@@ -1,6 +1,9 @@
 ---
 title: 拟物 Logo 场景图
 cover: ../../assets/covers/logo-object.svg
+preview: ../../assets/previews/object-inspired-logo-visual-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: LOGO / IP 角色 / 吉祥物视觉
 tags:
   - Logo 视觉
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 拟物 Logo 场景图
+
+## 效果预览
+
+![拟物 Logo 场景图预览](../../assets/previews/object-inspired-logo-visual-generated.png)
 
 ## 适合什么时候用
 

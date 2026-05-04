@@ -1,6 +1,9 @@
 ---
 title: 咖啡店 VN UI 世界观图
 cover: ../../assets/covers/vn-ui-mockup.svg
+preview: ../../assets/previews/cinematic-coffee-shop-vn-ui-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 品牌视觉实验
 tags:
   - VN UI
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 咖啡店 VN UI 世界观图
+
+## 效果预览
+
+![咖啡店 VN UI 世界观图预览](../../assets/previews/cinematic-coffee-shop-vn-ui-generated.png)
 
 ## 适合什么时候用
 

@@ -1,6 +1,9 @@
 ---
 title: 便利店抓拍叙事照
 cover: ../../assets/covers/candid-cashier.svg
+preview: ../../assets/previews/candid-convenience-store-scene-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 品牌视觉实验
 tags:
   - 生活方式摄影
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 便利店抓拍叙事照
+
+## 效果预览
+
+![便利店抓拍叙事照预览](../../assets/previews/candid-convenience-store-scene-generated.png)
 
 ## 适合什么时候用
 

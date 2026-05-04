@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-- 已有真实生成效果图：`34` 条
+- 已有真实生成效果图：`40` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图
 
@@ -61,14 +61,14 @@
 
 这些适合在内容厚度起来后逐步补齐。
 
-| 优先级 | 卡片 | 建议目标路径 |
-| --- | --- | --- |
-| P3 | `library/logo-ip-mascot/brand-mascot-3d-turnaround.md` | `assets/previews/brand-mascot-3d-turnaround-generated.png` |
-| P3 | `library/logo-ip-mascot/mascot-expression-sheet.md` | `assets/previews/mascot-expression-sheet-generated.png` |
-| P3 | `library/logo-ip-mascot/object-inspired-logo-visual.md` | `assets/previews/object-inspired-logo-visual-generated.png` |
-| P3 | `library/brand-visual-lab/candid-convenience-store-scene.md` | `assets/previews/candid-convenience-store-scene-generated.png` |
-| P3 | `library/brand-visual-lab/cozy-ai-art-studio-collaboration.md` | `assets/previews/cozy-ai-art-studio-collaboration-generated.png` |
-| P3 | `library/brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup.md` | `assets/previews/cinematic-coffee-shop-vn-ui-generated.png` |
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P3 | `library/logo-ip-mascot/brand-mascot-3d-turnaround.md` | `generated` | `assets/previews/brand-mascot-3d-turnaround-generated.png` |
+| P3 | `library/logo-ip-mascot/mascot-expression-sheet.md` | `generated` | `assets/previews/mascot-expression-sheet-generated.png` |
+| P3 | `library/logo-ip-mascot/object-inspired-logo-visual.md` | `generated` | `assets/previews/object-inspired-logo-visual-generated.png` |
+| P3 | `library/brand-visual-lab/candid-convenience-store-scene.md` | `generated` | `assets/previews/candid-convenience-store-scene-generated.png` |
+| P3 | `library/brand-visual-lab/cozy-ai-art-studio-collaboration.md` | `generated` | `assets/previews/cozy-ai-art-studio-collaboration-generated.png` |
+| P3 | `library/brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup.md` | `generated` | `assets/previews/cinematic-coffee-shop-vn-ui-generated.png` |
 
 ## 回填方式
 

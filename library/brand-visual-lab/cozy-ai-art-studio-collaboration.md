@@ -1,6 +1,9 @@
 ---
 title: Cozy AI 共创工作室图
 cover: ../../assets/covers/cozy-studio.svg
+preview: ../../assets/previews/cozy-ai-art-studio-collaboration-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 品牌视觉实验
 tags:
   - 工作室氛围
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # Cozy AI 共创工作室图
+
+## 效果预览
+
+![Cozy AI 共创工作室图预览](../../assets/previews/cozy-ai-art-studio-collaboration-generated.png)
 
 ## 适合什么时候用
 

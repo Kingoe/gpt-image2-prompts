@@ -1,6 +1,9 @@
 ---
 title: 成套 IP 表情包设定图
 cover: ../../assets/covers/mascot-sheet.svg
+preview: ../../assets/previews/mascot-expression-sheet-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: LOGO / IP 角色 / 吉祥物视觉
 tags:
   - 品牌吉祥物
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 成套 IP 表情包设定图
+
+## 效果预览
+
+![成套 IP 表情包设定图预览](../../assets/previews/mascot-expression-sheet-generated.png)
 
 ## 适合什么时候用
 

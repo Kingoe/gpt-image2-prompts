@@ -1,6 +1,9 @@
 ---
 title: 3D 品牌吉祥物设定图
 cover: ../../assets/covers/mascot-3d.svg
+preview: ../../assets/previews/brand-mascot-3d-turnaround-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: LOGO / IP 角色 / 吉祥物视觉
 tags:
   - 品牌吉祥物
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 3D 品牌吉祥物设定图
+
+## 效果预览
+
+![3D 品牌吉祥物设定图预览](../../assets/previews/brand-mascot-3d-turnaround-generated.png)
 
 ## 适合什么时候用
 
