@@ -83,12 +83,16 @@ test("importInboxPrompt creates a prompt card in the matching library directory"
 
   const content = await readFile(result.outputPath, "utf8");
   assert.match(content, /title: 旅行美食海报/);
+  assert.match(content, /status: needs-preview/);
+  assert.match(content, /> 状态：`needs-preview`/);
   assert.match(content, /scene: 社媒贴文/);
   assert.match(content, /source: from screenshot/);
   assert.match(content, /collected_at: 2026-05-03/);
   assert.match(content, /summary: 适合做节假日攻略图。/);
   assert.match(content, /生成一张旅行美食海报/);
   assert.match(content, /适合用于社媒贴文相关内容。/);
+  assert.match(content, /## 变量说明/);
+  assert.match(content, /## 生成注意事项/);
 });
 
 test("importInboxPrompt rejects unknown scene labels", async () => {

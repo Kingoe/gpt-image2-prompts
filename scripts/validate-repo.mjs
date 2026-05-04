@@ -19,6 +19,7 @@ const REQUIRED_README_SECTIONS = [
 
 const REQUIRED_FRONTMATTER_FIELDS = [
   "title",
+  "status",
   "cover",
   "scene",
   "tags",
@@ -28,6 +29,8 @@ const REQUIRED_FRONTMATTER_FIELDS = [
   "collected_at",
 ];
 
+const REQUIRED_CARD_SECTIONS = ["## 变量说明", "## 生成注意事项"];
+const VALID_STATUSES = ["polished", "needs-preview", "experimental"];
 const VALID_PREVIEW_TYPES = ["generated", "reference", "licensed", "placeholder"];
 
 export async function validateRepo(rootDir = process.cwd()) {
@@ -85,6 +88,20 @@ export async function validateRepo(rootDir = process.cwd()) {
             `${path.basename(filePath)} is missing frontmatter field: ${field}`,
           );
         }
+      }
+
+      for (const section of REQUIRED_CARD_SECTIONS) {
+        if (!content.includes(section)) {
+          errors.push(`${path.basename(filePath)} is missing card section: ${section}`);
+        }
+      }
+
+      if (
+        "status" in frontmatter &&
+        !isBlank(frontmatter.status) &&
+        !VALID_STATUSES.includes(frontmatter.status)
+      ) {
+        errors.push(`${path.basename(filePath)} has invalid status: ${frontmatter.status}`);
       }
 
       if ("preview" in frontmatter && !isBlank(frontmatter.preview)) {

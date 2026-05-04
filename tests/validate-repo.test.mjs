@@ -63,6 +63,7 @@ test("validateRepo accepts a complete prompt-library repository", async () => {
       [
         "---",
         `title: Example Card ${index + 1}`,
+        "status: polished",
         "cover: ../../assets/covers/example.svg",
         "preview: ../../assets/previews/example-preview.svg",
         "preview_type: generated",
@@ -77,6 +78,14 @@ test("validateRepo accepts a complete prompt-library repository", async () => {
         "---",
         "",
         `# Example Card ${index + 1}`,
+        "",
+        "## 变量说明",
+        "",
+        "- Replace the subject.",
+        "",
+        "## 生成注意事项",
+        "",
+        "- Check generated text.",
       ].join("\n"),
     );
   }
@@ -109,6 +118,7 @@ test("validateRepo reports missing required sections and metadata", async () => 
   assert.equal(result.ok, false);
   assert.match(result.errors.join("\n"), /README\.md is missing section: 精选提示词/);
   assert.match(result.errors.join("\n"), /Missing directory: inbox/);
+  assert.match(result.errors.join("\n"), /broken\.md is missing frontmatter field: status/);
   assert.match(result.errors.join("\n"), /broken\.md is missing frontmatter field: cover/);
   assert.match(result.errors.join("\n"), /broken\.md is missing frontmatter field: prompt/);
 });
@@ -149,6 +159,7 @@ test("validateRepo enforces launch-ready category and card counts", async () => 
       [
         "---",
         `title: Card ${index}`,
+        "status: polished",
         "cover: ../../assets/covers/example.svg",
         "preview: ../../assets/previews/example-preview.svg",
         "preview_type: generated",
@@ -163,6 +174,14 @@ test("validateRepo enforces launch-ready category and card counts", async () => 
         "---",
         "",
         `# Card ${index}`,
+        "",
+        "## 变量说明",
+        "",
+        "- Replace the subject.",
+        "",
+        "## 生成注意事项",
+        "",
+        "- Check generated text.",
       ].join("\n"),
     );
   }
@@ -221,6 +240,7 @@ test("validateRepo reports missing preview asset when preview field is present",
       [
         "---",
         `title: Card ${index + 1}`,
+        "status: polished",
         "cover: ../../assets/covers/example.svg",
         "preview: ../../assets/previews/missing-preview.svg",
         "preview_type: generated",
@@ -235,6 +255,14 @@ test("validateRepo reports missing preview asset when preview field is present",
         "---",
         "",
         `# Card ${index + 1}`,
+        "",
+        "## 变量说明",
+        "",
+        "- Replace the subject.",
+        "",
+        "## 生成注意事项",
+        "",
+        "- Check generated text.",
       ].join("\n"),
     );
   }
@@ -296,6 +324,7 @@ test("validateRepo requires preview source metadata when preview field is presen
       [
         "---",
         `title: Card ${index + 1}`,
+        "status: polished",
         "cover: ../../assets/covers/example.svg",
         "preview: ../../assets/previews/example-preview.svg",
         "scene: 产品展示图",
@@ -308,6 +337,14 @@ test("validateRepo requires preview source metadata when preview field is presen
         "---",
         "",
         `# Card ${index + 1}`,
+        "",
+        "## 变量说明",
+        "",
+        "- Replace the subject.",
+        "",
+        "## 生成注意事项",
+        "",
+        "- Check generated text.",
       ].join("\n"),
     );
   }

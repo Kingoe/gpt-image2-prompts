@@ -1,5 +1,6 @@
 ---
 title: 爆款清单型首图
+status: polished
 cover: ../../assets/covers/xhs-cover-checklist.svg
 preview: ../../assets/previews/viral-checklist-cover-generated.png
 preview_type: generated
@@ -40,6 +41,18 @@ Create a highly clickable Xiaohongshu cover image for a checklist-style post, cl
 - 这条最重要的是 `large headline area` 和 `save-worthy` 的感觉。
 - 你后期可以自己加中文标题，所以图里不用真的塞满字。
 - 如果想更专业，可补 `minimal editorial polish`；想更生活化，可补 `soft lifestyle props`。
+
+## 变量说明
+
+- 优先替换提示词里的占位变量，例如 `{主体}`、`{城市名称}`、`{产品名称}`、`{品牌风格}`。
+- 如果没有显式占位变量，就替换主体名词、场景名词和发布渠道，保留构图、材质、光线和比例约束。
+- 标签和 `scene` 用于检索，不一定需要原样写进生成提示词。
+
+## 生成注意事项
+
+- 生成后优先检查文字、数字、地图、UI 元素和品牌标识是否准确。
+- 如果画面包含真实城市、路线、产品结构或界面细节，建议补充更具体的空间关系和视觉约束。
+- 如果第一次结果偏乱，先减少信息量，再逐步增加卡片、标签或装饰元素。
 
 ## 来源
 

@@ -22,6 +22,7 @@
 正式卡片至少补全：
 
 - 标题
+- `status`
 - `scene`
 - `tags`
 - `prompt`
@@ -43,6 +44,20 @@
 - 看得懂适合干什么
 - 能直接复制使用
 - 知道它从哪里来，或者至少知道它是如何被你收进来的
+
+## 质量状态规范
+
+正式卡片必须声明 `status`，用于区分它现在适合怎么展示和复用。
+
+- `polished`：提示词结构完整、来源清楚，最好已经接入真实生成效果图，适合放进 README 精选或对外推荐
+- `needs-preview`：提示词已经可用，但还缺真实效果图，或需要继续验证生成稳定性
+- `experimental`：想法有价值但还在试验阶段，可能需要改提示词、换构图或补使用说明
+
+默认规则：
+
+- 已经使用当前提示词生成并回填效果图的卡片，优先标记为 `polished`
+- 只有提示词、封面或占位预览的卡片，先标记为 `needs-preview`
+- 新奇但不稳定的视觉玩法，先标记为 `experimental`，不要急着放进首页精选
 
 ## 自动转正式卡片
 
@@ -122,6 +137,7 @@ npm run preview:apply -- library/scene/card.md assets/previews/card-generated.pn
 推荐写法：
 
 ```yaml
+status: polished
 preview: ../../assets/previews/example-preview.png
 preview_type: generated
 preview_source: generated from this prompt

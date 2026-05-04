@@ -1,5 +1,6 @@
 ---
 title: 五一旅行美食推荐海报
+status: polished
 cover: ../../assets/covers/travel-food-guide.svg
 preview: ../../assets/previews/may-day-travel-food-guide-poster-generated.png
 preview_type: generated
@@ -296,6 +297,18 @@ Tip：实用小建议
 - 如果你想把它从五一泛化到全年，可把标题中的 `五一` 改成 `去「{城市 / 景点}」吃什么？`。
 - 如果想更适合某个平台，可以补 `Xiaohongshu cover style`、`WeChat article cover style` 或 `Douyin vertical poster style`。
 - 如果你担心文字过多，可以把 `每种美食必须包含` 的字段缩成“名称 + 推荐理由 + Tip”三项，减少信息密度。
+
+## 变量说明
+
+- 优先替换提示词里的占位变量，例如 `{主体}`、`{城市名称}`、`{产品名称}`、`{品牌风格}`。
+- 如果没有显式占位变量，就替换主体名词、场景名词和发布渠道，保留构图、材质、光线和比例约束。
+- 标签和 `scene` 用于检索，不一定需要原样写进生成提示词。
+
+## 生成注意事项
+
+- 生成后优先检查文字、数字、地图、UI 元素和品牌标识是否准确。
+- 如果画面包含真实城市、路线、产品结构或界面细节，建议补充更具体的空间关系和视觉约束。
+- 如果第一次结果偏乱，先减少信息量，再逐步增加卡片、标签或装饰元素。
 
 ## 来源
 
