@@ -45,15 +45,15 @@ Create a premium exploded-view product render of a futuristic VR headset, with e
 
 ## 变量说明
 
-- 优先替换提示词里的占位变量，例如 `{主体}`、`{城市名称}`、`{产品名称}`、`{品牌风格}`。
-- 如果没有显式占位变量，就替换主体名词、场景名词和发布渠道，保留构图、材质、光线和比例约束。
-- 标签和 `scene` 用于检索，不一定需要原样写进生成提示词。
+- 把 `futuristic VR headset` 替换成你的具体硬件产品，例如耳机、键盘、相机、智能眼镜。
+- 保留 `exploded-view`、`floating in clean alignment`、`precise material separation`，这是结构拆解感的核心。
+- 根据产品材质替换 `matte black body` 和 `glass lens reflections`，让渲染更贴近真实卖点。
 
 ## 生成注意事项
 
-- 生成后优先检查文字、数字、地图、UI 元素和品牌标识是否准确。
-- 如果画面包含真实城市、路线、产品结构或界面细节，建议补充更具体的空间关系和视觉约束。
-- 如果第一次结果偏乱，先减少信息量，再逐步增加卡片、标签或装饰元素。
+- 重点检查零件是否漂浮得有逻辑，避免出现无意义碎片。
+- 如果产品结构复杂，减少零件数量比堆更多细节更稳。
+- 不需要文字时保留 `no extra text`，避免模型在图上乱加技术标签。
 
 ## 来源
 
