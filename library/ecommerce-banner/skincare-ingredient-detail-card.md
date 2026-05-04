@@ -1,6 +1,9 @@
 ---
 title: 护肤成分卖点详情图
 cover: ../../assets/covers/ecom-detail-card.svg
+preview: ../../assets/previews/skincare-ingredient-detail-card-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 详情页卖点图
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 护肤成分卖点详情图
+
+## 效果预览
+
+![护肤成分卖点详情图预览](../../assets/previews/skincare-ingredient-detail-card-generated.png)
 
 ## 适合什么时候用
 

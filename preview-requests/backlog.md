@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-- 已有真实生成效果图：`24` 条
+- 已有真实生成效果图：`34` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图
 
@@ -44,18 +44,18 @@
 
 这些内容适合做案例感和商业可用性的展示。
 
-| 优先级 | 卡片 | 建议目标路径 |
-| --- | --- | --- |
-| P2 | `library/product-showcase/transparent-perfume-packshot.md` | `assets/previews/transparent-perfume-packshot-generated.png` |
-| P2 | `library/ecommerce-banner/luxury-single-product-banner.md` | `assets/previews/luxury-single-product-banner-generated.png` |
-| P2 | `library/ecommerce-banner/gift-box-celebration-banner.md` | `assets/previews/gift-box-celebration-banner-generated.png` |
-| P2 | `library/ecommerce-banner/feature-zone-detail-banner.md` | `assets/previews/feature-zone-detail-banner-generated.png` |
-| P2 | `library/ui-app-mockup/mobile-app-screen-stack.md` | `assets/previews/mobile-app-screen-stack-generated.png` |
-| P2 | `library/ui-app-mockup/feature-split-landing-visual.md` | `assets/previews/feature-split-landing-visual-generated.png` |
-| P2 | `library/ecommerce-banner/skincare-ingredient-detail-card.md` | `assets/previews/skincare-ingredient-detail-card-generated.png` |
-| P2 | `library/ecommerce-banner/comparison-selling-point-banner.md` | `assets/previews/comparison-selling-point-banner-generated.png` |
-| P2 | `library/product-showcase/modular-backpack-exploded-view.md` | `assets/previews/modular-backpack-exploded-view-generated.png` |
-| P2 | `library/explainer-visual/ai-agent-workflow-diagram.md` | `assets/previews/ai-agent-workflow-diagram-generated.png` |
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P2 | `library/product-showcase/transparent-perfume-packshot.md` | `generated` | `assets/previews/transparent-perfume-packshot-generated.png` |
+| P2 | `library/ecommerce-banner/luxury-single-product-banner.md` | `generated` | `assets/previews/luxury-single-product-banner-generated.png` |
+| P2 | `library/ecommerce-banner/gift-box-celebration-banner.md` | `generated` | `assets/previews/gift-box-celebration-banner-generated.png` |
+| P2 | `library/ecommerce-banner/feature-zone-detail-banner.md` | `generated` | `assets/previews/feature-zone-detail-banner-generated.png` |
+| P2 | `library/ui-app-mockup/mobile-app-screen-stack.md` | `generated` | `assets/previews/mobile-app-screen-stack-generated.png` |
+| P2 | `library/ui-app-mockup/feature-split-landing-visual.md` | `generated` | `assets/previews/feature-split-landing-visual-generated.png` |
+| P2 | `library/ecommerce-banner/skincare-ingredient-detail-card.md` | `generated` | `assets/previews/skincare-ingredient-detail-card-generated.png` |
+| P2 | `library/ecommerce-banner/comparison-selling-point-banner.md` | `generated` | `assets/previews/comparison-selling-point-banner-generated.png` |
+| P2 | `library/product-showcase/modular-backpack-exploded-view.md` | `generated` | `assets/previews/modular-backpack-exploded-view-generated.png` |
+| P2 | `library/explainer-visual/ai-agent-workflow-diagram.md` | `generated` | `assets/previews/ai-agent-workflow-diagram-generated.png` |
 
 ## P3：品牌/IP 与实验型内容
 

@@ -1,6 +1,9 @@
 ---
 title: 礼盒主视觉场景图
 cover: ../../assets/covers/ecom-giftbox.svg
+preview: ../../assets/previews/gift-box-celebration-banner-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 电商 Banner
@@ -16,6 +19,10 @@ collected_at: 2026-05-03
 ---
 
 # 礼盒主视觉场景图
+
+## 效果预览
+
+![礼盒主视觉场景图预览](../../assets/previews/gift-box-celebration-banner-generated.png)
 
 ## 适合什么时候用
 

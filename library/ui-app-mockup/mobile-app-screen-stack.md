@@ -1,6 +1,9 @@
 ---
 title: App 截图堆叠展示图
 cover: ../../assets/covers/ui-phone-stack.svg
+preview: ../../assets/previews/mobile-app-screen-stack-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: UI 截图 / App Mockup / Landing Page Visual
 tags:
   - App 截图展示
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # App 截图堆叠展示图
+
+## 效果预览
+
+![App 截图堆叠展示图预览](../../assets/previews/mobile-app-screen-stack-generated.png)
 
 ## 适合什么时候用
 

@@ -1,6 +1,9 @@
 ---
 title: 对比卖点横幅图
 cover: ../../assets/covers/ecom-banner-glow.svg
+preview: ../../assets/previews/comparison-selling-point-banner-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 电商 Banner
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 对比卖点横幅图
+
+## 效果预览
+
+![对比卖点横幅图预览](../../assets/previews/comparison-selling-point-banner-generated.png)
 
 ## 适合什么时候用
 

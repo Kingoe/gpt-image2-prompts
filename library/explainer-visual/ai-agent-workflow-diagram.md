@@ -1,6 +1,9 @@
 ---
 title: AI Agent 工作流示意图
 cover: ../../assets/covers/japanese-infographic.svg
+preview: ../../assets/previews/ai-agent-workflow-diagram-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 说明示意图
 tags:
   - 信息图
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # AI Agent 工作流示意图
+
+## 效果预览
+
+![AI Agent 工作流示意图预览](../../assets/previews/ai-agent-workflow-diagram-generated.png)
 
 ## 适合什么时候用
 

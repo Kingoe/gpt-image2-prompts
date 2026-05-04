@@ -1,6 +1,9 @@
 ---
 title: 透明亚克力香水广告图
 cover: ../../assets/covers/collectible-box.svg
+preview: ../../assets/previews/transparent-perfume-packshot-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 产品展示图
 tags:
   - 亚克力质感
@@ -17,6 +20,10 @@ collected_at: 2026-05-02
 ---
 
 # 透明亚克力香水广告图
+
+## 效果预览
+
+![透明亚克力香水广告图预览](../../assets/previews/transparent-perfume-packshot-generated.png)
 
 ## 适合什么时候用
 

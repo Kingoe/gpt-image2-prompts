@@ -1,6 +1,9 @@
 ---
 title: 卖点分区详情图
 cover: ../../assets/covers/ecom-detail-card.svg
+preview: ../../assets/previews/feature-zone-detail-banner-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 详情页卖点图
@@ -16,6 +19,10 @@ collected_at: 2026-05-03
 ---
 
 # 卖点分区详情图
+
+## 效果预览
+
+![卖点分区详情图预览](../../assets/previews/feature-zone-detail-banner-generated.png)
 
 ## 适合什么时候用
 

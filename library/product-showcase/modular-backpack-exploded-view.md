@@ -1,6 +1,9 @@
 ---
 title: 模块化背包爆炸视图
 cover: ../../assets/covers/vr-headset-exploded.svg
+preview: ../../assets/previews/modular-backpack-exploded-view-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 产品展示图
 tags:
   - 爆炸视图
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 模块化背包爆炸视图
+
+## 效果预览
+
+![模块化背包爆炸视图预览](../../assets/previews/modular-backpack-exploded-view-generated.png)
 
 ## 适合什么时候用
 

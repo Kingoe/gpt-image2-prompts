@@ -1,6 +1,9 @@
 ---
 title: 功能亮点分屏官网图
 cover: ../../assets/covers/ui-split-landing.svg
+preview: ../../assets/previews/feature-split-landing-visual-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: UI 截图 / App Mockup / Landing Page Visual
 tags:
   - SaaS 官网视觉
@@ -16,6 +19,10 @@ collected_at: 2026-05-03
 ---
 
 # 功能亮点分屏官网图
+
+## 效果预览
+
+![功能亮点分屏官网图预览](../../assets/previews/feature-split-landing-visual-generated.png)
 
 ## 适合什么时候用
 

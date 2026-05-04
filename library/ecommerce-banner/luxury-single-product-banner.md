@@ -1,6 +1,9 @@
 ---
 title: 高级质感单品 Banner
 cover: ../../assets/covers/ecom-luxury.svg
+preview: ../../assets/previews/luxury-single-product-banner-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 电商详情页 / Banner 主视觉
 tags:
   - 电商 Banner
@@ -16,6 +19,10 @@ collected_at: 2026-05-03
 ---
 
 # 高级质感单品 Banner
+
+## 效果预览
+
+![高级质感单品 Banner预览](../../assets/previews/luxury-single-product-banner-generated.png)
 
 ## 适合什么时候用
 
