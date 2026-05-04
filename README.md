@@ -44,6 +44,7 @@
 - 快速收录说明：[inbox/README.md](inbox/README.md)
 - 纯提示词模板：[templates/inbox-prompt-only-entry.md](templates/inbox-prompt-only-entry.md)
 - 正式卡片模板：[templates/prompt-card.md](templates/prompt-card.md)
+- 贡献指南：[CONTRIBUTING.md](CONTRIBUTING.md)
 - 自动转正式卡片：`npm run import:prompt -- inbox/your-entry.md`
 - 真实效果图回填：`npm run preview:apply -- library/scene/card.md assets/previews/card-generated.png`
 - 首批生图清单：[preview-requests/first-batch.md](preview-requests/first-batch.md)
@@ -141,6 +142,7 @@
 
 ## 最近新增
 
+- 2026-05-04: 启动 v2.1 社区贡献机制，新增贡献指南、Issue 模板和 PR 模板，明确投稿、补图、标签建议与版权边界。
 - 2026-05-04: 启动 v2.0 轻量展示站数据层，新增 `site-data/` JSON 导出，后续可供 Astro 首页、场景页、标签页和搜索页直接读取。
 - 2026-05-04: 完成 P5 结构化与实验内容 `10` 张真实效果图，正式卡片真实生成图达到 `60/60`。
 - 2026-05-04: 完成 P4 高复用场景 `10` 张真实效果图，真实生成图数量达到 `50` 条。
@@ -172,6 +174,17 @@
 3. 打开单条卡片，先看 `效果预览`，再复制提示词去改写。
 4. 如果你从外部看到不错的提示词，先收进 [inbox](inbox/README.md)，后续再转正式卡片。
 
+## 如何贡献
+
+欢迎通过 Issue 或 Pull Request 一起补充高价值提示词。
+
+- 只想分享提示词：使用 `投稿提示词` Issue 模板，贴出提示词、来源、场景和标签。
+- 想请求补图：使用 `请求补效果图` Issue 模板，说明目标卡片和希望生成的方向。
+- 想修标签或内容：使用 `标签建议` 或 `错误反馈` Issue 模板。
+- 已经整理好卡片：按 [贡献指南](CONTRIBUTING.md) 提交 PR，并运行 `npm test` 和 `npm run validate`。
+
+图片版权原则很简单：外部图没有明确授权时，不直接放进仓库；优先使用自己根据提示词生成的效果图。
+
 ## 收录原则
 
 - 中文说明为主，方便整理和检索。
@@ -188,6 +201,7 @@
 ├── assets/
 │   ├── covers/      # 封面缩略图
 │   └── previews/    # 效果预览图
+├── .github/         # Issue 模板与 PR 模板
 ├── inbox/           # 待整理候选区
 ├── library/         # 正式提示词库
 ├── preview-requests/# 真实效果图生成清单

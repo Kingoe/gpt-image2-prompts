@@ -32,9 +32,11 @@ test("validateRepo accepts a complete prompt-library repository", async () => {
       "## 热门效果标签",
       "## 最近新增",
       "## 如何使用",
+      "## 如何贡献",
     ].join("\n\n"),
   );
 
+  await writeRequiredCommunityFiles(root);
   await writeFile(path.join(root, "inbox", "README.md"), "# Inbox\n");
   await writeFile(path.join(root, "tags", "README.md"), "# Tags\n");
   await writeFile(path.join(root, "templates", "prompt-card.md"), "# Template\n");
@@ -117,6 +119,7 @@ test("validateRepo reports missing required sections and metadata", async () => 
 
   assert.equal(result.ok, false);
   assert.match(result.errors.join("\n"), /README\.md is missing section: 精选提示词/);
+  assert.match(result.errors.join("\n"), /Missing file: CONTRIBUTING\.md/);
   assert.match(result.errors.join("\n"), /Missing directory: inbox/);
   assert.match(result.errors.join("\n"), /broken\.md is missing frontmatter field: status/);
   assert.match(result.errors.join("\n"), /broken\.md is missing frontmatter field: cover/);
@@ -141,6 +144,7 @@ test("validateRepo enforces launch-ready category and card counts", async () => 
       "## 热门效果标签",
       "## 最近新增",
       "## 如何使用",
+      "## 如何贡献",
     ].join("\n\n"),
   );
 
@@ -214,6 +218,7 @@ test("validateRepo reports missing preview asset when preview field is present",
       "## 热门效果标签",
       "## 最近新增",
       "## 如何使用",
+      "## 如何贡献",
     ].join("\n\n"),
   );
 
@@ -294,6 +299,7 @@ test("validateRepo requires preview source metadata when preview field is presen
       "## 热门效果标签",
       "## 最近新增",
       "## 如何使用",
+      "## 如何贡献",
     ].join("\n\n"),
   );
 
@@ -355,3 +361,25 @@ test("validateRepo requires preview source metadata when preview field is presen
   assert.match(result.errors.join("\n"), /preview_type/);
   assert.match(result.errors.join("\n"), /preview_source/);
 });
+
+async function writeRequiredCommunityFiles(root) {
+  await mkdir(path.join(root, ".github", "ISSUE_TEMPLATE"), { recursive: true });
+  await writeFile(path.join(root, "CONTRIBUTING.md"), "# Contributing\n");
+  await writeFile(path.join(root, ".github", "pull_request_template.md"), "# PR\n");
+  await writeFile(
+    path.join(root, ".github", "ISSUE_TEMPLATE", "submit-prompt.md"),
+    "# Submit prompt\n",
+  );
+  await writeFile(
+    path.join(root, ".github", "ISSUE_TEMPLATE", "preview-request.md"),
+    "# Preview request\n",
+  );
+  await writeFile(
+    path.join(root, ".github", "ISSUE_TEMPLATE", "tag-suggestion.md"),
+    "# Tag suggestion\n",
+  );
+  await writeFile(
+    path.join(root, ".github", "ISSUE_TEMPLATE", "bug-report.md"),
+    "# Bug report\n",
+  );
+}

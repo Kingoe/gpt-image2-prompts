@@ -15,6 +15,16 @@ const REQUIRED_README_SECTIONS = [
   "热门效果标签",
   "最近新增",
   "如何使用",
+  "如何贡献",
+];
+
+const REQUIRED_FILES = [
+  "CONTRIBUTING.md",
+  path.join(".github", "pull_request_template.md"),
+  path.join(".github", "ISSUE_TEMPLATE", "submit-prompt.md"),
+  path.join(".github", "ISSUE_TEMPLATE", "preview-request.md"),
+  path.join(".github", "ISSUE_TEMPLATE", "tag-suggestion.md"),
+  path.join(".github", "ISSUE_TEMPLATE", "bug-report.md"),
 ];
 
 const REQUIRED_FRONTMATTER_FIELDS = [
@@ -40,6 +50,13 @@ export async function validateRepo(rootDir = process.cwd()) {
     const fullPath = path.join(rootDir, dir);
     if (!(await exists(fullPath))) {
       errors.push(`Missing directory: ${dir}`);
+    }
+  }
+
+  for (const file of REQUIRED_FILES) {
+    const fullPath = path.join(rootDir, file);
+    if (!(await exists(fullPath))) {
+      errors.push(`Missing file: ${file}`);
     }
   }
 
