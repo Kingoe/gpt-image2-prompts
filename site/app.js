@@ -8,6 +8,12 @@ const state = {
   query: "",
 };
 
+const config = window.PROMPT_ATLAS_CONFIG ?? {
+  assetBase: "..",
+  dataBase: "../site-data",
+  linkBase: "..",
+};
+
 const els = {
   summaryPrompts: document.querySelector("#summary-prompts"),
   summaryRows: document.querySelector("#summary-rows"),
@@ -35,10 +41,10 @@ boot();
 async function boot() {
   try {
     const [prompts, scenes, tags, summary] = await Promise.all([
-      fetchJson("../site-data/prompts.json"),
-      fetchJson("../site-data/scenes.json"),
-      fetchJson("../site-data/tags.json"),
-      fetchJson("../site-data/summary.json"),
+      fetchJson(joinUrl(config.dataBase, "prompts.json")),
+      fetchJson(joinUrl(config.dataBase, "scenes.json")),
+      fetchJson(joinUrl(config.dataBase, "tags.json")),
+      fetchJson(joinUrl(config.dataBase, "summary.json")),
     ]);
 
     state.prompts = prompts;
@@ -173,7 +179,7 @@ function filteredPrompts() {
 function cardTemplate(prompt) {
   return `
     <article class="prompt-card" tabindex="0" role="button" data-id="${escapeHtml(prompt.id)}">
-      <img src="../${escapeHtml(prompt.preview || prompt.cover)}" alt="${escapeHtml(prompt.title)} 预览图" loading="lazy" />
+      <img src="${escapeHtml(joinUrl(config.assetBase, prompt.preview || prompt.cover))}" alt="${escapeHtml(prompt.title)} 预览图" loading="lazy" />
       <div class="prompt-card__body">
         <div class="prompt-card__scene">${escapeHtml(prompt.scene)}</div>
         <h3>${escapeHtml(prompt.title)}</h3>
@@ -203,7 +209,7 @@ function openDialog(id) {
   const prompt = state.prompts.find((item) => item.id === id);
   if (!prompt) return;
 
-  els.dialogImage.src = `../${prompt.preview || prompt.cover}`;
+  els.dialogImage.src = joinUrl(config.assetBase, prompt.preview || prompt.cover);
   els.dialogImage.alt = `${prompt.title} 预览图`;
   els.dialogScene.textContent = prompt.scene;
   els.dialogTitle.textContent = prompt.title;
@@ -211,7 +217,7 @@ function openDialog(id) {
   els.dialogTags.innerHTML = prompt.tags
     .map((tag) => `<span class="tag-pill">${escapeHtml(tag)}</span>`)
     .join("");
-  els.dialogLink.href = `../${prompt.path}`;
+  els.dialogLink.href = joinUrl(config.linkBase, prompt.path);
   els.dialogPrompt.textContent = prompt.prompt;
   els.copyPrompt.textContent = "复制提示词";
   els.copyPrompt.onclick = async () => {
@@ -231,4 +237,19 @@ function escapeHtml(value) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function joinUrl(base, target) {
+  const cleanBase = String(base).replace(/\/+$/g, "");
+  const cleanTarget = String(target).replace(/^\/+/g, "");
+
+  if (!cleanBase) {
+    return `/${cleanTarget}`;
+  }
+
+  if (cleanBase === ".") {
+    return `./${cleanTarget}`;
+  }
+
+  return `${cleanBase}/${cleanTarget}`;
 }

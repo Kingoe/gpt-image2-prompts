@@ -5,7 +5,9 @@ import path from "node:path";
 
 const PORT = Number(process.env.PORT ?? 4173);
 const HOST = process.env.HOST ?? "127.0.0.1";
-const ROOT = process.cwd();
+const ROOT = path.resolve(process.cwd(), process.argv[2] ?? ".");
+const BASE_PATH = normalizeBasePath(process.argv[3] ?? process.env.BASE_PATH ?? "/");
+const DEFAULT_ENTRY = process.argv[2] ? "index.html" : path.join("site", "index.html");
 
 const MIME_TYPES = {
   ".css": "text/css; charset=utf-8",
@@ -19,8 +21,9 @@ const MIME_TYPES = {
 
 const server = createServer(async (request, response) => {
   const url = new URL(request.url ?? "/", `http://${HOST}:${PORT}`);
-  const safePath = decodeURIComponent(url.pathname).replace(/^\/+/, "");
-  const requestedPath = path.resolve(ROOT, safePath || "site/index.html");
+  const requestPath = stripBasePath(decodeURIComponent(url.pathname), BASE_PATH);
+  const safePath = requestPath.replace(/^\/+/, "");
+  const requestedPath = path.resolve(ROOT, safePath || DEFAULT_ENTRY);
 
   if (!requestedPath.startsWith(ROOT)) {
     response.writeHead(403);
@@ -47,5 +50,20 @@ const server = createServer(async (request, response) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`Preview site: http://${HOST}:${PORT}/site/`);
+  const previewPath = process.argv[2] ? BASE_PATH : "/site/";
+  console.log(`Preview site: http://${HOST}:${PORT}${previewPath}`);
 });
+
+function normalizeBasePath(value) {
+  const raw = String(value || "/");
+  if (raw === "/") return "/";
+  const withLeadingSlash = raw.startsWith("/") ? raw : `/${raw}`;
+  return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
+}
+
+function stripBasePath(requestPath, basePath) {
+  if (basePath === "/") return requestPath;
+  if (requestPath === basePath.slice(0, -1)) return "/";
+  if (requestPath.startsWith(basePath)) return `/${requestPath.slice(basePath.length)}`;
+  return requestPath;
+}

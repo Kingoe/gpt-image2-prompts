@@ -9,6 +9,11 @@ const REQUIRED_SITE_FILES = [
   path.join("site", "README.md"),
 ];
 
+const REQUIRED_BUILD_FILES = [
+  path.join("scripts", "build-site.mjs"),
+  "DEPLOY.md",
+];
+
 const REQUIRED_DATA_FILES = [
   path.join("site-data", "prompts.json"),
   path.join("site-data", "scenes.json"),
@@ -19,7 +24,7 @@ const REQUIRED_DATA_FILES = [
 export async function validateSite(rootDir = process.cwd()) {
   const errors = [];
 
-  for (const filePath of [...REQUIRED_SITE_FILES, ...REQUIRED_DATA_FILES]) {
+  for (const filePath of [...REQUIRED_SITE_FILES, ...REQUIRED_DATA_FILES, ...REQUIRED_BUILD_FILES]) {
     if (!(await exists(path.join(rootDir, filePath)))) {
       errors.push(`Missing file: ${filePath}`);
     }
@@ -27,12 +32,18 @@ export async function validateSite(rootDir = process.cwd()) {
 
   const index = await readOptional(path.join(rootDir, "site", "index.html"));
   const app = await readOptional(path.join(rootDir, "site", "app.js"));
+  const buildScript = await readOptional(path.join(rootDir, "scripts", "build-site.mjs"));
 
   for (const dataFile of REQUIRED_DATA_FILES) {
     const relativeDataPath = `../${dataFile.split(path.sep).join("/")}`;
-    if (!app.includes(relativeDataPath)) {
+    const dataFileName = path.basename(dataFile);
+    if (!app.includes(dataFileName)) {
       errors.push(`site/app.js does not load ${relativeDataPath}`);
     }
+  }
+
+  if (!buildScript.includes("/prompt-atlas/")) {
+    errors.push("scripts/build-site.mjs should default to /prompt-atlas/");
   }
 
   for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input"]) {

@@ -63,6 +63,7 @@
 - 剩余效果图批次：[preview-requests/remaining-batch.md](preview-requests/remaining-batch.md)
 - v2.0 站点数据导出：[site-data/README.md](site-data/README.md)
 - v2.0 静态展示站原型：[site/README.md](site/README.md)
+- 自有服务器部署：[DEPLOY.md](DEPLOY.md)
 
 ## 精选提示词
 
@@ -143,6 +144,7 @@
 
 ## 最近新增
 
+- 2026-05-04: 增加自有服务器部署支持，默认路径前缀为 `/prompt-atlas/`，可构建 `dist/` 后部署到 `kingoecode.com/prompt-atlas/`。
 - 2026-05-04: 新增 v2.0 静态展示站原型，支持读取 `site-data`、精选浏览、场景/标签筛选、搜索和一键复制提示词。
 - 2026-05-04: 启动 v2.1 社区贡献机制，新增贡献指南、Issue 模板和 PR 模板，明确投稿、补图、标签建议与版权边界。
 - 2026-05-04: 启动 v2.0 轻量展示站数据层，新增 `site-data/` JSON 导出，后续可供 Astro 首页、场景页、标签页和搜索页直接读取。

@@ -8,9 +8,11 @@
     "validate": "node scripts/validate-repo.mjs && node scripts/export-site-data.mjs --check && node scripts/validate-site.mjs",
     "import:prompt": "node scripts/import-inbox-prompt.mjs",
     "preview:apply": "node scripts/apply-generated-preview.mjs",
+    "build:site": "node scripts/build-site.mjs",
     "export:site-data": "node scripts/export-site-data.mjs",
     "export:site-data:check": "node scripts/export-site-data.mjs --check",
     "site:preview": "node scripts/serve-site.mjs",
+    "site:preview:dist": "node scripts/serve-site.mjs dist /prompt-atlas/",
     "site:validate": "node scripts/validate-site.mjs"
   }
 }

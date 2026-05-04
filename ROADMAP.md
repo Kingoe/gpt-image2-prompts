@@ -14,6 +14,7 @@
 - 剩余配图队列：P4 / P5 共 `20` 条已完成，正式卡片达到 `60/60` 真实生成效果图
 - v2.0 数据层：已新增 `site-data/`，可从 Markdown 自动导出 prompts / scenes / tags / summary JSON
 - v2.0 静态站原型：已新增 `site/`，支持精选浏览、筛选、搜索和复制提示词
+- v2.0 自有服务器部署：已支持 `/prompt-atlas/` 路径前缀构建和 `dist/` 输出
 - v2.1 社区贡献机制：已新增 `CONTRIBUTING.md`、Issue 模板和 PR 模板
 
 ## v1.1 内容厚度与首页质感
@@ -97,6 +98,12 @@
 - 搜索页：按关键词、标签、场景搜索。
 
 当前静态原型已先把首页瀑布流、场景/标签筛选、关键词搜索和详情复制合并在一个页面内，后续可再拆成正式多页面 Astro 站。
+
+部署方向：
+
+- 默认部署路径为 `https://kingoecode.com/prompt-atlas/`，避免和 `https://kingoecode.com/ai-daily/` 冲突。
+- `npm run build:site` 会输出 `dist/`，用于同步到服务器目录。
+- 部署说明见 [DEPLOY.md](DEPLOY.md)。
 
 验收标准：
 
