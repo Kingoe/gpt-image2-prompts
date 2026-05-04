@@ -1,0 +1,323 @@
+[
+  {
+    "slug": "brand-visual-lab",
+    "name": "品牌视觉实验",
+    "count": 5,
+    "generated_previews": 5,
+    "featured": 1,
+    "tags": [
+      "创作感",
+      "概念提案",
+      "工作室氛围",
+      "品牌吉祥物",
+      "品牌人格化",
+      "品牌视觉",
+      "生活方式摄影",
+      "世界观感",
+      "贴纸感",
+      "叙事界面",
+      "真实叙事",
+      "抓拍感",
+      "Logo 视觉",
+      "VN UI"
+    ],
+    "prompts": [
+      "brand-visual-lab/brand-sticker-sheet",
+      "brand-visual-lab/candid-convenience-store-scene",
+      "brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup",
+      "brand-visual-lab/cozy-ai-art-studio-collaboration",
+      "brand-visual-lab/pop-up-store-concept-scene"
+    ]
+  },
+  {
+    "slug": "ecommerce-banner",
+    "name": "电商详情页 / Banner 主视觉",
+    "count": 6,
+    "generated_previews": 6,
+    "featured": 1,
+    "tags": [
+      "大促氛围",
+      "单品主视觉",
+      "电商 Banner",
+      "高级质感",
+      "横幅主视觉",
+      "节庆营销",
+      "礼盒场景",
+      "模块化卖点",
+      "强对比",
+      "商品说明",
+      "详情页卖点图",
+      "信息图"
+    ],
+    "prompts": [
+      "ecommerce-banner/comparison-selling-point-banner",
+      "ecommerce-banner/feature-zone-detail-banner",
+      "ecommerce-banner/festival-campaign-hero-banner",
+      "ecommerce-banner/gift-box-celebration-banner",
+      "ecommerce-banner/luxury-single-product-banner",
+      "ecommerce-banner/skincare-ingredient-detail-card"
+    ]
+  },
+  {
+    "slug": "explainer-visual",
+    "name": "说明示意图",
+    "count": 4,
+    "generated_previews": 4,
+    "featured": 1,
+    "tags": [
+      "3D 户型",
+      "爆炸视图",
+      "功能流程",
+      "教程视觉",
+      "流程图",
+      "日系排版",
+      "信息图",
+      "轴测视角",
+      "AI 工作流"
+    ],
+    "prompts": [
+      "explainer-visual/ai-agent-workflow-diagram",
+      "explainer-visual/feature-workflow-collage",
+      "explainer-visual/floorplan-to-3d-render",
+      "explainer-visual/japanese-style-infographic"
+    ]
+  },
+  {
+    "slug": "logo-ip-mascot",
+    "name": "LOGO / IP 角色 / 吉祥物视觉",
+    "count": 4,
+    "generated_previews": 4,
+    "featured": 1,
+    "tags": [
+      "3D 角色",
+      "表情设定",
+      "徽章感",
+      "角色系统",
+      "拟物标识",
+      "品牌吉祥物",
+      "品牌提案",
+      "设定图",
+      "IP 延展",
+      "Logo 视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/brand-mascot-3d-turnaround",
+      "logo-ip-mascot/mascot-expression-sheet",
+      "logo-ip-mascot/object-inspired-logo-visual",
+      "logo-ip-mascot/rounded-mascot-badge-system"
+    ]
+  },
+  {
+    "slug": "poster-cover",
+    "name": "海报封面",
+    "count": 3,
+    "generated_previews": 3,
+    "featured": 1,
+    "tags": [
+      "电商氛围",
+      "电影海报感",
+      "封面设计",
+      "极简构图",
+      "节庆视觉",
+      "黏土风",
+      "人物主视觉",
+      "戏剧灯光"
+    ],
+    "prompts": [
+      "poster-cover/cinematic-character-poster",
+      "poster-cover/festival-sale-poster",
+      "poster-cover/minimal-album-cover"
+    ]
+  },
+  {
+    "slug": "product-showcase",
+    "name": "产品展示图",
+    "count": 4,
+    "generated_previews": 4,
+    "featured": 2,
+    "tags": [
+      "3D 渲染",
+      "爆炸视图",
+      "产品结构",
+      "广告大片",
+      "科技产品",
+      "盲盒包装",
+      "人物商品化",
+      "亚克力质感"
+    ],
+    "prompts": [
+      "product-showcase/collectible-box-packshot",
+      "product-showcase/modular-backpack-exploded-view",
+      "product-showcase/transparent-perfume-packshot",
+      "product-showcase/vr-headset-exploded-view"
+    ]
+  },
+  {
+    "slug": "social-avatar",
+    "name": "社媒头像 / 形象图",
+    "count": 3,
+    "generated_previews": 3,
+    "featured": 1,
+    "tags": [
+      "工作室视觉",
+      "科技感",
+      "可爱风",
+      "盲盒包装",
+      "黏土风",
+      "品牌人设",
+      "人设图",
+      "赛博光效",
+      "头像模板"
+    ],
+    "prompts": [
+      "social-avatar/clay-style-profile",
+      "social-avatar/neon-tech-avatar",
+      "social-avatar/studio-founder-portrait"
+    ]
+  },
+  {
+    "slug": "social-media-post",
+    "name": "社媒贴文",
+    "count": 11,
+    "generated_previews": 11,
+    "featured": 3,
+    "tags": [
+      "9比16海报",
+      "产品说明",
+      "黑板手绘",
+      "胶片感",
+      "旅行地图",
+      "旅行攻略",
+      "旅行美食",
+      "品牌灵感",
+      "清单感",
+      "生活方式摄影",
+      "时尚企划",
+      "视觉提案",
+      "数学可视化",
+      "小红书封面",
+      "信息卡片",
+      "信息图",
+      "液态玻璃",
+      "知识总结",
+      "抓拍感",
+      "Bento Grid"
+    ],
+    "prompts": [
+      "social-media-post/cafe-hopping-route-poster",
+      "social-media-post/chalkboard-ai-news-summary",
+      "social-media-post/city-food-map-poster",
+      "social-media-post/liquid-glass-bento-product-post",
+      "social-media-post/mathematical-visualization-infographic",
+      "social-media-post/may-day-travel-food-guide-poster",
+      "social-media-post/may-day-travel-map-poster",
+      "social-media-post/nostalgic-disposable-camera-snapshot",
+      "social-media-post/product-inspired-fashion-editorial",
+      "social-media-post/travel-packing-checklist-card",
+      "social-media-post/weekend-city-itinerary-card"
+    ]
+  },
+  {
+    "slug": "ui-app-mockup",
+    "name": "UI 截图 / App Mockup / Landing Page Visual",
+    "count": 5,
+    "generated_previews": 5,
+    "featured": 2,
+    "tags": [
+      "玻璃拟态",
+      "产品截图",
+      "概念界面",
+      "功能展示",
+      "官网分屏",
+      "教程首图",
+      "设备样机",
+      "首屏 Hero",
+      "仪表盘",
+      "App 截图展示",
+      "SaaS 官网视觉",
+      "UI Mockup"
+    ],
+    "prompts": [
+      "ui-app-mockup/dark-glass-product-ui-concept",
+      "ui-app-mockup/feature-split-landing-visual",
+      "ui-app-mockup/mobile-app-screen-stack",
+      "ui-app-mockup/mobile-onboarding-screen-flow",
+      "ui-app-mockup/saas-dashboard-hero-mockup"
+    ]
+  },
+  {
+    "slug": "wechat-article-visual",
+    "name": "公众号头图 / 长图知识卡",
+    "count": 5,
+    "generated_previews": 5,
+    "featured": 1,
+    "tags": [
+      "标题空间",
+      "步骤拆解",
+      "公众号头图",
+      "竖版图文",
+      "信息流",
+      "信息图",
+      "引言摘录",
+      "杂志感",
+      "杂志排版",
+      "长图知识卡",
+      "知识摘要"
+    ],
+    "prompts": [
+      "wechat-article-visual/annual-trend-long-card",
+      "wechat-article-visual/editorial-wechat-hero-cover",
+      "wechat-article-visual/process-breakdown-long-graphic",
+      "wechat-article-visual/quote-driven-editorial-card",
+      "wechat-article-visual/vertical-knowledge-long-card"
+    ]
+  },
+  {
+    "slug": "xiaohongshu-cover",
+    "name": "小红书封面 / 图文首图",
+    "count": 7,
+    "generated_previews": 7,
+    "featured": 1,
+    "tags": [
+      "高信息密度",
+      "教程首图",
+      "前后反差",
+      "强标题感",
+      "清单感",
+      "手账笔记",
+      "小红书封面",
+      "信息图",
+      "桌面摆拍"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/before-after-contrast-cover",
+      "xiaohongshu-cover/budget-breakdown-cover",
+      "xiaohongshu-cover/desk-flatlay-tutorial-cover",
+      "xiaohongshu-cover/handwritten-note-knowledge-cover",
+      "xiaohongshu-cover/mistake-avoidance-cover",
+      "xiaohongshu-cover/three-step-tutorial-cover",
+      "xiaohongshu-cover/viral-checklist-cover"
+    ]
+  },
+  {
+    "slug": "youtube-thumbnail",
+    "name": "YouTube 缩略图",
+    "count": 3,
+    "generated_previews": 3,
+    "featured": 1,
+    "tags": [
+      "反应式封面",
+      "高点击感",
+      "科技感",
+      "夸张表情",
+      "强对比",
+      "Before After",
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/ai-tool-vs-human-thumbnail",
+      "youtube-thumbnail/dramatic-before-after-thumbnail",
+      "youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail"
+    ]
+  }
+]

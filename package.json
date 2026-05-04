@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "validate": "node scripts/validate-repo.mjs",
+    "validate": "node scripts/validate-repo.mjs && node scripts/export-site-data.mjs --check",
     "import:prompt": "node scripts/import-inbox-prompt.mjs",
-    "preview:apply": "node scripts/apply-generated-preview.mjs"
+    "preview:apply": "node scripts/apply-generated-preview.mjs",
+    "export:site-data": "node scripts/export-site-data.mjs",
+    "export:site-data:check": "node scripts/export-site-data.mjs --check"
   }
 }

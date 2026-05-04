@@ -1,0 +1,1329 @@
+[
+  {
+    "name": "信息图",
+    "slug": "信息图",
+    "count": 11,
+    "scenes": [
+      "电商详情页 / Banner 主视觉",
+      "公众号头图 / 长图知识卡",
+      "社媒贴文",
+      "说明示意图",
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "ecommerce-banner/skincare-ingredient-detail-card",
+      "explainer-visual/ai-agent-workflow-diagram",
+      "explainer-visual/feature-workflow-collage",
+      "explainer-visual/floorplan-to-3d-render",
+      "explainer-visual/japanese-style-infographic",
+      "social-media-post/chalkboard-ai-news-summary",
+      "social-media-post/mathematical-visualization-infographic",
+      "social-media-post/may-day-travel-map-poster",
+      "wechat-article-visual/annual-trend-long-card",
+      "xiaohongshu-cover/budget-breakdown-cover",
+      "xiaohongshu-cover/three-step-tutorial-cover"
+    ]
+  },
+  {
+    "name": "小红书封面",
+    "slug": "小红书封面",
+    "count": 8,
+    "scenes": [
+      "社媒贴文",
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "social-media-post/travel-packing-checklist-card",
+      "xiaohongshu-cover/before-after-contrast-cover",
+      "xiaohongshu-cover/budget-breakdown-cover",
+      "xiaohongshu-cover/desk-flatlay-tutorial-cover",
+      "xiaohongshu-cover/handwritten-note-knowledge-cover",
+      "xiaohongshu-cover/mistake-avoidance-cover",
+      "xiaohongshu-cover/three-step-tutorial-cover",
+      "xiaohongshu-cover/viral-checklist-cover"
+    ]
+  },
+  {
+    "name": "电商 Banner",
+    "slug": "电商-banner",
+    "count": 5,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/comparison-selling-point-banner",
+      "ecommerce-banner/festival-campaign-hero-banner",
+      "ecommerce-banner/gift-box-celebration-banner",
+      "ecommerce-banner/luxury-single-product-banner",
+      "ecommerce-banner/skincare-ingredient-detail-card"
+    ]
+  },
+  {
+    "name": "教程首图",
+    "slug": "教程首图",
+    "count": 5,
+    "scenes": [
+      "小红书封面 / 图文首图",
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/mobile-onboarding-screen-flow",
+      "xiaohongshu-cover/desk-flatlay-tutorial-cover",
+      "xiaohongshu-cover/handwritten-note-knowledge-cover",
+      "xiaohongshu-cover/mistake-avoidance-cover",
+      "xiaohongshu-cover/three-step-tutorial-cover"
+    ]
+  },
+  {
+    "name": "品牌吉祥物",
+    "slug": "品牌吉祥物",
+    "count": 4,
+    "scenes": [
+      "品牌视觉实验",
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "brand-visual-lab/brand-sticker-sheet",
+      "logo-ip-mascot/brand-mascot-3d-turnaround",
+      "logo-ip-mascot/mascot-expression-sheet",
+      "logo-ip-mascot/rounded-mascot-badge-system"
+    ]
+  },
+  {
+    "name": "生活方式摄影",
+    "slug": "生活方式摄影",
+    "count": 4,
+    "scenes": [
+      "品牌视觉实验",
+      "社媒贴文"
+    ],
+    "prompts": [
+      "brand-visual-lab/candid-convenience-store-scene",
+      "brand-visual-lab/pop-up-store-concept-scene",
+      "social-media-post/cafe-hopping-route-poster",
+      "social-media-post/nostalgic-disposable-camera-snapshot"
+    ]
+  },
+  {
+    "name": "信息卡片",
+    "slug": "信息卡片",
+    "count": 4,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/cafe-hopping-route-poster",
+      "social-media-post/may-day-travel-food-guide-poster",
+      "social-media-post/travel-packing-checklist-card",
+      "social-media-post/weekend-city-itinerary-card"
+    ]
+  },
+  {
+    "name": "3D 渲染",
+    "slug": "3d-渲染",
+    "count": 3,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/modular-backpack-exploded-view",
+      "product-showcase/transparent-perfume-packshot",
+      "product-showcase/vr-headset-exploded-view"
+    ]
+  },
+  {
+    "name": "9比16海报",
+    "slug": "9比16海报",
+    "count": 3,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/city-food-map-poster",
+      "social-media-post/may-day-travel-food-guide-poster",
+      "social-media-post/may-day-travel-map-poster"
+    ]
+  },
+  {
+    "name": "爆炸视图",
+    "slug": "爆炸视图",
+    "count": 3,
+    "scenes": [
+      "产品展示图",
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/feature-workflow-collage",
+      "product-showcase/modular-backpack-exploded-view",
+      "product-showcase/vr-headset-exploded-view"
+    ]
+  },
+  {
+    "name": "公众号头图",
+    "slug": "公众号头图",
+    "count": 3,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/annual-trend-long-card",
+      "wechat-article-visual/editorial-wechat-hero-cover",
+      "wechat-article-visual/quote-driven-editorial-card"
+    ]
+  },
+  {
+    "name": "旅行地图",
+    "slug": "旅行地图",
+    "count": 3,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/city-food-map-poster",
+      "social-media-post/may-day-travel-map-poster",
+      "social-media-post/weekend-city-itinerary-card"
+    ]
+  },
+  {
+    "name": "旅行攻略",
+    "slug": "旅行攻略",
+    "count": 3,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/cafe-hopping-route-poster",
+      "social-media-post/may-day-travel-map-poster",
+      "social-media-post/weekend-city-itinerary-card"
+    ]
+  },
+  {
+    "name": "清单感",
+    "slug": "清单感",
+    "count": 3,
+    "scenes": [
+      "社媒贴文",
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "social-media-post/travel-packing-checklist-card",
+      "xiaohongshu-cover/budget-breakdown-cover",
+      "xiaohongshu-cover/viral-checklist-cover"
+    ]
+  },
+  {
+    "name": "详情页卖点图",
+    "slug": "详情页卖点图",
+    "count": 3,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/comparison-selling-point-banner",
+      "ecommerce-banner/feature-zone-detail-banner",
+      "ecommerce-banner/skincare-ingredient-detail-card"
+    ]
+  },
+  {
+    "name": "长图知识卡",
+    "slug": "长图知识卡",
+    "count": 3,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/annual-trend-long-card",
+      "wechat-article-visual/process-breakdown-long-graphic",
+      "wechat-article-visual/vertical-knowledge-long-card"
+    ]
+  },
+  {
+    "name": "App 截图展示",
+    "slug": "app-截图展示",
+    "count": 3,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/dark-glass-product-ui-concept",
+      "ui-app-mockup/mobile-app-screen-stack",
+      "ui-app-mockup/mobile-onboarding-screen-flow"
+    ]
+  },
+  {
+    "name": "YouTube 缩略图",
+    "slug": "youtube-缩略图",
+    "count": 3,
+    "scenes": [
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/ai-tool-vs-human-thumbnail",
+      "youtube-thumbnail/dramatic-before-after-thumbnail",
+      "youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail"
+    ]
+  },
+  {
+    "name": "电影海报感",
+    "slug": "电影海报感",
+    "count": 2,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/cinematic-character-poster",
+      "poster-cover/minimal-album-cover"
+    ]
+  },
+  {
+    "name": "高信息密度",
+    "slug": "高信息密度",
+    "count": 2,
+    "scenes": [
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/mistake-avoidance-cover",
+      "xiaohongshu-cover/viral-checklist-cover"
+    ]
+  },
+  {
+    "name": "科技感",
+    "slug": "科技感",
+    "count": 2,
+    "scenes": [
+      "社媒头像 / 形象图",
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "social-avatar/neon-tech-avatar",
+      "youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail"
+    ]
+  },
+  {
+    "name": "旅行美食",
+    "slug": "旅行美食",
+    "count": 2,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/city-food-map-poster",
+      "social-media-post/may-day-travel-food-guide-poster"
+    ]
+  },
+  {
+    "name": "盲盒包装",
+    "slug": "盲盒包装",
+    "count": 2,
+    "scenes": [
+      "产品展示图",
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "product-showcase/collectible-box-packshot",
+      "social-avatar/studio-founder-portrait"
+    ]
+  },
+  {
+    "name": "黏土风",
+    "slug": "黏土风",
+    "count": 2,
+    "scenes": [
+      "海报封面",
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "poster-cover/festival-sale-poster",
+      "social-avatar/clay-style-profile"
+    ]
+  },
+  {
+    "name": "强对比",
+    "slug": "强对比",
+    "count": 2,
+    "scenes": [
+      "电商详情页 / Banner 主视觉",
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "ecommerce-banner/comparison-selling-point-banner",
+      "youtube-thumbnail/ai-tool-vs-human-thumbnail"
+    ]
+  },
+  {
+    "name": "亚克力质感",
+    "slug": "亚克力质感",
+    "count": 2,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/collectible-box-packshot",
+      "product-showcase/transparent-perfume-packshot"
+    ]
+  },
+  {
+    "name": "知识总结",
+    "slug": "知识总结",
+    "count": 2,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/chalkboard-ai-news-summary",
+      "social-media-post/mathematical-visualization-infographic"
+    ]
+  },
+  {
+    "name": "抓拍感",
+    "slug": "抓拍感",
+    "count": 2,
+    "scenes": [
+      "品牌视觉实验",
+      "社媒贴文"
+    ],
+    "prompts": [
+      "brand-visual-lab/candid-convenience-store-scene",
+      "social-media-post/nostalgic-disposable-camera-snapshot"
+    ]
+  },
+  {
+    "name": "Logo 视觉",
+    "slug": "logo-视觉",
+    "count": 2,
+    "scenes": [
+      "品牌视觉实验",
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "brand-visual-lab/brand-sticker-sheet",
+      "logo-ip-mascot/object-inspired-logo-visual"
+    ]
+  },
+  {
+    "name": "SaaS 官网视觉",
+    "slug": "saas-官网视觉",
+    "count": 2,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/feature-split-landing-visual",
+      "ui-app-mockup/saas-dashboard-hero-mockup"
+    ]
+  },
+  {
+    "name": "3D 户型",
+    "slug": "3d-户型",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/floorplan-to-3d-render"
+    ]
+  },
+  {
+    "name": "3D 角色",
+    "slug": "3d-角色",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/brand-mascot-3d-turnaround"
+    ]
+  },
+  {
+    "name": "标题空间",
+    "slug": "标题空间",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/editorial-wechat-hero-cover"
+    ]
+  },
+  {
+    "name": "表情设定",
+    "slug": "表情设定",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/mascot-expression-sheet"
+    ]
+  },
+  {
+    "name": "玻璃拟态",
+    "slug": "玻璃拟态",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/dark-glass-product-ui-concept"
+    ]
+  },
+  {
+    "name": "步骤拆解",
+    "slug": "步骤拆解",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/process-breakdown-long-graphic"
+    ]
+  },
+  {
+    "name": "产品结构",
+    "slug": "产品结构",
+    "count": 1,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/modular-backpack-exploded-view"
+    ]
+  },
+  {
+    "name": "产品截图",
+    "slug": "产品截图",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/mobile-app-screen-stack"
+    ]
+  },
+  {
+    "name": "产品说明",
+    "slug": "产品说明",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/liquid-glass-bento-product-post"
+    ]
+  },
+  {
+    "name": "创作感",
+    "slug": "创作感",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cozy-ai-art-studio-collaboration"
+    ]
+  },
+  {
+    "name": "大促氛围",
+    "slug": "大促氛围",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/festival-campaign-hero-banner"
+    ]
+  },
+  {
+    "name": "单品主视觉",
+    "slug": "单品主视觉",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/luxury-single-product-banner"
+    ]
+  },
+  {
+    "name": "电商氛围",
+    "slug": "电商氛围",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/festival-sale-poster"
+    ]
+  },
+  {
+    "name": "反应式封面",
+    "slug": "反应式封面",
+    "count": 1,
+    "scenes": [
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/shocked-reaction-tech-breakdown-thumbnail"
+    ]
+  },
+  {
+    "name": "封面设计",
+    "slug": "封面设计",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/minimal-album-cover"
+    ]
+  },
+  {
+    "name": "概念界面",
+    "slug": "概念界面",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/dark-glass-product-ui-concept"
+    ]
+  },
+  {
+    "name": "概念提案",
+    "slug": "概念提案",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/pop-up-store-concept-scene"
+    ]
+  },
+  {
+    "name": "高点击感",
+    "slug": "高点击感",
+    "count": 1,
+    "scenes": [
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/dramatic-before-after-thumbnail"
+    ]
+  },
+  {
+    "name": "高级质感",
+    "slug": "高级质感",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/luxury-single-product-banner"
+    ]
+  },
+  {
+    "name": "工作室氛围",
+    "slug": "工作室氛围",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cozy-ai-art-studio-collaboration"
+    ]
+  },
+  {
+    "name": "工作室视觉",
+    "slug": "工作室视觉",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/studio-founder-portrait"
+    ]
+  },
+  {
+    "name": "功能流程",
+    "slug": "功能流程",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/feature-workflow-collage"
+    ]
+  },
+  {
+    "name": "功能展示",
+    "slug": "功能展示",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/feature-split-landing-visual"
+    ]
+  },
+  {
+    "name": "官网分屏",
+    "slug": "官网分屏",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/feature-split-landing-visual"
+    ]
+  },
+  {
+    "name": "广告大片",
+    "slug": "广告大片",
+    "count": 1,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/transparent-perfume-packshot"
+    ]
+  },
+  {
+    "name": "黑板手绘",
+    "slug": "黑板手绘",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/chalkboard-ai-news-summary"
+    ]
+  },
+  {
+    "name": "横幅主视觉",
+    "slug": "横幅主视觉",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/festival-campaign-hero-banner"
+    ]
+  },
+  {
+    "name": "徽章感",
+    "slug": "徽章感",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/rounded-mascot-badge-system"
+    ]
+  },
+  {
+    "name": "极简构图",
+    "slug": "极简构图",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/minimal-album-cover"
+    ]
+  },
+  {
+    "name": "胶片感",
+    "slug": "胶片感",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/nostalgic-disposable-camera-snapshot"
+    ]
+  },
+  {
+    "name": "角色系统",
+    "slug": "角色系统",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/rounded-mascot-badge-system"
+    ]
+  },
+  {
+    "name": "教程视觉",
+    "slug": "教程视觉",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/japanese-style-infographic"
+    ]
+  },
+  {
+    "name": "节庆视觉",
+    "slug": "节庆视觉",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/festival-sale-poster"
+    ]
+  },
+  {
+    "name": "节庆营销",
+    "slug": "节庆营销",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/gift-box-celebration-banner"
+    ]
+  },
+  {
+    "name": "科技产品",
+    "slug": "科技产品",
+    "count": 1,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/vr-headset-exploded-view"
+    ]
+  },
+  {
+    "name": "可爱风",
+    "slug": "可爱风",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/clay-style-profile"
+    ]
+  },
+  {
+    "name": "夸张表情",
+    "slug": "夸张表情",
+    "count": 1,
+    "scenes": [
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/ai-tool-vs-human-thumbnail"
+    ]
+  },
+  {
+    "name": "礼盒场景",
+    "slug": "礼盒场景",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/gift-box-celebration-banner"
+    ]
+  },
+  {
+    "name": "流程图",
+    "slug": "流程图",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/ai-agent-workflow-diagram"
+    ]
+  },
+  {
+    "name": "模块化卖点",
+    "slug": "模块化卖点",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/feature-zone-detail-banner"
+    ]
+  },
+  {
+    "name": "拟物标识",
+    "slug": "拟物标识",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/object-inspired-logo-visual"
+    ]
+  },
+  {
+    "name": "品牌灵感",
+    "slug": "品牌灵感",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/product-inspired-fashion-editorial"
+    ]
+  },
+  {
+    "name": "品牌人格化",
+    "slug": "品牌人格化",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cozy-ai-art-studio-collaboration"
+    ]
+  },
+  {
+    "name": "品牌人设",
+    "slug": "品牌人设",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/studio-founder-portrait"
+    ]
+  },
+  {
+    "name": "品牌视觉",
+    "slug": "品牌视觉",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/pop-up-store-concept-scene"
+    ]
+  },
+  {
+    "name": "品牌提案",
+    "slug": "品牌提案",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/object-inspired-logo-visual"
+    ]
+  },
+  {
+    "name": "前后反差",
+    "slug": "前后反差",
+    "count": 1,
+    "scenes": [
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/before-after-contrast-cover"
+    ]
+  },
+  {
+    "name": "强标题感",
+    "slug": "强标题感",
+    "count": 1,
+    "scenes": [
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/before-after-contrast-cover"
+    ]
+  },
+  {
+    "name": "人设图",
+    "slug": "人设图",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/clay-style-profile"
+    ]
+  },
+  {
+    "name": "人物商品化",
+    "slug": "人物商品化",
+    "count": 1,
+    "scenes": [
+      "产品展示图"
+    ],
+    "prompts": [
+      "product-showcase/collectible-box-packshot"
+    ]
+  },
+  {
+    "name": "人物主视觉",
+    "slug": "人物主视觉",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/cinematic-character-poster"
+    ]
+  },
+  {
+    "name": "日系排版",
+    "slug": "日系排版",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/japanese-style-infographic"
+    ]
+  },
+  {
+    "name": "赛博光效",
+    "slug": "赛博光效",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/neon-tech-avatar"
+    ]
+  },
+  {
+    "name": "商品说明",
+    "slug": "商品说明",
+    "count": 1,
+    "scenes": [
+      "电商详情页 / Banner 主视觉"
+    ],
+    "prompts": [
+      "ecommerce-banner/feature-zone-detail-banner"
+    ]
+  },
+  {
+    "name": "设备样机",
+    "slug": "设备样机",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/mobile-app-screen-stack"
+    ]
+  },
+  {
+    "name": "设定图",
+    "slug": "设定图",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/brand-mascot-3d-turnaround"
+    ]
+  },
+  {
+    "name": "时尚企划",
+    "slug": "时尚企划",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/product-inspired-fashion-editorial"
+    ]
+  },
+  {
+    "name": "世界观感",
+    "slug": "世界观感",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup"
+    ]
+  },
+  {
+    "name": "视觉提案",
+    "slug": "视觉提案",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/product-inspired-fashion-editorial"
+    ]
+  },
+  {
+    "name": "手账笔记",
+    "slug": "手账笔记",
+    "count": 1,
+    "scenes": [
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/handwritten-note-knowledge-cover"
+    ]
+  },
+  {
+    "name": "首屏 Hero",
+    "slug": "首屏-hero",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/saas-dashboard-hero-mockup"
+    ]
+  },
+  {
+    "name": "竖版图文",
+    "slug": "竖版图文",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/vertical-knowledge-long-card"
+    ]
+  },
+  {
+    "name": "数学可视化",
+    "slug": "数学可视化",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/mathematical-visualization-infographic"
+    ]
+  },
+  {
+    "name": "贴纸感",
+    "slug": "贴纸感",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/brand-sticker-sheet"
+    ]
+  },
+  {
+    "name": "头像模板",
+    "slug": "头像模板",
+    "count": 1,
+    "scenes": [
+      "社媒头像 / 形象图"
+    ],
+    "prompts": [
+      "social-avatar/neon-tech-avatar"
+    ]
+  },
+  {
+    "name": "戏剧灯光",
+    "slug": "戏剧灯光",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/cinematic-character-poster"
+    ]
+  },
+  {
+    "name": "信息流",
+    "slug": "信息流",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/process-breakdown-long-graphic"
+    ]
+  },
+  {
+    "name": "叙事界面",
+    "slug": "叙事界面",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup"
+    ]
+  },
+  {
+    "name": "液态玻璃",
+    "slug": "液态玻璃",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/liquid-glass-bento-product-post"
+    ]
+  },
+  {
+    "name": "仪表盘",
+    "slug": "仪表盘",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/saas-dashboard-hero-mockup"
+    ]
+  },
+  {
+    "name": "引言摘录",
+    "slug": "引言摘录",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/quote-driven-editorial-card"
+    ]
+  },
+  {
+    "name": "杂志感",
+    "slug": "杂志感",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/editorial-wechat-hero-cover"
+    ]
+  },
+  {
+    "name": "杂志排版",
+    "slug": "杂志排版",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/quote-driven-editorial-card"
+    ]
+  },
+  {
+    "name": "真实叙事",
+    "slug": "真实叙事",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/candid-convenience-store-scene"
+    ]
+  },
+  {
+    "name": "知识摘要",
+    "slug": "知识摘要",
+    "count": 1,
+    "scenes": [
+      "公众号头图 / 长图知识卡"
+    ],
+    "prompts": [
+      "wechat-article-visual/vertical-knowledge-long-card"
+    ]
+  },
+  {
+    "name": "轴测视角",
+    "slug": "轴测视角",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/floorplan-to-3d-render"
+    ]
+  },
+  {
+    "name": "桌面摆拍",
+    "slug": "桌面摆拍",
+    "count": 1,
+    "scenes": [
+      "小红书封面 / 图文首图"
+    ],
+    "prompts": [
+      "xiaohongshu-cover/desk-flatlay-tutorial-cover"
+    ]
+  },
+  {
+    "name": "AI 工作流",
+    "slug": "ai-工作流",
+    "count": 1,
+    "scenes": [
+      "说明示意图"
+    ],
+    "prompts": [
+      "explainer-visual/ai-agent-workflow-diagram"
+    ]
+  },
+  {
+    "name": "Before After",
+    "slug": "before-after",
+    "count": 1,
+    "scenes": [
+      "YouTube 缩略图"
+    ],
+    "prompts": [
+      "youtube-thumbnail/dramatic-before-after-thumbnail"
+    ]
+  },
+  {
+    "name": "Bento Grid",
+    "slug": "bento-grid",
+    "count": 1,
+    "scenes": [
+      "社媒贴文"
+    ],
+    "prompts": [
+      "social-media-post/liquid-glass-bento-product-post"
+    ]
+  },
+  {
+    "name": "IP 延展",
+    "slug": "ip-延展",
+    "count": 1,
+    "scenes": [
+      "LOGO / IP 角色 / 吉祥物视觉"
+    ],
+    "prompts": [
+      "logo-ip-mascot/mascot-expression-sheet"
+    ]
+  },
+  {
+    "name": "UI Mockup",
+    "slug": "ui-mockup",
+    "count": 1,
+    "scenes": [
+      "UI 截图 / App Mockup / Landing Page Visual"
+    ],
+    "prompts": [
+      "ui-app-mockup/mobile-onboarding-screen-flow"
+    ]
+  },
+  {
+    "name": "VN UI",
+    "slug": "vn-ui",
+    "count": 1,
+    "scenes": [
+      "品牌视觉实验"
+    ],
+    "prompts": [
+      "brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup"
+    ]
+  }
+]

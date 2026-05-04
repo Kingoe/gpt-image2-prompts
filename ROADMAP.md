@@ -12,6 +12,7 @@
 - 质量状态：`60` 条 `polished`，`0` 条 `needs-preview`
 - 新版复用说明：`60` 条卡片已补齐变量说明与生成注意事项，其中首页 `16` 条精选已完成专属精修
 - 剩余配图队列：P4 / P5 共 `20` 条已完成，正式卡片达到 `60/60` 真实生成效果图
+- v2.0 数据层：已新增 `site-data/`，可从 Markdown 自动导出 prompts / scenes / tags / summary JSON
 
 ## v1.1 内容厚度与首页质感
 
@@ -83,7 +84,7 @@
 
 - 使用 `Astro` 做静态内容站。
 - Markdown 继续作为唯一内容源。
-- 网站自动读取 `library/`、`tags/`、`assets/`。
+- 网站自动读取 `library/`、`tags/`、`assets/`。当前已先落地 `site-data/` JSON 导出层，后续页面可直接读取。
 
 页面结构：
 
@@ -95,7 +96,7 @@
 
 验收标准：
 
-- 新增 Markdown 后网站自动更新。
+- 新增 Markdown 后网站自动更新。当前已支持 `npm run export:site-data` 重新生成站点数据。
 - 不破坏 GitHub 仓库的内容优先结构。
 - 卡片页支持一键复制提示词。
 

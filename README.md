@@ -60,6 +60,7 @@
 - 项目路线图：[ROADMAP.md](ROADMAP.md)
 - 待配图清单：[preview-requests/backlog.md](preview-requests/backlog.md)
 - 剩余效果图批次：[preview-requests/remaining-batch.md](preview-requests/remaining-batch.md)
+- v2.0 站点数据导出：[site-data/README.md](site-data/README.md)
 
 ## 精选提示词
 
@@ -140,6 +141,7 @@
 
 ## 最近新增
 
+- 2026-05-04: 启动 v2.0 轻量展示站数据层，新增 `site-data/` JSON 导出，后续可供 Astro 首页、场景页、标签页和搜索页直接读取。
 - 2026-05-04: 完成 P5 结构化与实验内容 `10` 张真实效果图，正式卡片真实生成图达到 `60/60`。
 - 2026-05-04: 完成 P4 高复用场景 `10` 张真实效果图，真实生成图数量达到 `50` 条。
 - 2026-05-04: 整理 P4 / P5 剩余 `20` 张真实效果图生成队列，为后续推进到 `60/60` 张效果图做准备。
