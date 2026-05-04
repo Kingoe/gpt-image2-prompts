@@ -1,7 +1,10 @@
 ---
 title: 应用功能流程拼贴图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/vr-headset-exploded.svg
+preview: ../../assets/previews/feature-workflow-collage-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 说明示意图
 tags:
   - 爆炸视图
@@ -18,6 +21,10 @@ collected_at: 2026-05-02
 ---
 
 # 应用功能流程拼贴图
+
+## 效果预览
+
+![应用功能流程拼贴图预览](../../assets/previews/feature-workflow-collage-generated.png)
 
 ## 适合什么时候用
 

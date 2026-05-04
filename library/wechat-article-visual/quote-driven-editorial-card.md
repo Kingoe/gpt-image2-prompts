@@ -1,7 +1,10 @@
 ---
 title: 对话摘录海报图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/wechat-quote.svg
+preview: ../../assets/previews/quote-driven-editorial-card-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 公众号头图 / 长图知识卡
 tags:
   - 公众号头图
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 对话摘录海报图
+
+## 效果预览
+
+![对话摘录海报图预览](../../assets/previews/quote-driven-editorial-card-generated.png)
 
 ## 适合什么时候用
 

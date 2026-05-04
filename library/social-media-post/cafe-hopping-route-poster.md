@@ -1,7 +1,10 @@
 ---
 title: 咖啡店打卡路线海报
-status: needs-preview
+status: polished
 cover: ../../assets/covers/cozy-studio.svg
+preview: ../../assets/previews/cafe-hopping-route-poster-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 生活方式摄影
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 咖啡店打卡路线海报
+
+## 效果预览
+
+![咖啡店打卡路线海报预览](../../assets/previews/cafe-hopping-route-poster-generated.png)
 
 ## 适合什么时候用
 

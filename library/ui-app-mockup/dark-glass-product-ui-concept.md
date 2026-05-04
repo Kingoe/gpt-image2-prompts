@@ -1,7 +1,10 @@
 ---
 title: 深色玻璃感产品概念图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/ui-dark-glass.svg
+preview: ../../assets/previews/dark-glass-product-ui-concept-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: UI 截图 / App Mockup / Landing Page Visual
 tags:
   - App 截图展示
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 深色玻璃感产品概念图
+
+## 效果预览
+
+![深色玻璃感产品概念图预览](../../assets/previews/dark-glass-product-ui-concept-generated.png)
 
 ## 适合什么时候用
 

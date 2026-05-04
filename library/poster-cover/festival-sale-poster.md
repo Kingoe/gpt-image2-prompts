@@ -1,7 +1,10 @@
 ---
 title: 节日营销海报套版
-status: needs-preview
+status: polished
 cover: ../../assets/covers/festival-promo.svg
+preview: ../../assets/previews/festival-sale-poster-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 海报封面
 tags:
   - 节庆视觉
@@ -18,6 +21,10 @@ collected_at: 2026-05-02
 ---
 
 # 节日营销海报套版
+
+## 效果预览
+
+![节日营销海报套版预览](../../assets/previews/festival-sale-poster-generated.png)
 
 ## 适合什么时候用
 

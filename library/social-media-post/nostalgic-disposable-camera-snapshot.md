@@ -1,7 +1,10 @@
 ---
 title: 一次性胶片感生活抓拍
-status: needs-preview
+status: polished
 cover: ../../assets/covers/candid-cashier.svg
+preview: ../../assets/previews/nostalgic-disposable-camera-snapshot-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 生活方式摄影
@@ -17,6 +20,10 @@ collected_at: 2026-05-03
 ---
 
 # 一次性胶片感生活抓拍
+
+## 效果预览
+
+![一次性胶片感生活抓拍预览](../../assets/previews/nostalgic-disposable-camera-snapshot-generated.png)
 
 ## 适合什么时候用
 

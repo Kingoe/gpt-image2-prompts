@@ -1,7 +1,10 @@
 ---
 title: 品牌贴纸套装展示图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/mascot-sheet.svg
+preview: ../../assets/previews/brand-sticker-sheet-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 品牌视觉实验
 tags:
   - 品牌吉祥物
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 品牌贴纸套装展示图
+
+## 效果预览
+
+![品牌贴纸套装展示图预览](../../assets/previews/brand-sticker-sheet-generated.png)
 
 ## 适合什么时候用
 

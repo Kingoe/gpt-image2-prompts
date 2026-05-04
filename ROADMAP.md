@@ -8,10 +8,10 @@
 - 使用场景：`12` 类
 - 标签入口：`23` 个
 - 已接入效果图预览：`12` 条精选卡片
-- 真实生成效果图：`40` 条
-- 质量状态：`40` 条 `polished`，`20` 条 `needs-preview`
+- 真实生成效果图：`60` 条
+- 质量状态：`60` 条 `polished`，`0` 条 `needs-preview`
 - 新版复用说明：`60` 条卡片已补齐变量说明与生成注意事项，其中首页 `16` 条精选已完成专属精修
-- 剩余配图队列：P4 / P5 共 `20` 条已整理到 [remaining-batch.md](preview-requests/remaining-batch.md)
+- 剩余配图队列：P4 / P5 共 `20` 条已完成，正式卡片达到 `60/60` 真实生成效果图
 
 ## v1.1 内容厚度与首页质感
 
@@ -57,7 +57,7 @@
 执行范围：
 
 - 维护 [preview-requests/backlog.md](preview-requests/backlog.md)。
-- 下一批剩余 `20` 张效果图已整理到 [preview-requests/remaining-batch.md](preview-requests/remaining-batch.md)。
+- 剩余 `20` 张效果图已通过 [preview-requests/remaining-batch.md](preview-requests/remaining-batch.md) 批次补齐。
 - 按批次生成真实效果图，并保存到 `assets/previews/`。
 - 用 `npm run preview:apply` 回填卡片。
 - 不满意的生成图用 `-generated-v2.png` 保留迭代版本，不直接覆盖已有资产。
@@ -71,7 +71,7 @@
 
 验收标准：
 
-- 至少 `30` 条卡片有真实生成效果图。
+- 至少 `30` 条卡片有真实生成效果图，当前已达到 `60` 条。
 - 首页精选全部为 `preview_type: generated`。
 - 每张真实图都有清晰来源标注。
 

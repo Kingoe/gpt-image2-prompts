@@ -1,6 +1,6 @@
 # P4 / P5 剩余效果图生成批次
 
-这一批用于把正式卡片从 `40/60` 张真实生成效果图推进到 `60/60`。建议先做 P4，再做 P5。
+这一批用于把正式卡片从 `40/60` 张真实生成效果图推进到 `60/60`。P4 和 P5 已完成。
 
 ## 执行规则
 
@@ -10,7 +10,7 @@
 - 如果首版不满意，保留为 `-generated-v2.png`，不要覆盖已经可用的图片。
 - 地图、流程、长图、UI 类图片回填前必须人工检查文字和结构。
 
-## P4：高复用场景
+## P4：高复用场景（已完成）
 
 | 序号 | 卡片 | 建议比例 | 目标路径 |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@
 | 09 | `library/xiaohongshu-cover/budget-breakdown-cover.md` | 3:4 | `assets/previews/budget-breakdown-cover-generated.png` |
 | 10 | `library/xiaohongshu-cover/handwritten-note-knowledge-cover.md` | 3:4 | `assets/previews/handwritten-note-knowledge-cover-generated.png` |
 
-## P5：结构化与实验内容
+## P5：结构化与实验内容（已完成）
 
 | 序号 | 卡片 | 建议比例 | 目标路径 |
 | --- | --- | --- | --- |
@@ -44,4 +44,4 @@
 
 - `npm test`
 - `npm run validate`
-- `preview-requests/backlog.md` 中 P4/P5 状态更新为 `generated`
+- `preview-requests/backlog.md` 中 P4/P5 状态已更新为 `generated`

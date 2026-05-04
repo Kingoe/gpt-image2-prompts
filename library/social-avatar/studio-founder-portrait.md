@@ -1,7 +1,10 @@
 ---
 title: 工作室创始人人设照
-status: needs-preview
+status: polished
 cover: ../../assets/covers/neon-avatar.svg
+preview: ../../assets/previews/studio-founder-portrait-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒头像 / 形象图
 tags:
   - 盲盒包装
@@ -18,6 +21,10 @@ collected_at: 2026-05-02
 ---
 
 # 工作室创始人人设照
+
+## 效果预览
+
+![工作室创始人人设照预览](../../assets/previews/studio-founder-portrait-generated.png)
 
 ## 适合什么时候用
 

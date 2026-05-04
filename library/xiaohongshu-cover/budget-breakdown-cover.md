@@ -1,7 +1,10 @@
 ---
 title: 预算拆解型首图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/xhs-cover-checklist.svg
+preview: ../../assets/previews/budget-breakdown-cover-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 小红书封面 / 图文首图
 tags:
   - 小红书封面
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 预算拆解型首图
+
+## 效果预览
+
+![预算拆解型首图预览](../../assets/previews/budget-breakdown-cover-generated.png)
 
 ## 适合什么时候用
 

@@ -1,7 +1,10 @@
 ---
 title: 流程拆解长图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/wechat-flow.svg
+preview: ../../assets/previews/process-breakdown-long-graphic-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 公众号头图 / 长图知识卡
 tags:
   - 长图知识卡
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 流程拆解长图
+
+## 效果预览
+
+![流程拆解长图预览](../../assets/previews/process-breakdown-long-graphic-generated.png)
 
 ## 适合什么时候用
 

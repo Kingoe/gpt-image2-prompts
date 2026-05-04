@@ -1,7 +1,10 @@
 ---
 title: 产品灵感服装企划图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/fashion-editorial.svg
+preview: ../../assets/previews/product-inspired-fashion-editorial-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 时尚企划
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 产品灵感服装企划图
+
+## 效果预览
+
+![产品灵感服装企划图预览](../../assets/previews/product-inspired-fashion-editorial-generated.png)
 
 ## 适合什么时候用
 

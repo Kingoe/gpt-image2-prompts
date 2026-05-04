@@ -1,7 +1,10 @@
 ---
 title: 品牌快闪店概念场景图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/candid-cashier.svg
+preview: ../../assets/previews/pop-up-store-concept-scene-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 品牌视觉实验
 tags:
   - 生活方式摄影
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 品牌快闪店概念场景图
+
+## 效果预览
+
+![品牌快闪店概念场景图预览](../../assets/previews/pop-up-store-concept-scene-generated.png)
 
 ## 适合什么时候用
 

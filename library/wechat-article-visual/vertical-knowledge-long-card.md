@@ -1,7 +1,10 @@
 ---
 title: 竖版知识长图卡
-status: needs-preview
+status: polished
 cover: ../../assets/covers/wechat-longcard.svg
+preview: ../../assets/previews/vertical-knowledge-long-card-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 公众号头图 / 长图知识卡
 tags:
   - 长图知识卡
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 竖版知识长图卡
+
+## 效果预览
+
+![竖版知识长图卡预览](../../assets/previews/vertical-knowledge-long-card-generated.png)
 
 ## 适合什么时候用
 

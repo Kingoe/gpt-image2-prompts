@@ -1,7 +1,10 @@
 ---
 title: 黏土风人物头像
-status: needs-preview
+status: polished
 cover: ../../assets/covers/clay-profile.svg
+preview: ../../assets/previews/clay-style-profile-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒头像 / 形象图
 tags:
   - 黏土风
@@ -18,6 +21,10 @@ collected_at: 2026-05-02
 ---
 
 # 黏土风人物头像
+
+## 效果预览
+
+![黏土风人物头像预览](../../assets/previews/clay-style-profile-generated.png)
 
 ## 适合什么时候用
 

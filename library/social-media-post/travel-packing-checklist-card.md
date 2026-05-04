@@ -1,7 +1,10 @@
 ---
 title: 旅行出发前清单卡
-status: needs-preview
+status: polished
 cover: ../../assets/covers/xhs-cover-checklist.svg
+preview: ../../assets/previews/travel-packing-checklist-card-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 社媒贴文
 tags:
   - 信息卡片
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 旅行出发前清单卡
+
+## 效果预览
+
+![旅行出发前清单卡预览](../../assets/previews/travel-packing-checklist-card-generated.png)
 
 ## 适合什么时候用
 

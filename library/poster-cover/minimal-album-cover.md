@@ -1,7 +1,10 @@
 ---
 title: 极简专辑封面
-status: needs-preview
+status: polished
 cover: ../../assets/covers/cinematic-poster.svg
+preview: ../../assets/previews/minimal-album-cover-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 海报封面
 tags:
   - 电影海报感
@@ -17,6 +20,10 @@ collected_at: 2026-05-02
 ---
 
 # 极简专辑封面
+
+## 效果预览
+
+![极简专辑封面预览](../../assets/previews/minimal-album-cover-generated.png)
 
 ## 适合什么时候用
 

@@ -1,7 +1,10 @@
 ---
 title: 平面户型转 3D 示意图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/floorplan-3d.svg
+preview: ../../assets/previews/floorplan-to-3d-render-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 说明示意图
 tags:
   - 3D 户型
@@ -18,6 +21,10 @@ collected_at: 2026-05-02
 ---
 
 # 平面户型转 3D 示意图
+
+## 效果预览
+
+![平面户型转 3D 示意图预览](../../assets/previews/floorplan-to-3d-render-generated.png)
 
 ## 适合什么时候用
 

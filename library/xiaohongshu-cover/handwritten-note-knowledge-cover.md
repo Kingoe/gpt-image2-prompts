@@ -1,7 +1,10 @@
 ---
 title: 手写笔记感知识首图
-status: needs-preview
+status: polished
 cover: ../../assets/covers/xhs-cover-note.svg
+preview: ../../assets/previews/handwritten-note-knowledge-cover-generated.png
+preview_type: generated
+preview_source: generated from this prompt
 scene: 小红书封面 / 图文首图
 tags:
   - 小红书封面
@@ -18,6 +21,10 @@ collected_at: 2026-05-03
 ---
 
 # 手写笔记感知识首图
+
+## 效果预览
+
+![手写笔记感知识首图预览](../../assets/previews/handwritten-note-knowledge-cover-generated.png)
 
 ## 适合什么时候用
 
