@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GPT Image 2 Prompt Atlas</title>
+    <meta
+      name="description"
+      content="一个可搜索、可预览、可复制的 GPT Image 2 提示词图鉴。"
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar" aria-label="站点导航">
+          <a class="brand-mark" href="#top" aria-label="回到顶部">
+            <span class="brand-mark__dot"></span>
+            Prompt Atlas
+          </a>
+          <div class="topbar__links">
+            <a href="#featured">精选</a>
+            <a href="#browse">浏览</a>
+            <a href="../README.md">GitHub README</a>
+          </div>
+        </nav>
+
+        <section class="hero__grid" id="top">
+          <div class="hero__copy">
+            <p class="eyebrow">GPT Image 2 Prompt Library</p>
+            <h1>先看效果，再拿走提示词。</h1>
+            <p class="hero__lead">
+              把分散在网页、社群和截图里的高价值提示词整理成一座视觉图鉴：
+              可以搜索、筛选、预览，也可以一键复制完整提示词。
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#browse">开始浏览</a>
+              <a class="button button--ghost" href="../CONTRIBUTING.md">贡献提示词</a>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="仓库数据概览">
+            <p class="hero-card__label">Current Index</p>
+            <div class="hero-card__metric">
+              <strong id="summary-prompts">60</strong>
+              <span>Prompt Cards</span>
+            </div>
+            <div class="hero-card__rows" id="summary-rows">
+              <span>12 Scenes</span>
+              <span>60 Previews</span>
+              <span>16 Featured</span>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <main>
+        <section class="section" id="featured">
+          <div class="section__heading">
+            <p class="eyebrow">Featured</p>
+            <h2>精选灵感入口</h2>
+            <p>先用效果图判断方向，再进入卡片复制提示词。</p>
+          </div>
+          <div class="featured-rail" id="featured-list" aria-live="polite"></div>
+        </section>
+
+        <section class="section browse" id="browse">
+          <div class="section__heading">
+            <p class="eyebrow">Browse</p>
+            <h2>按目的和风格找到提示词</h2>
+            <p>场景决定你要做什么图，标签帮助你横向寻找相似视觉效果。</p>
+          </div>
+
+          <div class="controls" aria-label="筛选和搜索">
+            <label class="search-box">
+              <span>搜索</span>
+              <input
+                id="search-input"
+                type="search"
+                placeholder="试试：旅行地图、Bento、海报、UI..."
+                autocomplete="off"
+              />
+            </label>
+            <button class="button button--small" id="reset-filters" type="button">
+              重置筛选
+            </button>
+          </div>
+
+          <div class="filter-board">
+            <div>
+              <div class="filter-title">使用场景</div>
+              <div class="chip-list" id="scene-filters"></div>
+            </div>
+            <div>
+              <div class="filter-title">热门标签</div>
+              <div class="chip-list" id="tag-filters"></div>
+            </div>
+          </div>
+
+          <div class="result-line" id="result-line">正在载入提示词...</div>
+          <div class="card-grid" id="prompt-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="prompt-dialog" id="prompt-dialog">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="关闭">×</button>
+      <div class="dialog-grid">
+        <img id="dialog-image" alt="" />
+        <div class="dialog-content">
+          <p class="eyebrow" id="dialog-scene"></p>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-summary"></p>
+          <div class="dialog-tags" id="dialog-tags"></div>
+          <div class="prompt-toolbar">
+            <a id="dialog-link" href="#" target="_blank" rel="noreferrer">打开卡片</a>
+            <button class="button button--small" id="copy-prompt" type="button">
+              复制提示词
+            </button>
+          </div>
+          <pre class="prompt-text"><code id="dialog-prompt"></code></pre>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

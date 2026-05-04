@@ -62,6 +62,7 @@
 - 待配图清单：[preview-requests/backlog.md](preview-requests/backlog.md)
 - 剩余效果图批次：[preview-requests/remaining-batch.md](preview-requests/remaining-batch.md)
 - v2.0 站点数据导出：[site-data/README.md](site-data/README.md)
+- v2.0 静态展示站原型：[site/README.md](site/README.md)
 
 ## 精选提示词
 
@@ -142,6 +143,7 @@
 
 ## 最近新增
 
+- 2026-05-04: 新增 v2.0 静态展示站原型，支持读取 `site-data`、精选浏览、场景/标签筛选、搜索和一键复制提示词。
 - 2026-05-04: 启动 v2.1 社区贡献机制，新增贡献指南、Issue 模板和 PR 模板，明确投稿、补图、标签建议与版权边界。
 - 2026-05-04: 启动 v2.0 轻量展示站数据层，新增 `site-data/` JSON 导出，后续可供 Astro 首页、场景页、标签页和搜索页直接读取。
 - 2026-05-04: 完成 P5 结构化与实验内容 `10` 张真实效果图，正式卡片真实生成图达到 `60/60`。
@@ -207,6 +209,8 @@
 ├── preview-requests/# 真实效果图生成清单
 ├── ROADMAP.md       # 项目后续路线图
 ├── scripts/         # 仓库校验脚本与导入脚本
+├── site/            # v2.0 轻量展示站原型
+├── site-data/       # 展示站 JSON 数据
 ├── tags/            # 标签索引
 ├── templates/       # 卡片模板与收录规范
 └── tests/           # 仓库结构测试

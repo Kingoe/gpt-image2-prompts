@@ -1,0 +1,79 @@
+import { readFile, stat } from "node:fs/promises";
+import path from "node:path";
+
+const REQUIRED_SITE_FILES = [
+  path.join("site", "index.html"),
+  path.join("site", "styles.css"),
+  path.join("site", "app.js"),
+  path.join("site", "favicon.svg"),
+  path.join("site", "README.md"),
+];
+
+const REQUIRED_DATA_FILES = [
+  path.join("site-data", "prompts.json"),
+  path.join("site-data", "scenes.json"),
+  path.join("site-data", "tags.json"),
+  path.join("site-data", "summary.json"),
+];
+
+export async function validateSite(rootDir = process.cwd()) {
+  const errors = [];
+
+  for (const filePath of [...REQUIRED_SITE_FILES, ...REQUIRED_DATA_FILES]) {
+    if (!(await exists(path.join(rootDir, filePath)))) {
+      errors.push(`Missing file: ${filePath}`);
+    }
+  }
+
+  const index = await readOptional(path.join(rootDir, "site", "index.html"));
+  const app = await readOptional(path.join(rootDir, "site", "app.js"));
+
+  for (const dataFile of REQUIRED_DATA_FILES) {
+    const relativeDataPath = `../${dataFile.split(path.sep).join("/")}`;
+    if (!app.includes(relativeDataPath)) {
+      errors.push(`site/app.js does not load ${relativeDataPath}`);
+    }
+  }
+
+  for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input"]) {
+    if (!index.includes(`id="${selector}"`)) {
+      errors.push(`site/index.html is missing #${selector}`);
+    }
+  }
+
+  return {
+    ok: errors.length === 0,
+    errors,
+  };
+}
+
+async function exists(targetPath) {
+  try {
+    await stat(targetPath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function readOptional(targetPath) {
+  try {
+    return await readFile(targetPath, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") return "";
+    throw error;
+  }
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const result = await validateSite(process.cwd());
+
+  if (!result.ok) {
+    for (const error of result.errors) {
+      console.error(`- ${error}`);
+    }
+    process.exitCode = 1;
+  } else {
+    console.log("Site validation passed.");
+  }
+}
