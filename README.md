@@ -59,6 +59,7 @@
 
 - 项目路线图：[ROADMAP.md](ROADMAP.md)
 - 待配图清单：[preview-requests/backlog.md](preview-requests/backlog.md)
+- 剩余效果图批次：[preview-requests/remaining-batch.md](preview-requests/remaining-batch.md)
 
 ## 精选提示词
 
@@ -139,6 +140,7 @@
 
 ## 最近新增
 
+- 2026-05-04: 整理 P4 / P5 剩余 `20` 张真实效果图生成队列，为后续推进到 `60/60` 张效果图做准备。
 - 2026-05-04: 精修首页 `16` 条精选卡片的变量说明和生成注意事项，让每条提示词更容易直接改写复用。
 - 2026-05-04: 启动 v1.2 内容规范升级，为全部 `60` 条正式卡片补齐 `status`、变量说明和生成注意事项，并把状态规则写入模板与校验脚本。
 - 2026-05-04: 补齐 P3 品牌/IP 与实验型内容 `6` 张真实效果图，真实生成图数量达到 `40` 条。

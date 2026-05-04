@@ -7,6 +7,7 @@
 - 已有真实生成效果图：`40` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图
+- 下一阶段目标：推进到 `60/60` 条正式卡片都有真实生成效果图
 
 ## P0：首页精选优先
 
@@ -69,6 +70,40 @@
 | P3 | `library/brand-visual-lab/candid-convenience-store-scene.md` | `generated` | `assets/previews/candid-convenience-store-scene-generated.png` |
 | P3 | `library/brand-visual-lab/cozy-ai-art-studio-collaboration.md` | `generated` | `assets/previews/cozy-ai-art-studio-collaboration-generated.png` |
 | P3 | `library/brand-visual-lab/cinematic-coffee-shop-vn-ui-mockup.md` | `generated` | `assets/previews/cinematic-coffee-shop-vn-ui-generated.png` |
+
+## P4：剩余高复用场景
+
+这些卡片已经可用，但还缺真实生成效果图。优先补它们，可以让常用场景更完整。
+
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P4 | `library/social-avatar/clay-style-profile.md` | `needs-preview` | `assets/previews/clay-style-profile-generated.png` |
+| P4 | `library/social-avatar/studio-founder-portrait.md` | `needs-preview` | `assets/previews/studio-founder-portrait-generated.png` |
+| P4 | `library/poster-cover/festival-sale-poster.md` | `needs-preview` | `assets/previews/festival-sale-poster-generated.png` |
+| P4 | `library/poster-cover/minimal-album-cover.md` | `needs-preview` | `assets/previews/minimal-album-cover-generated.png` |
+| P4 | `library/social-media-post/cafe-hopping-route-poster.md` | `needs-preview` | `assets/previews/cafe-hopping-route-poster-generated.png` |
+| P4 | `library/social-media-post/nostalgic-disposable-camera-snapshot.md` | `needs-preview` | `assets/previews/nostalgic-disposable-camera-snapshot-generated.png` |
+| P4 | `library/social-media-post/product-inspired-fashion-editorial.md` | `needs-preview` | `assets/previews/product-inspired-fashion-editorial-generated.png` |
+| P4 | `library/social-media-post/travel-packing-checklist-card.md` | `needs-preview` | `assets/previews/travel-packing-checklist-card-generated.png` |
+| P4 | `library/xiaohongshu-cover/budget-breakdown-cover.md` | `needs-preview` | `assets/previews/budget-breakdown-cover-generated.png` |
+| P4 | `library/xiaohongshu-cover/handwritten-note-knowledge-cover.md` | `needs-preview` | `assets/previews/handwritten-note-knowledge-cover-generated.png` |
+
+## P5：剩余结构化与实验内容
+
+这些卡片更偏长图、流程、空间或品牌实验，生成后需要重点检查文字、结构和空间关系。
+
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P5 | `library/explainer-visual/feature-workflow-collage.md` | `needs-preview` | `assets/previews/feature-workflow-collage-generated.png` |
+| P5 | `library/explainer-visual/floorplan-to-3d-render.md` | `needs-preview` | `assets/previews/floorplan-to-3d-render-generated.png` |
+| P5 | `library/ui-app-mockup/dark-glass-product-ui-concept.md` | `needs-preview` | `assets/previews/dark-glass-product-ui-concept-generated.png` |
+| P5 | `library/ui-app-mockup/mobile-onboarding-screen-flow.md` | `needs-preview` | `assets/previews/mobile-onboarding-screen-flow-generated.png` |
+| P5 | `library/wechat-article-visual/annual-trend-long-card.md` | `needs-preview` | `assets/previews/annual-trend-long-card-generated.png` |
+| P5 | `library/wechat-article-visual/process-breakdown-long-graphic.md` | `needs-preview` | `assets/previews/process-breakdown-long-graphic-generated.png` |
+| P5 | `library/wechat-article-visual/quote-driven-editorial-card.md` | `needs-preview` | `assets/previews/quote-driven-editorial-card-generated.png` |
+| P5 | `library/wechat-article-visual/vertical-knowledge-long-card.md` | `needs-preview` | `assets/previews/vertical-knowledge-long-card-generated.png` |
+| P5 | `library/brand-visual-lab/brand-sticker-sheet.md` | `needs-preview` | `assets/previews/brand-sticker-sheet-generated.png` |
+| P5 | `library/brand-visual-lab/pop-up-store-concept-scene.md` | `needs-preview` | `assets/previews/pop-up-store-concept-scene-generated.png` |
 
 ## 回填方式
 
