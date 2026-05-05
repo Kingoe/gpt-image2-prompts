@@ -50,7 +50,7 @@ export async function validateSite(rootDir = process.cwd()) {
     errors.push("scripts/build-site.mjs should support SITE_URL for canonical share links");
   }
 
-  for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input", "copy-link"]) {
+  for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input", "copy-link", "about"]) {
     if (!index.includes(`id="${selector}"`)) {
       errors.push(`site/index.html is missing #${selector}`);
     }
@@ -66,7 +66,7 @@ export async function validateSite(rootDir = process.cwd()) {
     errors.push("site/index.html should not show GitHub README in the primary navigation");
   }
 
-  for (const token of ["URLSearchParams", '"prompt"', '"scene"', '"tag"', "githubBlobUrl"]) {
+  for (const token of ["URLSearchParams", '"prompt"', '"scene"', '"tag"', "githubBlobUrl", "listingUrl"]) {
     if (!app.includes(token)) {
       errors.push(`site/app.js is missing URL state support for ${token}`);
     }

@@ -468,6 +468,7 @@ h2 {
   border: 1px solid rgba(23, 32, 27, 0.12);
   border-radius: 999px;
   color: var(--muted);
+  text-decoration: none;
   background: rgba(255, 250, 240, 0.78);
   cursor: pointer;
   transition:
@@ -505,6 +506,60 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 18px;
+}
+
+.site-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(300px, 0.48fr);
+  gap: 34px;
+  padding: 38px;
+  margin: 36px 0 64px;
+  overflow: hidden;
+  border: 1px solid rgba(23, 32, 27, 0.14);
+  border-radius: 34px;
+  background:
+    linear-gradient(135deg, rgba(23, 32, 27, 0.96), rgba(32, 43, 36, 0.92)),
+    radial-gradient(circle at 88% 12%, rgba(216, 90, 42, 0.28), transparent 18rem);
+  color: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.site-footer .eyebrow {
+  color: #f07b45;
+}
+
+.site-footer h2 {
+  max-width: 720px;
+  font-size: clamp(2.6rem, 5vw, 5rem);
+}
+
+.site-footer__content {
+  display: grid;
+  align-content: end;
+  gap: 22px;
+}
+
+.site-footer__content p {
+  margin: 0;
+  color: rgba(244, 237, 221, 0.78);
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.site-footer__links a {
+  padding: 10px 14px;
+  border: 1px solid rgba(244, 237, 221, 0.22);
+  border-radius: 999px;
+  color: var(--paper);
+  font-weight: 800;
+  text-decoration: none;
+  background: rgba(244, 237, 221, 0.08);
 }
 
 .prompt-dialog {
@@ -604,7 +659,8 @@ h2 {
   .hero__grid,
   .section__heading,
   .filter-board,
-  .dialog-grid {
+  .dialog-grid,
+  .site-footer {
     grid-template-columns: 1fr;
   }
 

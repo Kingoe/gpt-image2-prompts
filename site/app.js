@@ -14,6 +14,9 @@ const config = window.PROMPT_ATLAS_CONFIG ?? {
   dataBase: "../site-data",
   linkBase: "..",
   repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts",
+  initialScene: "",
+  initialTag: "",
+  staticPages: false,
 };
 
 const els = {
@@ -84,6 +87,11 @@ function bindEvents() {
   });
 
   els.resetFilters.addEventListener("click", () => {
+    if (config.initialScene || config.initialTag) {
+      window.location.href = joinUrl(config.linkBase, "#browse");
+      return;
+    }
+
     state.scene = "";
     state.tag = "";
     state.query = "";
@@ -105,8 +113,8 @@ function bindEvents() {
 
 function hydrateStateFromUrl() {
   const params = new URLSearchParams(window.location.search);
-  const scene = params.get("scene") ?? "";
-  const tag = params.get("tag") ?? "";
+  const scene = params.get("scene") ?? config.initialScene ?? "";
+  const tag = params.get("tag") ?? config.initialTag ?? "";
 
   state.scene = state.scenes.some((item) => item.slug === scene) ? scene : "";
   state.tag = state.tags.some((item) => item.name === tag) ? tag : "";
@@ -136,10 +144,10 @@ function renderFilters() {
   els.sceneFilters.innerHTML = state.scenes
     .map(
       (scene) => `
-        <button class="chip ${state.scene === scene.slug ? "is-active" : ""}"
-          type="button" data-scene="${escapeHtml(scene.slug)}">
+        <a class="chip ${state.scene === scene.slug ? "is-active" : ""}"
+          href="${escapeHtml(listingUrl("scenes", scene.slug))}" data-scene="${escapeHtml(scene.slug)}">
           ${escapeHtml(scene.name)} · ${scene.count}
-        </button>
+        </a>
       `,
     )
     .join("");
@@ -148,26 +156,34 @@ function renderFilters() {
     .slice(0, 28)
     .map(
       (tag) => `
-        <button class="chip ${state.tag === tag.name ? "is-active" : ""}"
-          type="button" data-tag="${escapeHtml(tag.name)}">
+        <a class="chip ${state.tag === tag.name ? "is-active" : ""}"
+          href="${escapeHtml(listingUrl("tags", tag.slug))}" data-tag="${escapeHtml(tag.name)}">
           ${escapeHtml(tag.name)} · ${tag.count}
-        </button>
+        </a>
       `,
     )
     .join("");
 
-  els.sceneFilters.querySelectorAll("[data-scene]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.scene = state.scene === button.dataset.scene ? "" : button.dataset.scene;
+  if (!config.staticPages) {
+    bindLocalFilterLinks();
+  }
+}
+
+function bindLocalFilterLinks() {
+  els.sceneFilters.querySelectorAll("[data-scene]").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      state.scene = state.scene === link.dataset.scene ? "" : link.dataset.scene;
       renderFilters();
       renderGrid();
       syncUrl({ promptId: "" });
     });
   });
 
-  els.tagFilters.querySelectorAll("[data-tag]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.tag = state.tag === button.dataset.tag ? "" : button.dataset.tag;
+  els.tagFilters.querySelectorAll("[data-tag]").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      state.tag = state.tag === link.dataset.tag ? "" : link.dataset.tag;
       renderFilters();
       renderGrid();
       syncUrl({ promptId: "" });
@@ -333,4 +349,8 @@ function githubBlobUrl(target) {
   const cleanRepo = String(config.repositoryUrl).replace(/\/+$/g, "");
   const cleanTarget = String(target).replace(/^\/+/g, "");
   return `${cleanRepo}/blob/main/${cleanTarget}`;
+}
+
+function listingUrl(type, slug) {
+  return joinUrl(config.linkBase, `${type}/${encodeURIComponent(slug)}/`);
 }

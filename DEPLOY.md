@@ -58,6 +58,8 @@ http://127.0.0.1:4173/prompt-atlas/
 ```text
 http://127.0.0.1:4173/prompt-atlas/?tag=旅行地图
 http://127.0.0.1:4173/prompt-atlas/?prompt=social-media-post/may-day-travel-map-poster
+http://127.0.0.1:4173/prompt-atlas/scenes/social-media-post/
+http://127.0.0.1:4173/prompt-atlas/tags/旅行地图/
 ```
 
 ## 服务器目录建议
@@ -126,3 +128,5 @@ npm run build:site
 `dist/` 是构建产物，不提交到 Git。服务器只需要部署 `dist/` 内容。
 
 发布后建议再打开 `https://kingoecode.com/prompt-atlas/?prompt=social-media-post/may-day-travel-map-poster`，确认单张提示词直链能直接弹出详情。
+
+场景页和标签页也会随构建产物一起生成，例如 `https://kingoecode.com/prompt-atlas/scenes/social-media-post/` 与 `https://kingoecode.com/prompt-atlas/tags/旅行地图/`。

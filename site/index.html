@@ -131,6 +131,27 @@
           <div class="card-grid" id="prompt-grid" aria-live="polite"></div>
         </section>
       </main>
+
+      <footer class="site-footer" id="about">
+        <div>
+          <p class="eyebrow">Source & Rights</p>
+          <h2>提示词可复用，来源要说清。</h2>
+        </div>
+        <div class="site-footer__content">
+          <p>
+            本项目整理可复用的 GPT Image 2 提示词。每张卡片尽量保留来源链接；
+            效果图优先使用基于提示词自行生成的预览，不直接搬运未明确授权的外部图片。
+          </p>
+          <div class="site-footer__links">
+            <a href="https://github.com/Kingoe/gpt-image2-prompts" target="_blank" rel="noreferrer">
+              GitHub 仓库
+            </a>
+            <a href="https://github.com/Kingoe/gpt-image2-prompts/issues/new/choose" target="_blank" rel="noreferrer">
+              投稿 / 反馈
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <dialog class="prompt-dialog" id="prompt-dialog">
@@ -161,7 +182,10 @@
         assetBase: "..",
         dataBase: "../site-data",
         linkBase: "..",
-        repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts"
+        repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts",
+        initialScene: "",
+        initialTag: "",
+        staticPages: false
       };
     </script>
     <script src="./app.js" type="module"></script>

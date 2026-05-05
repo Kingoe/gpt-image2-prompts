@@ -11,8 +11,8 @@ npm run export:site-data
 导出文件：
 
 - `prompts.json`：完整提示词卡片列表，适合首页瀑布流、搜索页和详情页使用
-- `scenes.json`：按使用场景聚合，适合场景列表页使用
-- `tags.json`：按效果标签聚合，适合标签索引页使用
+- `scenes.json`：按使用场景聚合，适合场景列表页和 `/scenes/<slug>/` 静态页使用
+- `tags.json`：按效果标签聚合，适合标签索引页和 `/tags/<slug>/` 静态页使用
 - `summary.json`：总量统计，适合首页指标区使用
 
 校验命令：
