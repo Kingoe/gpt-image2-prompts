@@ -34,7 +34,8 @@ test("buildSite creates a prefix-deployable dist directory", async () => {
   );
 
   assert.match(index, /\/prompt-atlas\/site-data/);
-  assert.match(index, /href="\/prompt-atlas\/README\.md"/);
+  assert.doesNotMatch(index, /GitHub README/);
+  assert.match(index, /repositoryUrl/);
   assert.match(index, /rel="canonical" href="https:\/\/kingoecode\.com\/prompt-atlas\/"/);
   assert.match(
     index,
@@ -68,8 +69,9 @@ async function createSiteFixture() {
   await writeFile(
     path.join(root, "site", "index.html"),
     [
-      '<a href="../README.md" data-deploy-href="README.md">README</a>',
-      '<a href="../CONTRIBUTING.md" data-deploy-href="CONTRIBUTING.md">Contribute</a>',
+      '<a href="#featured">精选</a>',
+      '<a href="#browse">浏览</a>',
+      '<a href="https://github.com/Kingoe/gpt-image2-prompts/issues/new/choose">投稿提示词</a>',
       '<link rel="canonical" href="https://kingoecode.com/prompt-atlas/" />',
       '<meta property="og:image" content="https://kingoecode.com/prompt-atlas/assets/previews/cinematic-character-poster-generated.png" />',
       '<meta name="twitter:card" content="summary_large_image" />',
@@ -78,7 +80,7 @@ async function createSiteFixture() {
       '<dialog id="prompt-dialog"></dialog>',
       '<input id="search-input" />',
       '<button id="copy-link" type="button">复制链接</button>',
-      "<script>window.PROMPT_ATLAS_CONFIG = { assetBase: '..', dataBase: '../site-data', linkBase: '..' };</script>",
+      "<script>window.PROMPT_ATLAS_CONFIG = { assetBase: '..', dataBase: '../site-data', linkBase: '..', repositoryUrl: 'https://github.com/Kingoe/gpt-image2-prompts' };</script>",
     ].join("\n"),
   );
   await writeFile(path.join(root, "site", "styles.css"), "body {}\n");
@@ -94,6 +96,7 @@ async function createSiteFixture() {
       'params.get("prompt");',
       'params.get("scene");',
       'params.get("tag");',
+      "function githubBlobUrl(target) { return config.repositoryUrl + '/blob/main/' + target; }",
     ].join("\n"),
   );
   await writeFile(path.join(root, "site", "README.md"), "# Site\n");

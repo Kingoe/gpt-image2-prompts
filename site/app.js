@@ -13,6 +13,7 @@ const config = window.PROMPT_ATLAS_CONFIG ?? {
   assetBase: "..",
   dataBase: "../site-data",
   linkBase: "..",
+  repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts",
 };
 
 const els = {
@@ -241,7 +242,7 @@ function openDialog(id) {
   els.dialogTags.innerHTML = prompt.tags
     .map((tag) => `<span class="tag-pill">${escapeHtml(tag)}</span>`)
     .join("");
-  els.dialogLink.href = joinUrl(config.linkBase, prompt.path);
+  els.dialogLink.href = githubBlobUrl(prompt.path);
   els.dialogPrompt.textContent = prompt.prompt;
   els.copyPrompt.textContent = "复制提示词";
   els.copyLink.textContent = "复制链接";
@@ -326,4 +327,10 @@ function joinUrl(base, target) {
   }
 
   return `${cleanBase}/${cleanTarget}`;
+}
+
+function githubBlobUrl(target) {
+  const cleanRepo = String(config.repositoryUrl).replace(/\/+$/g, "");
+  const cleanTarget = String(target).replace(/^\/+/g, "");
+  return `${cleanRepo}/blob/main/${cleanTarget}`;
 }

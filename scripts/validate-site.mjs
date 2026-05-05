@@ -62,7 +62,11 @@ export async function validateSite(rootDir = process.cwd()) {
     }
   }
 
-  for (const token of ["URLSearchParams", '"prompt"', '"scene"', '"tag"']) {
+  if (index.includes("GitHub README")) {
+    errors.push("site/index.html should not show GitHub README in the primary navigation");
+  }
+
+  for (const token of ["URLSearchParams", '"prompt"', '"scene"', '"tag"', "githubBlobUrl"]) {
     if (!app.includes(token)) {
       errors.push(`site/app.js is missing URL state support for ${token}`);
     }

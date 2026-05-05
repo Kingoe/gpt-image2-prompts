@@ -45,7 +45,6 @@
           <div class="topbar__links">
             <a href="#featured">精选</a>
             <a href="#browse">浏览</a>
-            <a href="../README.md" data-deploy-href="README.md">GitHub README</a>
           </div>
         </nav>
 
@@ -59,7 +58,14 @@
             </p>
             <div class="hero__actions">
               <a class="button button--primary" href="#browse">开始浏览</a>
-              <a class="button button--ghost" href="../CONTRIBUTING.md" data-deploy-href="CONTRIBUTING.md">贡献提示词</a>
+              <a
+                class="button button--ghost"
+                href="https://github.com/Kingoe/gpt-image2-prompts/issues/new/choose"
+                target="_blank"
+                rel="noreferrer"
+              >
+                投稿提示词
+              </a>
             </div>
           </div>
 
@@ -137,7 +143,7 @@
           <p id="dialog-summary"></p>
           <div class="dialog-tags" id="dialog-tags"></div>
           <div class="prompt-toolbar">
-            <a id="dialog-link" href="#" target="_blank" rel="noreferrer">打开卡片</a>
+            <a id="dialog-link" href="#" target="_blank" rel="noreferrer">GitHub 查看卡片</a>
             <button class="button button--small" id="copy-link" type="button">
               复制链接
             </button>
@@ -154,7 +160,8 @@
       window.PROMPT_ATLAS_CONFIG = {
         assetBase: "..",
         dataBase: "../site-data",
-        linkBase: ".."
+        linkBase: "..",
+        repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts"
       };
     </script>
     <script src="./app.js" type="module"></script>

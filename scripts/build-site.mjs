@@ -65,14 +65,10 @@ function transformIndex(index, basePath, siteUrl) {
     assetBase: baseRoot,
     dataBase: `${baseRoot}/site-data`,
     linkBase: baseRoot,
+    repositoryUrl: "https://github.com/Kingoe/gpt-image2-prompts",
   };
 
   return index
-    .replaceAll('href="../README.md" data-deploy-href="README.md"', `href="${basePath}README.md"`)
-    .replaceAll(
-      'href="../CONTRIBUTING.md" data-deploy-href="CONTRIBUTING.md"',
-      `href="${basePath}CONTRIBUTING.md"`,
-    )
     .replace(/<link rel="canonical" href="[^"]+" \/>/, `<link rel="canonical" href="${publicRoot}" />`)
     .replace(/<meta property="og:url" content="[^"]+" \/>/, `<meta property="og:url" content="${publicRoot}" />`)
     .replace(/<meta property="og:image" content="[^"]+" \/>/, `<meta property="og:image" content="${shareImage}" />`)
