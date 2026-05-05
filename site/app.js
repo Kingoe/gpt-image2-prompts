@@ -6,6 +6,7 @@ const state = {
   scene: "",
   tag: "",
   query: "",
+  initialPromptId: "",
 };
 
 const config = window.PROMPT_ATLAS_CONFIG ?? {
@@ -34,6 +35,7 @@ const els = {
   dialogLink: document.querySelector("#dialog-link"),
   dialogPrompt: document.querySelector("#dialog-prompt"),
   copyPrompt: document.querySelector("#copy-prompt"),
+  copyLink: document.querySelector("#copy-link"),
 };
 
 boot();
@@ -52,11 +54,13 @@ async function boot() {
     state.tags = tags;
     state.summary = summary;
 
+    hydrateStateFromUrl();
     renderSummary();
     renderFeatured();
     renderFilters();
     renderGrid();
     bindEvents();
+    openInitialPromptFromUrl();
   } catch (error) {
     els.resultLine.textContent = "站点数据载入失败，请先运行 npm run export:site-data。";
     console.error(error);
@@ -75,6 +79,7 @@ function bindEvents() {
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
     renderGrid();
+    syncUrl({ promptId: "" });
   });
 
   els.resetFilters.addEventListener("click", () => {
@@ -84,12 +89,29 @@ function bindEvents() {
     els.searchInput.value = "";
     renderFilters();
     renderGrid();
+    syncUrl({ promptId: "" });
   });
 
-  els.dialogClose.addEventListener("click", () => els.dialog.close());
+  els.dialogClose.addEventListener("click", () => closeDialog());
   els.dialog.addEventListener("click", (event) => {
-    if (event.target === els.dialog) els.dialog.close();
+    if (event.target === els.dialog) closeDialog();
   });
+  els.dialog.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeDialog();
+  });
+}
+
+function hydrateStateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const scene = params.get("scene") ?? "";
+  const tag = params.get("tag") ?? "";
+
+  state.scene = state.scenes.some((item) => item.slug === scene) ? scene : "";
+  state.tag = state.tags.some((item) => item.name === tag) ? tag : "";
+  state.query = params.get("q")?.trim() ?? "";
+  state.initialPromptId = params.get("prompt") ?? "";
+  els.searchInput.value = state.query;
 }
 
 function renderSummary() {
@@ -138,6 +160,7 @@ function renderFilters() {
       state.scene = state.scene === button.dataset.scene ? "" : button.dataset.scene;
       renderFilters();
       renderGrid();
+      syncUrl({ promptId: "" });
     });
   });
 
@@ -146,6 +169,7 @@ function renderFilters() {
       state.tag = state.tag === button.dataset.tag ? "" : button.dataset.tag;
       renderFilters();
       renderGrid();
+      syncUrl({ promptId: "" });
     });
   });
 }
@@ -220,6 +244,7 @@ function openDialog(id) {
   els.dialogLink.href = joinUrl(config.linkBase, prompt.path);
   els.dialogPrompt.textContent = prompt.prompt;
   els.copyPrompt.textContent = "复制提示词";
+  els.copyLink.textContent = "复制链接";
   els.copyPrompt.onclick = async () => {
     await navigator.clipboard.writeText(prompt.prompt);
     els.copyPrompt.textContent = "已复制";
@@ -227,8 +252,57 @@ function openDialog(id) {
       els.copyPrompt.textContent = "复制提示词";
     }, 1400);
   };
+  els.copyLink.onclick = async () => {
+    const shareUrl = promptShareUrl(prompt.id);
+    await navigator.clipboard.writeText(shareUrl);
+    els.copyLink.textContent = "已复制";
+    window.setTimeout(() => {
+      els.copyLink.textContent = "复制链接";
+    }, 1400);
+  };
 
   els.dialog.showModal();
+  syncUrl({ promptId: prompt.id });
+}
+
+function openInitialPromptFromUrl() {
+  if (!state.initialPromptId) return;
+  window.requestAnimationFrame(() => openDialog(state.initialPromptId));
+}
+
+function closeDialog() {
+  els.dialog.close();
+  syncUrl({ promptId: "" });
+}
+
+function promptShareUrl(id) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  url.searchParams.set("prompt", id);
+  return url.toString();
+}
+
+function syncUrl({ promptId } = {}) {
+  const url = new URL(window.location.href);
+
+  setOrDeleteParam(url.searchParams, "scene", state.scene);
+  setOrDeleteParam(url.searchParams, "tag", state.tag);
+  setOrDeleteParam(url.searchParams, "q", state.query);
+
+  if (promptId !== undefined) {
+    setOrDeleteParam(url.searchParams, "prompt", promptId);
+  }
+
+  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+}
+
+function setOrDeleteParam(params, key, value) {
+  if (value) {
+    params.set(key, value);
+  } else {
+    params.delete(key);
+  }
 }
 
 function escapeHtml(value) {

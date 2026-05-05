@@ -3,13 +3,16 @@ import path from "node:path";
 
 const DEFAULT_BASE_PATH = "/prompt-atlas/";
 const DEFAULT_DIST_DIR = "dist";
+const DEFAULT_SITE_URL = "https://kingoecode.com";
 
 export async function buildSite({
   rootDir = process.cwd(),
   basePath = process.env.BASE_PATH ?? DEFAULT_BASE_PATH,
   distDir = process.env.DIST_DIR ?? DEFAULT_DIST_DIR,
+  siteUrl = process.env.SITE_URL ?? DEFAULT_SITE_URL,
 } = {}) {
   const normalizedBasePath = normalizeBasePath(basePath);
+  const normalizedSiteUrl = normalizeSiteUrl(siteUrl);
   const distPath = path.resolve(rootDir, distDir);
 
   assertInsideRoot(rootDir, distPath);
@@ -29,12 +32,16 @@ export async function buildSite({
   await cp(path.join(rootDir, "site", "favicon.svg"), path.join(distPath, "favicon.svg"));
 
   const index = await readFile(path.join(rootDir, "site", "index.html"), "utf8");
-  await writeFile(path.join(distPath, "index.html"), transformIndex(index, normalizedBasePath));
+  await writeFile(
+    path.join(distPath, "index.html"),
+    transformIndex(index, normalizedBasePath, normalizedSiteUrl),
+  );
   await writeFile(
     path.join(distPath, "deploy-manifest.json"),
     `${JSON.stringify(
       {
         base_path: normalizedBasePath,
+        site_url: `${normalizedSiteUrl}${normalizedBasePath}`,
         generated_from: "site/",
         content_source: "library/",
       },
@@ -46,11 +53,14 @@ export async function buildSite({
   return {
     distPath,
     basePath: normalizedBasePath,
+    siteUrl: normalizedSiteUrl,
   };
 }
 
-function transformIndex(index, basePath) {
+function transformIndex(index, basePath, siteUrl) {
   const baseRoot = basePath.replace(/\/$/g, "");
+  const publicRoot = `${siteUrl}${basePath}`;
+  const shareImage = `${publicRoot}assets/previews/cinematic-character-poster-generated.png`;
   const config = {
     assetBase: baseRoot,
     dataBase: `${baseRoot}/site-data`,
@@ -63,6 +73,10 @@ function transformIndex(index, basePath) {
       'href="../CONTRIBUTING.md" data-deploy-href="CONTRIBUTING.md"',
       `href="${basePath}CONTRIBUTING.md"`,
     )
+    .replace(/<link rel="canonical" href="[^"]+" \/>/, `<link rel="canonical" href="${publicRoot}" />`)
+    .replace(/<meta property="og:url" content="[^"]+" \/>/, `<meta property="og:url" content="${publicRoot}" />`)
+    .replace(/<meta property="og:image" content="[^"]+" \/>/, `<meta property="og:image" content="${shareImage}" />`)
+    .replace(/<meta name="twitter:image" content="[^"]+" \/>/, `<meta name="twitter:image" content="${shareImage}" />`)
     .replace(
       /window\.PROMPT_ATLAS_CONFIG = \{[\s\S]*?\};/,
       `window.PROMPT_ATLAS_CONFIG = ${JSON.stringify(config, null, 8)};`,
@@ -73,6 +87,10 @@ function normalizeBasePath(value) {
   const trimmed = String(value || "/").trim();
   const withLeadingSlash = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
   return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
+}
+
+function normalizeSiteUrl(value) {
+  return String(value || DEFAULT_SITE_URL).trim().replace(/\/+$/g, "");
 }
 
 async function copyDirectory(source, target) {

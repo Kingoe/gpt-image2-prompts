@@ -15,6 +15,7 @@
 - v2.0 数据层：已新增 `site-data/`，可从 Markdown 自动导出 prompts / scenes / tags / summary JSON
 - v2.0 静态站原型：已新增 `site/`，支持精选浏览、筛选、搜索和复制提示词
 - v2.0 自有服务器部署：已支持 `/prompt-atlas/` 路径前缀构建和 `dist/` 输出
+- v2.0 上线体验：已支持线上入口、SEO/社交分享信息、场景/标签/搜索状态直链和单张提示词直链
 - v2.1 社区贡献机制：已新增 `CONTRIBUTING.md`、Issue 模板和 PR 模板
 
 ## v1.1 内容厚度与首页质感
@@ -104,12 +105,14 @@
 - 默认部署路径为 `https://kingoecode.com/prompt-atlas/`，避免和 `https://kingoecode.com/ai-daily/` 冲突。
 - `npm run build:site` 会输出 `dist/`，用于同步到服务器目录。
 - 部署说明见 [DEPLOY.md](DEPLOY.md)。
+- 线上链接支持 `?scene=场景slug`、`?tag=标签名`、`?q=关键词` 和 `?prompt=卡片id`，方便从社群、文章和 Issue 中直接分享指定内容。
 
 验收标准：
 
 - 新增 Markdown 后网站自动更新。当前已支持 `npm run export:site-data` 重新生成站点数据。
 - 不破坏 GitHub 仓库的内容优先结构。
 - 卡片页支持一键复制提示词。当前静态原型已支持。
+- 单张提示词直链可直接打开详情弹窗。当前静态原型已支持。
 
 ## v2.1 社区贡献机制
 

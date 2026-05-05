@@ -35,6 +35,12 @@ dist/
 BASE_PATH=/gpt-image-prompts/ npm run build:site
 ```
 
+如果后续换域名，可以同时指定站点完整域名，用于生成 canonical、OG 图片等分享信息：
+
+```bash
+SITE_URL=https://example.com BASE_PATH=/prompt-atlas/ npm run build:site
+```
+
 ## 本地预览构建产物
 
 ```bash
@@ -45,6 +51,13 @@ npm run site:preview:dist
 
 ```text
 http://127.0.0.1:4173/prompt-atlas/
+```
+
+也可以直接检查可传播链接：
+
+```text
+http://127.0.0.1:4173/prompt-atlas/?tag=旅行地图
+http://127.0.0.1:4173/prompt-atlas/?prompt=social-media-post/may-day-travel-map-poster
 ```
 
 ## 服务器目录建议
@@ -111,3 +124,5 @@ npm run build:site
 ```
 
 `dist/` 是构建产物，不提交到 Git。服务器只需要部署 `dist/` 内容。
+
+发布后建议再打开 `https://kingoecode.com/prompt-atlas/?prompt=social-media-post/may-day-travel-map-poster`，确认单张提示词直链能直接弹出详情。

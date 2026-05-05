@@ -46,9 +46,25 @@ export async function validateSite(rootDir = process.cwd()) {
     errors.push("scripts/build-site.mjs should default to /prompt-atlas/");
   }
 
-  for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input"]) {
+  if (!buildScript.includes("SITE_URL")) {
+    errors.push("scripts/build-site.mjs should support SITE_URL for canonical share links");
+  }
+
+  for (const selector of ["featured-list", "prompt-grid", "prompt-dialog", "search-input", "copy-link"]) {
     if (!index.includes(`id="${selector}"`)) {
       errors.push(`site/index.html is missing #${selector}`);
+    }
+  }
+
+  for (const token of ['rel="canonical"', 'property="og:image"', 'name="twitter:card"']) {
+    if (!index.includes(token)) {
+      errors.push(`site/index.html is missing ${token}`);
+    }
+  }
+
+  for (const token of ["URLSearchParams", '"prompt"', '"scene"', '"tag"']) {
+    if (!app.includes(token)) {
+      errors.push(`site/app.js is missing URL state support for ${token}`);
     }
   }
 
