@@ -62,7 +62,7 @@ input {
 }
 
 .hero {
-  min-height: 78vh;
+  min-height: 70vh;
   padding: 24px 0 60px;
 }
 
@@ -109,10 +109,10 @@ input {
 
 .hero__grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
-  align-items: end;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 390px);
+  align-items: center;
   gap: 42px;
-  padding: 96px 0 36px;
+  padding: 72px 0 36px;
 }
 
 .eyebrow {
@@ -132,9 +132,10 @@ h2 {
 }
 
 h1 {
-  max-width: 900px;
+  max-width: 760px;
   margin: 0;
-  font-size: clamp(4.8rem, 14vw, 13.5rem);
+  font-size: clamp(3.6rem, 7.4vw, 7.8rem);
+  line-height: 1;
 }
 
 h2 {
@@ -143,8 +144,8 @@ h2 {
 }
 
 .hero__lead {
-  max-width: 720px;
-  margin: 28px 0 0;
+  max-width: 680px;
+  margin: 24px 0 0;
   color: var(--muted);
   font-size: clamp(1.05rem, 2vw, 1.36rem);
   line-height: 1.8;
@@ -197,7 +198,7 @@ h2 {
 
 .hero-card {
   position: relative;
-  padding: 28px;
+  padding: 26px;
   overflow: hidden;
   border: 1px solid rgba(23, 32, 27, 0.18);
   border-radius: var(--radius-lg);
@@ -229,7 +230,7 @@ h2 {
 .hero-card__metric strong {
   display: block;
   font-family: var(--font-display);
-  font-size: 7rem;
+  font-size: clamp(4.8rem, 6.8vw, 6.4rem);
   line-height: 0.8;
 }
 
@@ -252,30 +253,61 @@ h2 {
 }
 
 .section {
-  padding: 54px 0;
+  position: relative;
+  padding: 56px 0;
+}
+
+.section + .section {
+  margin-top: 18px;
 }
 
 .section__heading {
   display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(260px, 0.45fr);
-  gap: 28px;
+  grid-template-areas:
+    "eyebrow note"
+    "title note";
+  grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.38fr);
+  gap: 10px 34px;
   align-items: end;
-  margin-bottom: 28px;
+  padding: 0 0 24px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid rgba(23, 32, 27, 0.12);
+}
+
+.section__heading .eyebrow {
+  grid-area: eyebrow;
+}
+
+.section__heading h2 {
+  grid-area: title;
+  max-width: 760px;
+  font-size: clamp(2.9rem, 5.2vw, 5rem);
+  line-height: 0.94;
 }
 
 .section__heading p:last-child {
+  grid-area: note;
+  max-width: 420px;
+  margin: 0 0 8px;
   color: var(--muted);
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1.04rem;
+  line-height: 1.75;
 }
 
 .featured-rail {
   display: grid;
-  grid-auto-columns: minmax(240px, 340px);
+  grid-auto-columns: minmax(250px, 320px);
   grid-auto-flow: column;
   gap: 18px;
-  padding: 6px 4px 20px;
+  padding: 22px;
   overflow-x: auto;
+  border: 1px solid rgba(23, 32, 27, 0.12);
+  border-radius: 32px;
+  background:
+    linear-gradient(90deg, rgba(255, 250, 240, 0.92), rgba(255, 250, 240, 0.58)),
+    radial-gradient(circle at 12% 0%, rgba(216, 90, 42, 0.13), transparent 22rem);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.48);
+  scroll-padding: 22px;
   scroll-snap-type: x mandatory;
 }
 
@@ -286,7 +318,7 @@ h2 {
   overflow: hidden;
   border: 1px solid rgba(23, 32, 27, 0.14);
   border-radius: var(--radius-md);
-  background: rgba(255, 250, 240, 0.86);
+  background: rgba(255, 250, 240, 0.92);
   box-shadow: 0 18px 46px rgba(54, 41, 25, 0.12);
   cursor: pointer;
   transition:
@@ -357,7 +389,12 @@ h2 {
   display: flex;
   align-items: end;
   gap: 14px;
-  margin-bottom: 18px;
+  padding: 18px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(23, 32, 27, 0.12);
+  border-radius: 28px;
+  background: rgba(255, 250, 240, 0.68);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .search-box {
@@ -372,10 +409,10 @@ h2 {
 
 .search-box input {
   width: 100%;
-  min-height: 58px;
+  min-height: 56px;
   padding: 0 18px;
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 999px;
   outline: none;
   color: var(--ink);
   background: rgba(255, 250, 240, 0.76);
@@ -390,19 +427,34 @@ h2 {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 16px;
-  margin: 18px 0 24px;
+  margin: 16px 0 24px;
 }
 
 .filter-board > div {
-  padding: 18px;
+  padding: 20px;
   border: 1px solid var(--line);
-  border-radius: 24px;
-  background: rgba(255, 250, 240, 0.54);
+  border-radius: 28px;
+  background:
+    linear-gradient(145deg, rgba(255, 250, 240, 0.82), rgba(255, 250, 240, 0.52)),
+    radial-gradient(circle at 100% 0%, rgba(41, 76, 114, 0.08), transparent 16rem);
+  box-shadow: 0 16px 44px rgba(54, 41, 25, 0.08);
 }
 
 .filter-title {
-  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
   font-weight: 900;
+}
+
+.filter-title::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--ember);
+  box-shadow: 4px 4px 0 var(--ink);
+  content: "";
 }
 
 .chip-list {
@@ -412,12 +464,23 @@ h2 {
 }
 
 .chip {
-  padding: 8px 11px;
+  padding: 9px 12px;
   border: 1px solid rgba(23, 32, 27, 0.12);
   border-radius: 999px;
   color: var(--muted);
-  background: rgba(255, 250, 240, 0.66);
+  background: rgba(255, 250, 240, 0.78);
   cursor: pointer;
+  transition:
+    transform 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease,
+    background 150ms ease;
+}
+
+.chip:hover {
+  transform: translateY(-1px);
+  border-color: rgba(216, 90, 42, 0.42);
+  color: var(--ink);
 }
 
 .chip.is-active {
@@ -427,8 +490,15 @@ h2 {
 }
 
 .result-line {
-  margin: 8px 0 18px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  margin: 0 0 18px;
+  border: 1px solid rgba(23, 32, 27, 0.1);
+  border-radius: 999px;
   color: var(--muted);
+  background: rgba(255, 250, 240, 0.58);
 }
 
 .card-grid {
@@ -538,8 +608,39 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .section__heading {
+    grid-template-areas:
+      "eyebrow"
+      "title"
+      "note";
+    gap: 8px;
+  }
+
+  .section__heading h2 {
+    font-size: clamp(2.7rem, 12vw, 4.2rem);
+  }
+
+  .section__heading p:last-child {
+    max-width: 100%;
+    margin: 4px 0 0;
+  }
+
+  .featured-rail {
+    grid-auto-columns: minmax(235px, 82vw);
+    padding: 16px;
+    border-radius: 26px;
+    scroll-padding: 16px;
+  }
+
   .hero__grid {
-    padding-top: 52px;
+    gap: 30px;
+    padding-top: 48px;
+  }
+
+  h1 {
+    max-width: 100%;
+    font-size: clamp(3.2rem, 14vw, 5.4rem);
+    letter-spacing: -0.045em;
   }
 
   .topbar {
