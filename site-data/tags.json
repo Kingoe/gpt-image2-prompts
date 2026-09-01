@@ -436,6 +436,17 @@
     ]
   },
   {
+    "name": "编辑摄影",
+    "slug": "编辑摄影",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
+    ]
+  },
+  {
     "name": "标题空间",
     "slug": "标题空间",
     "count": 1,
@@ -557,6 +568,17 @@
     ]
   },
   {
+    "name": "独立出版",
+    "slug": "独立出版",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
+    ]
+  },
+  {
     "name": "反应式封面",
     "slug": "反应式封面",
     "count": 1,
@@ -576,6 +598,17 @@
     ],
     "prompts": [
       "poster-cover/minimal-album-cover"
+    ]
+  },
+  {
+    "name": "负空间",
+    "slug": "负空间",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
     ]
   },
   {
@@ -1052,6 +1085,17 @@
     ]
   },
   {
+    "name": "视觉诗",
+    "slug": "视觉诗",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
+    ]
+  },
+  {
     "name": "视觉提案",
     "slug": "视觉提案",
     "count": 1,
@@ -1060,6 +1104,17 @@
     ],
     "prompts": [
       "social-media-post/product-inspired-fashion-editorial"
+    ]
+  },
+  {
+    "name": "手工纸感",
+    "slug": "手工纸感",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
     ]
   },
   {
@@ -1214,6 +1269,17 @@
     ],
     "prompts": [
       "wechat-article-visual/quote-driven-editorial-card"
+    ]
+  },
+  {
+    "name": "照片再创作",
+    "slug": "照片再创作",
+    "count": 1,
+    "scenes": [
+      "海报封面"
+    ],
+    "prompts": [
+      "poster-cover/editorial-photo-visual-poem-poster"
     ]
   },
   {

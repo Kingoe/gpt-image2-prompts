@@ -7,8 +7,14 @@
 - 已有真实生成效果图：`60` 条
 - v1.1 目标：至少 `20` 条卡片有真实生成效果图，已完成
 - v1.3 目标：至少 `30` 条卡片有真实生成效果图，已完成
-- 当前阶段结果：`60/60` 条正式卡片都有真实生成效果图
+- 当前阶段结果：`61/61` 条正式卡片都有真实生成效果图
 - 后续维护方式：新增卡片如果还没有效果图，先标记为 `needs-preview`，再按本清单格式追加到对应优先级
+
+## P1-新增：外部灵感已回填
+
+| 优先级 | 卡片 | 当前状态 | 建议目标路径 |
+| --- | --- | --- | --- |
+| P1 | `library/poster-cover/editorial-photo-visual-poem-poster.md` | `generated` | `assets/previews/editorial-photo-visual-poem-poster-generated.png` |
 
 ## P0：首页精选优先
 

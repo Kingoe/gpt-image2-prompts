@@ -1,0 +1,27 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#F4EFE5"/>
+  <path d="M0 0H1200V800H0V0Z" fill="#D8C4A6"/>
+  <path d="M70 60H1130V740H70V60Z" fill="#EEE3D2"/>
+  <path d="M70 60H1130V740H70V60Z" fill="url(#photoGlow)"/>
+  <path d="M156 694C264 580 354 478 514 520C656 557 689 664 818 616C940 571 967 447 1130 489V740H70V714C98 716 126 725 156 694Z" fill="#8C9A7D"/>
+  <path d="M814 166C911 170 1008 242 1000 343C992 451 889 520 783 508C684 497 609 419 620 318C632 212 713 162 814 166Z" fill="#B45B37" opacity="0.72"/>
+  <path d="M198 210C284 144 386 154 452 222C519 290 520 396 456 464C391 533 284 537 214 474C140 407 116 274 198 210Z" fill="#1A2A24" opacity="0.86"/>
+  <path d="M82 800H1118" stroke="#1A2A24" stroke-width="2" stroke-dasharray="8 18" opacity="0.22"/>
+  <rect x="0" y="800" width="1200" height="800" fill="#FBF8F0"/>
+  <path d="M392 1138C432 1089 483 1082 532 1122C578 1159 579 1222 538 1260C495 1300 427 1289 390 1240C366 1208 368 1168 392 1138Z" fill="#1A2A24"/>
+  <path d="M610 1123C678 1085 749 1104 784 1166C817 1224 798 1289 742 1320C683 1352 612 1334 578 1276C545 1220 558 1152 610 1123Z" fill="#B45B37"/>
+  <path d="M496 1076C523 1044 572 1047 598 1080C622 1111 617 1155 585 1178C552 1201 506 1195 483 1162C463 1132 468 1109 496 1076Z" fill="#D8C4A6"/>
+  <path d="M334 1354C438 1312 557 1318 656 1365C711 1392 781 1384 866 1338" stroke="#1A2A24" stroke-width="12" stroke-linecap="round" opacity="0.78"/>
+  <path d="M365 1409C492 1373 629 1390 764 1435" stroke="#B45B37" stroke-width="10" stroke-linecap="round" opacity="0.68"/>
+  <circle cx="596" cy="1214" r="182" stroke="#1A2A24" stroke-width="3" stroke-dasharray="2 18" opacity="0.24"/>
+  <path d="M260 1000C378 958 506 936 648 940C755 943 853 962 944 999" stroke="#1A2A24" stroke-width="4" stroke-linecap="round" opacity="0.22"/>
+  <text x="110" y="910" fill="#1A2A24" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="8">EDITORIAL PHOTO POEM</text>
+  <text x="110" y="972" fill="#1A2A24" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="6" opacity="0.58">PHOTO ABOVE · HANDMADE STORY BELOW</text>
+  <defs>
+    <radialGradient id="photoGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(806 198) rotate(125.626) scale(696 822)">
+      <stop stop-color="#F7D9B4" stop-opacity="0.75"/>
+      <stop offset="0.54" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1A2A24" stop-opacity="0.12"/>
+    </radialGradient>
+  </defs>
+</svg>

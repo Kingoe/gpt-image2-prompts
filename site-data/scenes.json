@@ -110,21 +110,28 @@
   {
     "slug": "poster-cover",
     "name": "海报封面",
-    "count": 3,
-    "generated_previews": 3,
+    "count": 4,
+    "generated_previews": 4,
     "featured": 1,
     "tags": [
+      "编辑摄影",
       "电商氛围",
       "电影海报感",
+      "独立出版",
       "封面设计",
+      "负空间",
       "极简构图",
       "节庆视觉",
       "黏土风",
       "人物主视觉",
-      "戏剧灯光"
+      "视觉诗",
+      "手工纸感",
+      "戏剧灯光",
+      "照片再创作"
     ],
     "prompts": [
       "poster-cover/cinematic-character-poster",
+      "poster-cover/editorial-photo-visual-poem-poster",
       "poster-cover/festival-sale-poster",
       "poster-cover/minimal-album-cover"
     ]

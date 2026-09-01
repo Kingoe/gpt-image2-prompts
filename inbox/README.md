@@ -42,6 +42,20 @@
 
 ## 候选收集
 
+### 2026-09-01
+
+1. `https://x.com/king1818888/status/2094443914866597977`
+   备注：主贴效果图审美很强，用户已补充完整提示词，已整理为正式卡片：[编辑摄影视觉诗海报](../library/poster-cover/editorial-photo-visual-poem-poster.md)。外部图只保留参考链接，已用用户生成效果图回填本地预览。
+   标签：`已入库` `编辑摄影` `视觉诗` `手工纸感` `外部参考图`
+   来源作者：`Kimberly / @king1818888`
+   主贴文案：`这个提示词的审美无敌了啊`
+   效果图参考：
+   - `https://pbs.twimg.com/media/HRD1ozRbEAAKOOR.jpg?name=orig`
+   - `https://pbs.twimg.com/media/HRD1ozMbIAAEOG8.jpg?name=orig`
+   - `https://pbs.twimg.com/media/HRD1ozLaMAAdVAc.jpg?name=orig`
+   - `https://pbs.twimg.com/media/HRD1ozfbYAEA3eo.jpg?name=orig`
+   状态：已入库，已回填本地真实效果图。
+
 ### 2026-05-03
 
 1. `https://youmind.com/prompts/candid-convenience-store-cashier-17057`
