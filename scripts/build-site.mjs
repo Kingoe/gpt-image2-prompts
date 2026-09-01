@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { chmod, cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const DEFAULT_BASE_PATH = "/prompt-atlas/";
@@ -57,6 +57,7 @@ export async function buildSite({
       2,
     )}\n`,
   );
+  await makeTreeWebReadable(distPath);
 
   return {
     distPath,
@@ -170,6 +171,23 @@ function escapeHtml(value) {
 
 async function copyDirectory(source, target) {
   await cp(source, target, { recursive: true });
+}
+
+async function makeTreeWebReadable(targetPath) {
+  const targetStat = await stat(targetPath);
+
+  if (targetStat.isDirectory()) {
+    await chmod(targetPath, 0o755);
+    const entries = await readdir(targetPath, { withFileTypes: true });
+    for (const entry of entries) {
+      await makeTreeWebReadable(path.join(targetPath, entry.name));
+    }
+    return;
+  }
+
+  if (targetStat.isFile()) {
+    await chmod(targetPath, 0o644);
+  }
 }
 
 function assertInsideRoot(rootDir, targetPath) {

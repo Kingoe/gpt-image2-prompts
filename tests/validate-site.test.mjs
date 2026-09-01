@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, mkdir, readFile, writeFile } from "node:fs/promises";
+import { chmod, mkdtemp, mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
@@ -53,6 +53,21 @@ test("buildSite creates a prefix-deployable dist directory", async () => {
   assert.equal(manifest.base_path, "/prompt-atlas/");
   assert.equal(manifest.site_url, "https://kingoecode.com/prompt-atlas/");
   assert.deepEqual(manifest.generated_pages, ["scenes/", "tags/"]);
+});
+
+test("buildSite makes copied files readable by the web server", async () => {
+  const root = await createSiteFixture();
+  await mkdir(path.join(root, "assets", "previews"), { recursive: true });
+  const sourcePreview = path.join(root, "assets", "previews", "private-preview.png");
+  await writeFile(sourcePreview, "fake image\n");
+  await chmod(sourcePreview, 0o600);
+
+  await buildSite({ rootDir: root });
+
+  const copiedPreview = await stat(
+    path.join(root, "dist", "assets", "previews", "private-preview.png"),
+  );
+  assert.equal(copiedPreview.mode & 0o777, 0o644);
 });
 
 test("validateSite reports missing app data wiring", async () => {
